@@ -6,10 +6,14 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 - Mínimo de 2 outlets por área de trabalho.
 - Proporção de 2 outlets para cada 10 metros quadrados de área.
 
+## Edifício 1
+
 ### Medida do edifício:
 - 30m x 20m = 600 metros quadrados
 
 ## Edifico 1 - Piso 0
+
+![1201386](1201386_Building1_Floor0.jpg)
 
 ### Medida da escala:
 
@@ -38,6 +42,8 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 |Outlets	  |	62		   |
 
 ## Edifico 1 - Piso 1 
+
+![1201386](1201386_Building1_Floor1.jpg)
 
 ### Medida da escala:
 
