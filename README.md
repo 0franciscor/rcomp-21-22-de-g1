@@ -1,10 +1,10 @@
 RCOMP 2021-2022 Project repository template
 ===========================================
-# 1. Team members (update this information please) #
-  * 1111111 - {First and last name} 
-  * 2222222 - {First and last name} 
-  * 3333333 - {First and last name} 
-  * 4444444 - {First and last name}  
+# 1. Team members #
+  * 1200720 - Manuela Leite 
+  * 1201239 - Francisco Redol 
+  * 1201382 - Pedro Rocha 
+  * 1201386 - Rita Ariana   
 
 Any team membership changes should be reported here, examples:
 

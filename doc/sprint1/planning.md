@@ -1,9 +1,16 @@
 RCOMP 2021-2022 Project - Sprint 1 planning
 ===========================================
-### Sprint master: 1111111 ###
-(This file is to be created/edited by the sprint master only)
+### Sprint master: 1200720 ###
+
 # 1. Sprint's backlog #
-(Copy here a summary of the provided sprint's backlog)
+
+| **Task** | **Task Description** |
+|--------------|-----------|
+| **T.1.1** | _Development of a structured cabling project for building 1, encompassing the campus backbone._| 
+| **T.1.2** | _Development of a structured cabling project for building 2._ |
+| **T.1.3** | _Development of a structured cabling project for building 3._ |
+| **T.1.4** | _Development of a structured cabling project for building 4._ |
+
 # 2. Technical decisions and coordination #
 In this section, all technical decisions taken in the planning meeting should be mentioned. 		Most importantly, all technical decisions impacting on the subtasks implementation must be settled on this 		meeting and specified here.
 
@@ -15,11 +22,11 @@ In this section, all technical decisions taken in the planning meeting should be
   * IPv4 networks' addresses and routers' addresses
   * Routing protocols, AS identifiers and area identifiers
   * Application protocols outlining (further coordination may be required between members)
-# 3. Subtasks assignment #
-(For each team member (sprint master included), the description of the assigned subtask in sprint 1)
 
+# 3. Subtasks assignment #
+  
 #### Example: ####
-  * 1111111 - Structured cable design for building A, floors 2 and 3
-  * 2222222 - IPv4 addressing and routing configurations for building D
-  * 3333333 - Network access policies enforcement for building X
-  * 4444444 - Network application Z development
+  * 1200720 - 
+  * 1201239 - 
+  * 1201382 - 
+  * 1201386 - 
