@@ -3,8 +3,12 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 ## Identificação das normas de cablagem estruturada utilizadas
 
+### Outlets
 - Mínimo de 2 outlets por área de trabalho.
 - Proporção de 2 outlets para cada 10 metros quadrados de área.
+
+###  Horizontal cross-connect
+- Por cada 1000 metros quadrados de área tem de existir 1 HC.
 
 ## Edifício 1
 
@@ -34,6 +38,16 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 |1.0.10 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
 ### Justificações Relevantes:
+
+- As áreas comuns, como o átrio de entrada, as casas de banho e as escadas, não 
+  necessitam de tomadas de rede.
+  
+- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros 
+  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
+
+### Disposição dos Outlets:
+
+![1201386](1201386_Building1_Floor0_Outlets.jpg)
 
 ### Inventário Total Piso 0:
 
@@ -69,6 +83,16 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 |1.1.14 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
 ### Justificações Relevantes:
+
+- A sala 1.1.1 é uma área de armazenamento e não são necessárias tomadas de rede lá, 
+  e o mesmo aplica-se às casas de banho e a áreas comuns como corredores e átrios.
+
+- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros
+  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
+
+### Disposição dos Outlets:
+
+![1201386](1201386_Building1_Floor1_Outlets.jpg)
 
 ### Inventário Total Piso 1:
 
