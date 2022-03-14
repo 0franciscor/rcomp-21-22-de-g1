@@ -49,6 +49,8 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 ![1201386](1201386_Building1_Floor0_Outlets.jpg)
 
+### Disposição dos Caminhos de Cabos:
+
 ### Inventário Total Piso 0:
 
 | Equipamento |	Quantidade |
@@ -93,6 +95,10 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 ### Disposição dos Outlets:
 
 ![1201386](1201386_Building1_Floor1_Outlets.jpg)
+
+### Disposição dos Caminhos de Cabos:
+
+![1201386](1201386_Building1_Floor1_Cabos.jpg)
 
 ### Inventário Total Piso 1:
 
