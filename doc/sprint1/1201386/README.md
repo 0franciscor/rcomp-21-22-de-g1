@@ -1,25 +1,12 @@
 RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 ===========================================
 
-## Identificação das normas de cablagem estruturada utilizadas
-
-### Outlets
-- Mínimo de 2 outlets por área de trabalho.
-- Proporção de 2 outlets para cada 10 metros quadrados de área.
-- Na distribuição dos outlets procurou-se obter as soluções que menos obstruíssem os quartos, tendo 
-em atenção o posicionamento destes fora da zona com portas.
-
-###  Horizontal cross-connect
-- Por cada 1000 metros quadrados de área tem de existir 1 HC.
-
 ## Edifício 1
 
 ### Medida do edifício:
-- 30m x 20m = 600 metros quadrados
+- 30m × 20m = 600 metros quadrados
 
 ## Edifico 1 - Piso 0
-
-![1201386](1201386_Building1_Floor0.jpg)
 
 ### Medida da escala:
 
@@ -39,21 +26,50 @@ em atenção o posicionamento destes fora da zona com portas.
 |1.0.9  |4,6296          	|5,9259     	 |27,4345	  |	6	            	 |
 |1.0.10 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Justificações Relevantes:
-
-- As áreas comuns, como o átrio de entrada, as casas de banho e as escadas, não 
-  necessitam de tomadas de rede.
-  
-- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros 
-  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
-
-### Disposição dos Outlets:
-
-![1201386](1201386_Building1_Floor0_Outlets.jpg)
-
-### Disposição dos Caminhos de Cabos:
+### Plano da Cablagem Estruturada:
 
 ![1201386](1201386_Building1_Floor0_Cabos.jpg)
+
+### Justificações Relevantes:
+  
+#### Outlets
+
+- As áreas comuns, como o átrio de entrada, as casas de banho e as escadas, não
+  necessitam de outlets.
+  
+- A distribuição dos outlets foi realizada tendo em consideração os melhores locais
+  para que o room em questão não fosse muito afetado, para que não ficassem próximas de portas
+  e para que seja possível com maior facilidade aproveitar o meio da sala para trabalhar.
+
+- No posicionamento dos outlets foi também pensado de modo que entre os mesmos, a distância máxima seja
+  de três metros, para que em qualquer parte da sala onde o equipamento do utilizador se encontre
+  consiga com o patch cord que é fornecido ter acesso a uma tomada de rede.
+  
+- A quantidade de outlets por room foi obtida utilizando a proporção de 2 outlets para cada 
+  10 metros quadrados de área.
+
+####  Consolidation Points
+
+####  Horizontal cross-connect
+
+- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros
+  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
+
+####  Intermediate cross-connect
+
+- O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Intermediate cross-connect
+  foi colocado nesta sala localizado no mesmo armário técnico que o Horizontal cross-connect.
+
+####  Main cross-connect
+
+- O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o main cross-connect
+  foi colocado nesta sala. 
+  
+- O Main cross-connect é responsável por distribuir para o Intermediate cross-connect deste edifício e dos outros
+  a fibra ótica monomodo através da passagem para o exterior, por este motivo do MC sai 1 cabo de fibra ótica monomodo
+  que se conecta ao IC deste edifício.
+  
+- Optou-se que este fica-se no meio da sala para uma melhor manutenção futura.
 
 ### Inventário Total Piso 0:
 
@@ -61,14 +77,11 @@ em atenção o posicionamento destes fora da zona com portas.
 |-------------|------------|
 |Outlets	  |	56		   |
 
-## Edifico 1 - Piso 1 
-
-![1201386](1201386_Building1_Floor1.jpg)
+## Edifico 1 - Piso 1
 
 ### Medida da escala:
 
 - 5m (real) = 2,7cm (escala)
-
 
 ### Informações Calculadas:
 | Room  |	Comprimento (m) |	Largura (m)	 | Área (m2)  |Quantidade de outlets |
@@ -88,11 +101,7 @@ em atenção o posicionamento destes fora da zona com portas.
 |1.1.13 |5               	|2,7778     	 |13,889	  |	4	            	 |
 |1.1.14 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Disposição dos Outlets:
-
-![1201386](1201386_Building1_Floor1_Outlets.jpg)
-
-### Disposição dos Caminhos de Cabos:
+### Plano da Cablagem Estruturada:
 
 ![1201386](1201386_Building1_Floor1_Cabos.jpg)
 
@@ -102,7 +111,11 @@ em atenção o posicionamento destes fora da zona com portas.
   e o mesmo aplica-se às casas de banho e a áreas comuns como corredores e átrios.
 
 - Do piso anterior, através de uma calha técnica, 2 cabos de fibra ótica emergem 
-  provinientes do IC.
+  provenientes do IC.
+
+#### Consolidation Points
+
+-
   
 ####  Horizontal cross-connect
 
@@ -113,11 +126,6 @@ em atenção o posicionamento destes fora da zona com portas.
   podia ser usada para abrigar uma cross-connect por ser uma área de armazenamento.
 
 - O HC é responsável pelas salas 1.1.2 e 1.1.3.
-
-#### Consolidation Points
-
-- 
-
 
 
 ### Inventário Total Piso 1:
