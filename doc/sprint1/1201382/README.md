@@ -24,16 +24,30 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 ### Individual Rooms' Dimensions:
 ![Building4_GroundFloor.png](resources/Building4_GroundFloor_measured.png)
 
-
 | Room  | Length (m) | Width (m) | Area (m2) | Number of outlets |
 |-------|------------|-----------|-----------|-------------------|
-| 4.0.1 | 12,01      | 8,94      | 107,37    | -                 | 
-| 4.0.2 | 13,76      | 5,41      | 74,44     | -                 |
-| 4.0.3 | 13,76      | 5,31      | 73,07     | -                 |
-| 4.0.4 | 13,76      | 10,13     | 139,39    | -                 |
-| 4.0.5 | 5,34       | 3,53      | 18,85     | 0 (Storage Unit)  |
-| 4.0.6 | 5,34       | 6,64      | 35,46     | -                 |
-| 4.0.7 | 5,34       | 6,25      | 33,38     | -                 |
+| 4.0.1 | 7,53       | 5,6       | 42,17     | 10                | 
+| 4.0.2 | 8,67       | 3,29      | 28,52     | 6                 |
+| 4.0.3 | 8,67       | 3,36      | 29,13     | 6                 |
+| 4.0.4 | 8,67       | 6,41      | 55,57     | 12                |
+| 4.0.5 | 3,31       | 2,24      | 7,41      | 0 (Storage Unit)  |
+| 4.0.6 | 3,31       | 4,17      | 13,80     | 4                 |
+| 4.0.7 | 3,31       | 3,9       | 12,91     | 4                 |
+
+### Outlets Layout
+
+![Floor0_outletsLayout](resources/Building4_GroundFloor_outlets.png)
+
+### Cables Layout:
+
+![Floor0_cablesLayout](resources/Building4_GroundFloor_cables.png)
+
+### Inventory:
+
+| Equipment |	Quantity |
+|-------------|------------|
+|Outlets	  |	42		   |
+
 
 
 
@@ -51,16 +65,30 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 
 | Room  | Length (m) | Width (m) | Area (m2) | Number of outlets |
 |-------|------------|-----------|-----------|-------------------|
-| 4.1.1 | 23,67      | 7,47      | 176,81    | -                 | 
-| 4.1.1 | 16,62      | 0,75      | 12,47     | -                 | 
-| 4.1.1 | 23,67 + 16,62 | 7,47 + 0,75 | 189,28 | -                 | 
-| 4.1.2 | 12,06      | 6,55      | 78,99     | -                 |
-| 4.1.3 | 12,8       | 4,95      | 63,36     | -                 |
-| 4.1.4 | 12,06      | 5,8       | 69,95     | -                 |
-| 4.1.5 | 12,8       | 4,95      | 63,36     | -                 |
-| 4.1.6 | 5,00       | 3,36      | 16,8      | 0 (Storage Unit)  |
-| 4.1.7 | 12,8       | 9,57      | 122,50    | -                 |
+| 4.1.1 | 15,98      | 4,9       | 78,30     | -                 | 
+| 4.1.1 | 11,19      | 0,66      | 7,39      | -                 | 
+| 4.1.1 | 15,98 + 11,19 | 4,9 + 0,66 | 85,69 | 18                | 
+| 4.1.2 | 8,09       | 4,43      | 35,84     | 8                 |
+| 4.1.3 | 8,66       | 3,26      | 28,23     | 6                 |
+| 4.1.4 | 8,09       | 3,88      | 31,39     | 8                 |
+| 4.1.5 | 8,66       | 3,19      | 27,63     | 6                 |
+| 4.1.6 | 3,32       | 2,22      | 7,37      | 0 (Storage Unit)  |
+| 4.1.7 | 8,66       | 6,38      | 55,25     | 12                |
 
 ![4.1.1_case.png](resources/floorOne_411case.png)
 
 In order to calculate the area of division 4.1.1, the division was divided into 2 parts - yellow and blue
+
+### Outlets Layout
+
+![Floor1_outletsLayout](resources/Building4_FloorOne_outlets.png)
+
+### Cables Layout:
+
+![Floor1_cablesLayout](resources/Building4_FloorOne_cables.png)
+
+### Inventory:
+
+| Equipment |	Quantity |
+|-------------|------------|
+|Outlets	  |	58		   |
