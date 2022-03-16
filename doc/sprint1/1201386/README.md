@@ -6,6 +6,8 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 ### Outlets
 - Mínimo de 2 outlets por área de trabalho.
 - Proporção de 2 outlets para cada 10 metros quadrados de área.
+- Na distribuição dos outlets procurou-se obter as soluções que menos obstruíssem os quartos, tendo 
+em atenção o posicionamento destes fora da zona com portas.
 
 ###  Horizontal cross-connect
 - Por cada 1000 metros quadrados de área tem de existir 1 HC.
@@ -27,7 +29,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 | Room  |	Comprimento (m) |	Largura (m)	 | Área (m2)  |Quantidade de outlets |
 |-------|-------------------|----------------|------------|----------------------|
 |1.0.1  |6,6667          	|3,0556     	 |20,3708	  |	6	            	 |
-|1.0.2  |6,6667          	|4,4444     	 |29,6295	  |	6	           	     |
+|1.0.2  |6,6667          	|4,4444     	 |29,6295	  |	0	           	     |
 |1.0.3  |6,6667          	|4,4444     	 |29,6295	  |	6	            	 |
 |1.0.4  |6,6667          	|6,6667     	 |44,4449	  |	10	            	 |
 |1.0.5  |5              	|3,0556     	 |15,278	  |	4	            	 |
@@ -51,11 +53,13 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 ### Disposição dos Caminhos de Cabos:
 
+![1201386](1201386_Building1_Floor0_Cabos.jpg)
+
 ### Inventário Total Piso 0:
 
 | Equipamento |	Quantidade |
 |-------------|------------|
-|Outlets	  |	62		   |
+|Outlets	  |	56		   |
 
 ## Edifico 1 - Piso 1 
 
@@ -84,14 +88,6 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 |1.1.13 |5               	|2,7778     	 |13,889	  |	4	            	 |
 |1.1.14 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Justificações Relevantes:
-
-- A sala 1.1.1 é uma área de armazenamento e não são necessárias tomadas de rede lá, 
-  e o mesmo aplica-se às casas de banho e a áreas comuns como corredores e átrios.
-
-- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros
-  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
-
 ### Disposição dos Outlets:
 
 ![1201386](1201386_Building1_Floor1_Outlets.jpg)
@@ -99,6 +95,30 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 ### Disposição dos Caminhos de Cabos:
 
 ![1201386](1201386_Building1_Floor1_Cabos.jpg)
+
+### Justificações Relevantes:
+
+- A sala 1.1.1 é uma área de armazenamento e não são necessárias tomadas de rede lá,
+  e o mesmo aplica-se às casas de banho e a áreas comuns como corredores e átrios.
+
+- Do piso anterior, através de uma calha técnica, 2 cabos de fibra ótica emergem 
+  provinientes do IC.
+  
+####  Horizontal cross-connect
+
+- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros
+  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
+
+- O HC está localizado na sala 1.1.1 num armário técnico, visto o cliente ter dado a indicação que esta sala
+  podia ser usada para abrigar uma cross-connect por ser uma área de armazenamento.
+
+- O HC é responsável pelas salas 1.1.2 e 1.1.3.
+
+#### Consolidation Points
+
+- 
+
+
 
 ### Inventário Total Piso 1:
 
