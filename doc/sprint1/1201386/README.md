@@ -82,9 +82,20 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 - Optou-se que este fica-se no meio da sala para uma melhor manutenção futura.
 
-#### Cabos Utilizados
+#### Cabos Utilizados e Respetivas Quantidades
 
-- 
+##### Sala 1.0.9
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 3,41                                                            |
+| 2      | 5,63                                                            |
+| 3      | 5,63                                                            |
+| 4      | 5,45                                                            |
+| 5      | 7,67                                                            |
+| 6      | 7,67                                                            |
+
+Obtendo-se um total de 35,46 m de cabo CAT 7.
 
 #### Gabinetes de Telecomunicações 
 
@@ -146,7 +157,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 | Equipamento       |	Quantidade |
 |-------------------|--------------|
-|Main Cross-Connect |   1          |
+|Access Point 		|	1		   |
 |Outlets	        |	56		   |
 
 ## Edifico 1 - Piso 1
@@ -200,7 +211,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 - O HC é responsável pelas salas 1.1.2 e 1.1.3.
 
 
-#### Cabos Utilizados
+#### Cabos Utilizados e Respetivas Quantidades
 
 -
 
@@ -253,13 +264,14 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ### Inventário Total Piso 1:
 
-| Equipamento |	Quantidade |
-|-------------|------------|
-|Outlets	  |	74		   |
+| Equipamento       |	Quantidade |
+|-------------------|--------------|
+|Access Point 		|	1		   |
+|Outlets	        |	74		   |
 
 ### Inventário Total Do Edifício 
 
 | Equipamento       |	Quantidade |
 |-------------------|--------------|
-|Main Cross-Connect |   1          |
+|Access Point 		|	2		   |
 |Outlets	        |	136		   |
