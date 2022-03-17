@@ -50,15 +50,26 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 ####  Consolidation Points
 
+- Ao todo neste piso temos 2 Consolidation Points. 
+  Um na sala 1.0.7, que é responsável por controlar as salas 1.0.5, 1.0.6, 1.0.7 e 1.0.8, ficando responsável por 18 outlets.
+  O outro encontra-se na sala 1.0.9, que é responsável por controlar as salas 1.0.9 e 1.0.10, ficando responsável por 16 outlets.
+  
+- A ligação do HC com os CP's é feita através do underfloor cable raceway.
+
 ####  Horizontal cross-connect
 
 - Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros
   quadrados e o edifício apresenta apenas 600 metros quadrados de área.
-
+  
+- O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Horizontal cross-connect
+  foi colocado nesta sala localizado no mesmo armário técnico que o Intermediate cross-connect.
+  
 ####  Intermediate cross-connect
 
 - O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Intermediate cross-connect
   foi colocado nesta sala localizado no mesmo armário técnico que o Horizontal cross-connect.
+  
+- O IC recebe fibra ótica do MC e passa a fibra ótica para os dois HC's deste edifício.
 
 ####  Main cross-connect
 
@@ -71,11 +82,72 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 - Optou-se que este fica-se no meio da sala para uma melhor manutenção futura.
 
+#### Cabos Utilizados
+
+- 
+
+#### Gabinetes de Telecomunicações 
+
+##### Sala 1.0.2
+
+- Visto esta ter associado 22 outlets, existirão 22 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Visto que HC conecta-se ao IC e a 2 CP's precisará de um Fiber Patch Panel, tendo este o tamanho de 1U. 
+  Como o IC conecta-se ao HC e ao MC através de cabo de fibra ótica será necessário mais um Fiber Patch Panel, 
+  tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficará instalado.
+
+- Será necessário um Fiber Patch Panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+
+##### Sala 1.0.7
+
+- Visto esta ter associado 18 outlets, existirão 18 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+##### Sala 1.0.9
+
+- Visto esta ter associado 16 outlets, existirão 16 ligações logo será necessário um patch panel 
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+  
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será 
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+  
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
 ### Inventário Total Piso 0:
 
-| Equipamento |	Quantidade |
-|-------------|------------|
-|Outlets	  |	56		   |
+| Equipamento       |	Quantidade |
+|-------------------|--------------|
+|Main Cross-Connect |   1          |
+|Outlets	        |	56		   |
 
 ## Edifico 1 - Piso 1
 
@@ -128,6 +200,57 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 - O HC é responsável pelas salas 1.1.2 e 1.1.3.
 
 
+#### Cabos Utilizados
+
+-
+
+#### Gabinetes de Telecomunicações
+
+##### Sala 1.1.1
+
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo e como o HC 
+  conecta-se ao IC também com cabo de fibra ótica, será necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+
+##### Sala 1.1.5
+
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+##### Sala 1.1.8
+
+- Visto esta ter associado 26 outlets, existirão 26 ligações logo será necessário um patch panel
+  CAT7 de 48 portas, tendo este o tamanho de 2U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+
+
 ### Inventário Total Piso 1:
 
 | Equipamento |	Quantidade |
@@ -136,6 +259,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 ### Inventário Total Do Edifício 
 
-| Equipamento |	Quantidade |
-|-------------|------------|
-|Outlets	  |	136		   |
+| Equipamento       |	Quantidade |
+|-------------------|--------------|
+|Main Cross-Connect |   1          |
+|Outlets	        |	136		   |
