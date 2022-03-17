@@ -1,25 +1,12 @@
 RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 ===========================================
 
-## Identificação das normas de cablagem estruturada utilizadas
-
-### Outlets
-- Mínimo de 2 outlets por área de trabalho.
-- Proporção de 2 outlets para cada 10 metros quadrados de área.
-- Na distribuição dos outlets procurou-se obter as soluções que menos obstruíssem os quartos, tendo 
-em atenção o posicionamento destes fora da zona com portas.
-
-###  Horizontal cross-connect
-- Por cada 1000 metros quadrados de área tem de existir 1 HC.
-
 ## Edifício 1
 
 ### Medida do edifício:
-- 30m x 20m = 600 metros quadrados
+- 30m × 20m = 600 metros quadrados
 
 ## Edifico 1 - Piso 0
-
-![1201386](1201386_Building1_Floor0.jpg)
 
 ### Medida da escala:
 
@@ -39,36 +26,134 @@ em atenção o posicionamento destes fora da zona com portas.
 |1.0.9  |4,6296          	|5,9259     	 |27,4345	  |	6	            	 |
 |1.0.10 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Justificações Relevantes:
-
-- As áreas comuns, como o átrio de entrada, as casas de banho e as escadas, não 
-  necessitam de tomadas de rede.
-  
-- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros 
-  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
-
-### Disposição dos Outlets:
-
-![1201386](1201386_Building1_Floor0_Outlets.jpg)
-
-### Disposição dos Caminhos de Cabos:
+### Plano da Cablagem Estruturada:
 
 ![1201386](1201386_Building1_Floor0_Cabos.jpg)
 
+### Justificações Relevantes:
+  
+#### Outlets
+
+- As áreas comuns, como o átrio de entrada, as casas de banho e as escadas, não
+  necessitam de outlets.
+  
+- A distribuição dos outlets foi realizada tendo em consideração os melhores locais
+  para que o room em questão não fosse muito afetado, para que não ficassem próximas de portas
+  e para que seja possível com maior facilidade aproveitar o meio da sala para trabalhar.
+
+- No posicionamento dos outlets foi também pensado de modo que entre os mesmos, a distância máxima seja
+  de três metros, para que em qualquer parte da sala onde o equipamento do utilizador se encontre
+  consiga com o patch cord que é fornecido ter acesso a uma tomada de rede.
+  
+- A quantidade de outlets por room foi obtida utilizando a proporção de 2 outlets para cada 
+  10 metros quadrados de área.
+
+####  Consolidation Points
+
+- Ao todo neste piso temos 2 Consolidation Points. 
+  Um na sala 1.0.7, que é responsável por controlar as salas 1.0.5, 1.0.6, 1.0.7 e 1.0.8, ficando responsável por 18 outlets.
+  O outro encontra-se na sala 1.0.9, que é responsável por controlar as salas 1.0.9 e 1.0.10, ficando responsável por 16 outlets.
+  
+- A ligação do HC com os CP's é feita através do underfloor cable raceway.
+
+####  Horizontal cross-connect
+
+- Este piso apresenta apenas um HC, pois este tem uma cobertura de cerca de 1000 metros
+  quadrados e o edifício apresenta apenas 600 metros quadrados de área.
+  
+- O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Horizontal cross-connect
+  foi colocado nesta sala localizado no mesmo armário técnico que o Intermediate cross-connect.
+  
+####  Intermediate cross-connect
+
+- O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Intermediate cross-connect
+  foi colocado nesta sala localizado no mesmo armário técnico que o Horizontal cross-connect.
+  
+- O IC recebe fibra ótica do MC e passa a fibra ótica para os dois HC's deste edifício.
+
+####  Main cross-connect
+
+- O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o main cross-connect
+  foi colocado nesta sala. 
+  
+- O Main cross-connect é responsável por distribuir para o Intermediate cross-connect deste edifício e dos outros
+  a fibra ótica monomodo através da passagem para o exterior, por este motivo do MC sai 1 cabo de fibra ótica monomodo
+  que se conecta ao IC deste edifício.
+  
+- Optou-se que este fica-se no meio da sala para uma melhor manutenção futura.
+
+#### Cabos Utilizados
+
+- 
+
+#### Gabinetes de Telecomunicações 
+
+##### Sala 1.0.2
+
+- Visto esta ter associado 22 outlets, existirão 22 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Visto que HC conecta-se ao IC e a 2 CP's precisará de um Fiber Patch Panel, tendo este o tamanho de 1U. 
+  Como o IC conecta-se ao HC e ao MC através de cabo de fibra ótica será necessário mais um Fiber Patch Panel, 
+  tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficará instalado.
+
+- Será necessário um Fiber Patch Panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+
+##### Sala 1.0.7
+
+- Visto esta ter associado 18 outlets, existirão 18 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+##### Sala 1.0.9
+
+- Visto esta ter associado 16 outlets, existirão 16 ligações logo será necessário um patch panel 
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+  
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será 
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+  
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
 ### Inventário Total Piso 0:
 
-| Equipamento |	Quantidade |
-|-------------|------------|
-|Outlets	  |	56		   |
+| Equipamento       |	Quantidade |
+|-------------------|--------------|
+|Main Cross-Connect |   1          |
+|Outlets	        |	56		   |
 
-## Edifico 1 - Piso 1 
-
-![1201386](1201386_Building1_Floor1.jpg)
+## Edifico 1 - Piso 1
 
 ### Medida da escala:
 
 - 5m (real) = 2,7cm (escala)
-
 
 ### Informações Calculadas:
 | Room  |	Comprimento (m) |	Largura (m)	 | Área (m2)  |Quantidade de outlets |
@@ -88,11 +173,7 @@ em atenção o posicionamento destes fora da zona com portas.
 |1.1.13 |5               	|2,7778     	 |13,889	  |	4	            	 |
 |1.1.14 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Disposição dos Outlets:
-
-![1201386](1201386_Building1_Floor1_Outlets.jpg)
-
-### Disposição dos Caminhos de Cabos:
+### Plano da Cablagem Estruturada:
 
 ![1201386](1201386_Building1_Floor1_Cabos.jpg)
 
@@ -102,7 +183,11 @@ em atenção o posicionamento destes fora da zona com portas.
   e o mesmo aplica-se às casas de banho e a áreas comuns como corredores e átrios.
 
 - Do piso anterior, através de uma calha técnica, 2 cabos de fibra ótica emergem 
-  provinientes do IC.
+  provenientes do IC.
+
+#### Consolidation Points
+
+-
   
 ####  Horizontal cross-connect
 
@@ -114,9 +199,55 @@ em atenção o posicionamento destes fora da zona com portas.
 
 - O HC é responsável pelas salas 1.1.2 e 1.1.3.
 
-#### Consolidation Points
 
-- 
+#### Cabos Utilizados
+
+-
+
+#### Gabinetes de Telecomunicações
+
+##### Sala 1.1.1
+
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo e como o HC 
+  conecta-se ao IC também com cabo de fibra ótica, será necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+
+##### Sala 1.1.5
+
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+
+##### Sala 1.1.8
+
+- Visto esta ter associado 26 outlets, existirão 26 ligações logo será necessário um patch panel
+  CAT7 de 48 portas, tendo este o tamanho de 2U.
+
+- Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
+  necessário 1 fibre patch panel, tendo este o tamanho de 1U.
+
+- O espaço guardado para os equipamentos ativos terá um tamanho de.
+
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
 
 
 
@@ -128,6 +259,7 @@ em atenção o posicionamento destes fora da zona com portas.
 
 ### Inventário Total Do Edifício 
 
-| Equipamento |	Quantidade |
-|-------------|------------|
-|Outlets	  |	136		   |
+| Equipamento       |	Quantidade |
+|-------------------|--------------|
+|Main Cross-Connect |   1          |
+|Outlets	        |	136		   |
