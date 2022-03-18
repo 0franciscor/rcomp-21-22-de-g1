@@ -213,6 +213,12 @@ Obtendo-se um total de 88,78 m de cabo CAT 7.
 
 ##### Cabo Fibra Ótica
 
+- A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.9
+  até o HC do piso é de 36,34m. 
+  
+- A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.7
+  até o HC do piso é de 35,09m.
+
 
 #### Gabinetes de Telecomunicações 
 
