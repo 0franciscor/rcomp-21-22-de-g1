@@ -5,12 +5,18 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 ## These were the followed structured cabling standards:
 - Minimum of 2 outlets per work area.
 - Ratio of 2 outlets for every 10 square meters of area
+- 
 
 
 ## Important remarks
 
 ### Scale measure:
 - 2,8 cm (scale) = 5m (reality)
+ 
+### Buildind Dimensions
+* Ground floor - 20x20x4m 
+* First floor - 20x20x3m
+* Building - 40x40x7m
 
 # Building 4
 
@@ -75,9 +81,9 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 | 4.1.6 | 3,32       | 2,22      | 7,37      | 0 (Storage Unit)  |
 | 4.1.7 | 8,66       | 6,38      | 55,25     | 12                |
 
-![4.1.1_case.png](resources/floorOne_411case.png)
-
 In order to calculate the area of division 4.1.1, the division was divided into 2 parts - yellow and blue
+
+![4.1.1_case.png](resources/floorOne_411case.png)
 
 ### Outlets Layout
 
