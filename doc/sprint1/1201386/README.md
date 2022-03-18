@@ -48,6 +48,14 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 - A quantidade de outlets por room foi obtida utilizando a proporção de 2 outlets para cada 
   10 metros quadrados de área.
 
+#### Access Points
+
+- Neste andar apenas foi colocado um access point, dado as dimensões do edifício.
+
+- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7.
+
+- O AP ficará localizado 
+
 ####  Consolidation Points
 
 - Ao todo neste piso temos 2 Consolidation Points. 
@@ -82,44 +90,52 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 #### Cabos Utilizados e Respetivas Quantidades
 
-##### Sala 1.0.1
+##### Cabo de Cobre CAT7
 
-| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+###### Sala 1.0.1
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
-| 1      | 3,91                                                            |
-| 2      | 6,13                                                            |
-| 3      | 6,13                                                            |
-| 4      | 5,95                                                            |
-| 5      | 8,17                                                            |
-| 6      | 8,17                                                            |
+| 1      | 8,55                                                            |
+| 2      | 10,87                                                           |
+| 3      | 10,96                                                           |
+| 4      | 13,28                                                           |
+| 5      | 13,36                                                           |
+| 6      | 15,69                                                           |
 
-##### Sala 1.0.3
+Obtendo-se um total de 72,71 m de cabo CAT 7.
 
-| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+###### Sala 1.0.3
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
-| 1      | 3,91                                                            |
-| 2      | 6,13                                                            |
-| 3      | 6,13                                                            |
-| 4      | 5,95                                                            |
-| 5      | 8,17                                                            |
-| 6      | 8,17                                                            | |
+| 1      | 4,85                                                            |
+| 2      | 7,43                                                            |
+| 3      | 7,26                                                            |
+| 4      | 9,84                                                            |
+| 5      | 9,67                                                            |
+| 6      | 12,25                                                           | |
 
-##### Sala 1.0.4
+Obtendo-se um total de 51,3 m de cabo CAT 7.
 
-| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+###### Sala 1.0.4
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
-| 1      | 3,91                                                            |
-| 2      | 6,13                                                            |
-| 3      | 6,13                                                            |
-| 4      | 5,95                                                            |
-| 5      | 8,17                                                            |
-| 6      | 8,17                                                            |
-| 7      | 6,13                                                            |
-| 8      | 5,95                                                            |
-| 9      | 8,17                                                            |
-| 10     | 8,17                                                            |
+| 1      | 9,75                                                            |
+| 2      | 12,15                                                           |
+| 3      | 14,55                                                           |
+| 4      | 11,79                                                            |
+| 5      | 14,19                                                           |
+| 6      | 16,61                                                           |
+| 7      | 13,83                                                           |
+| 8      | 16,23                                                           |
+| 9      | 18,65                                                           |
+| 10     | 17,7                                                            |
 
-##### Sala 1.0.5
+Obtendo-se um total de 145,45 m de cabo CAT 7.
+
+###### Sala 1.0.5
 
 | Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
@@ -130,7 +146,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 Obtendo-se um total de 56,6 m de cabo CAT 7.
 
-##### Sala 1.0.6
+###### Sala 1.0.6
 
 | Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
@@ -141,7 +157,7 @@ Obtendo-se um total de 56,6 m de cabo CAT 7.
 
 Obtendo-se um total de 43,96 m de cabo CAT 7.
 
-##### Sala 1.0.7
+###### Sala 1.0.7
 
 | Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
@@ -152,7 +168,7 @@ Obtendo-se um total de 43,96 m de cabo CAT 7.
 
 Obtendo-se um total de 20,28 m de cabo CAT 7.
 
-##### Sala 1.0.8
+###### Sala 1.0.8
 
 | Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
@@ -165,7 +181,7 @@ Obtendo-se um total de 20,28 m de cabo CAT 7.
 
 Obtendo-se um total de 54,6 m de cabo CAT 7.
 
-##### Sala 1.0.9
+###### Sala 1.0.9
 
 | Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
@@ -178,7 +194,7 @@ Obtendo-se um total de 54,6 m de cabo CAT 7.
 
 Obtendo-se um total de 38,46 m de cabo CAT 7.
 
-##### Sala 1.0.10
+###### Sala 1.0.10
 
 | Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
 |--------|-----------------------------------------------------------------|
@@ -194,6 +210,9 @@ Obtendo-se um total de 38,46 m de cabo CAT 7.
 | 10     | 12,43                                                            |
 
 Obtendo-se um total de 88,78 m de cabo CAT 7.
+
+##### Cabo Fibra Ótica
+
 
 #### Gabinetes de Telecomunicações 
 
@@ -253,10 +272,12 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ### Inventário Total Piso 0:
 
-| Equipamento       |	Quantidade |
-|-------------------|--------------|
-|Access Point 		|	1		   |
-|Outlets	        |	56		   |
+| Equipamento        |	Quantidade  |
+|--------------------|--------------|
+|Access Point 		 |	1		    |
+|Cabo CAT7 (m)       |  572,14      |
+|Cabo Fibra Ótica (m)|              |
+|Outlets	         |	57		    |
 
 ## Edifico 1 - Piso 1
 
@@ -362,14 +383,19 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ### Inventário Total Piso 1:
 
-| Equipamento       |	Quantidade |
-|-------------------|--------------|
-|Access Point 		|	1		   |
-|Outlets	        |	74		   |
+| Equipamento        |	Quantidade  |
+|--------------------|--------------|
+|Access Point 		 |	1		    |
+|Cabo CAT7 (m)       |              |
+|Cabo Fibra Ótica (m)|              |
+|Outlets	         |	75  	    |
 
 ### Inventário Total Do Edifício 
 
-| Equipamento       |	Quantidade |
-|-------------------|--------------|
-|Access Point 		|	2		   |
-|Outlets	        |	136		   |
+| Equipamento        |	Quantidade  |
+|--------------------|--------------|
+|Access Point 		 |	2		    |
+|Cabo CAT7 (m)       |  572,14      |
+|Cabo Fibra Ótica (m)|              |
+|Outlets	         |	138		    |
+
