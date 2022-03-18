@@ -3,7 +3,12 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201239 folder
 
 ## These were the followed structured cabling standards:
 - Minimum of 2 outlets per work area.
-- Ratio of 2 outlets for every 10 square meters of area.
+- Ratio of 2 outlets for every 10 square meters of area, with them being at less than 3 meters from the user's equipment.
+- Each cable (whatever type) length should be less than 90 meters.
+- The total area covered by a horizontal cross-connect should be less than 1000 m2.
+- Straight line distance between the horizontal cross-connect and the outlet should be less than 80 meters.
+- Cables connecting an intermediate cross-connect (IC) to a horizontal cross-connect (HC) are limited to 500 meters in length.
+- The number of cables entering a telecommunications cabinet must always be less than 200.
 
 ### Important Remarks:
 
@@ -44,12 +49,11 @@ by just multiplying a division's length by its width.
 
 ### Floor inventory:
 
-| Equipment  | Quantity |
-|------------|----------|
-| Outlets    | -        |
-| Switches   | -        |
-| Hubs       | -        |
-| RJ45 Cable | -        |
+| Equipment      | Quantity |
+|----------------|----------|
+| Outlets        | 40       |
+| Copper Cable   | -        |
+| Fiber Cable    | -        |
 
 
 ## Floor Nº1:
@@ -81,12 +85,11 @@ by just multiplying a division's length by its width.
 
 ### Floor inventory:
 
-| Equipment  | Quantity |
-|------------|----------|
-| Outlets    | -        |
-| Switches   | -        |
-| Hubs       | -        |
-| RJ45 Cable | -        |
+| Equipment    | Quantity |
+|--------------|----------|
+| Outlets      | 48       |
+| Copper Cable | -        |
+| Fiber Cable  | -        |
 
 
 ===========================================
@@ -95,9 +98,8 @@ by just multiplying a division's length by its width.
 
 - After performing the building planning, this is the total Inventory:
 
-| Equipment  | Quantity |
-|------------|----------|
-| Outlets    | -        |
-| Switches   | -        |
-| Hubs       | -        |
-| RJ45 Cable | -        |
+| Equipment    | Quantity |
+|--------------|----------|
+| Outlets      | -        |
+| Copper Cable | -        |
+| Fiber Cable  | -        |
