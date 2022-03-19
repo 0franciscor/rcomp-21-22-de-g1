@@ -56,6 +56,9 @@ Bearing in mind that on this floor, the cables are passed under the ground, the 
 * Therefore, the Acess Point is located in the room 4.0.2.
 * The acess point is connected to an outlet using a CAT7 copper cable.
 
+![Floor0_acessPoint](resources/Building4_GroundFloor_AccessPoint_Radius.png)
+
+
 ### Consolidation Points 
 * On this floor, were placed 2 consolidation points - one in the room 4.0.2 and the other in 4.0.4.
 * The connection to the HC is via the underfloor cable raceway.
@@ -223,7 +226,112 @@ In order to calculate the area of division 4.1.1, the division was divided into 
 
 ##### CAT7 Copper Cable
 
+###### Sala 4.1.1.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 7,2  |
+| 2 | 5,01 |
+| 3 | 3,81 | 
+| 4 | 4,04 |
+| 5 | 5,95 |
+| 6 | 7,49 |
+| 7 | 9,02 |
+| 8 | 10,56 |
+| 9 | 12,10 |
+| 10 | 4,8  |
+| 11 | 3,11	|
+| 12 | 1,41 |
+| 13 | 3,21 |
+| 14 | 4,75 |
+| 15 | 6,28 |
+| 16 | 7,82 |
+| 17 | 9,35  |
+| 18 | 10,90 |
+
+Total = 116,81m
+
+###### Sala 4.1.2.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 8,49  |
+| 2 | 6,91 |
+| 3 | 5,34 | 
+| 4 | 3,76 |
+| 5 | 5,93 |
+| 6 | 4,35 |
+| 7 | 2,78 |
+| 8 | 1,2 |
+
+Total = 38,76m
+
+###### Sala 4.1.3.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 10,19  |
+| 2 | 8,01 |
+| 3 | 5,83 | 
+| 4 | 9,16 |
+| 5 | 6,98 |
+| 6 | 4,80 |
+
+Total = 44,97m
+
+###### Sala 4.1.4.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 5,73 |
+| 2 | 4,15 |
+| 3 | 2,58 | 
+| 4 | 1,00 |
+| 5 | 11,19 |
+| 6 | 8,51 |
+| 7 | 5,83 |
+| 8 | 3,15 |
+
+Total = 42.14m
+
+###### Sala 4.1.5.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 6,71 |
+| 2 | 4,53 |
+| 3 | 2,35 |
+| 4 | 5,7 |
+| 5 | 3,52 |
+| 6 | 1,34 |
+
+Total = 24,15m
+
+###### Sala 4.1.7.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 5,56 |
+| 2 | 3,38 |
+| 3 | 1,20 |
+| 4 | 6,82 |
+| 5 | 4,64 |
+| 6 | 2,46 |
+| 7 | 8,20 |
+| 8 | 6,02 |
+| 9 | 3,84 |
+| 10 | 9,57 |
+| 11 | 7,39 |
+| 12 | 5,21 |
+
+Total = 64,29m
+
 ##### Fiber Optic Cable
+
+* From the HC to the CP (room 4.1.1) - 17,26m
+* From the Floor 0 to the HC (room 4.1.6) - 3,07m
+* From the HC to the CP (room 4.1.3) - 14,73m
+* From the HC to the CP (room 4.1.7) - 18,98m
 
 ##### Telecommunications Offices
 
@@ -232,3 +340,5 @@ In order to calculate the area of division 4.1.1, the division was divided into 
 | Equipment |	Quantity |
 |-------------|------------|
 |Outlets	  |	58		   |
+| CAT7 Copper Cable (m) | 331,12m  |
+| Fiber Optic Cable (m)| 54,04m  | 
