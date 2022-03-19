@@ -56,6 +56,8 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 - O AP ficará localizado 
 
+- O canal para o AP deste piso será o 11.
+
 ####  Consolidation Points
 
 - Ao todo neste piso temos 2 Consolidation Points. 
@@ -125,7 +127,7 @@ Obtendo-se um total de 51,3 m de cabo CAT 7.
 | 1      | 9,75                                                            |
 | 2      | 12,15                                                           |
 | 3      | 14,55                                                           |
-| 4      | 11,79                                                            |
+| 4      | 11,79                                                           |
 | 5      | 14,19                                                           |
 | 6      | 16,61                                                           |
 | 7      | 13,83                                                           |
@@ -222,6 +224,12 @@ Obtendo-se um total de 88,78 m de cabo CAT 7.
 
 #### Gabinetes de Telecomunicações 
 
+A estratégia de super dimensionamento aplicada foi a seguinte:
+
+- Determinar o tamanho dos gabinetes de telecomunicações multiplicando por quatro
+  a quantidade de espaço necessária para os patch-panels alojados e arredondar para o próximo
+  tamanho disponível comercialmente.
+
 ##### Sala 1.0.2
 
 - Visto esta ter associado 22 outlets, existirão 22 ligações logo será necessário um patch panel
@@ -231,21 +239,21 @@ Obtendo-se um total de 88,78 m de cabo CAT 7.
   Como o IC conecta-se ao HC e ao MC através de cabo de fibra ótica será necessário mais um Fiber Patch Panel, 
   tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 6U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 9U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 18U.
 
 Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficará instalado.
 
 - Será necessário um Fiber Patch Panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 2U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 3U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 9U.
 
 
 ##### Sala 1.0.7
@@ -256,11 +264,11 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 4U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 ##### Sala 1.0.9
 
@@ -270,11 +278,11 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será 
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
   
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 4U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 ### Inventário Total Piso 0:
 
@@ -315,11 +323,34 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ### Justificações Relevantes:
 
+- Do piso anterior, através de uma calha técnica, 2 cabos de fibra ótica emergem 
+  provenientes do IC.
+  
+#### Outlets
+
 - A sala 1.1.1 é uma área de armazenamento e não são necessárias tomadas de rede lá,
   e o mesmo aplica-se às casas de banho e a áreas comuns como corredores e átrios.
 
-- Do piso anterior, através de uma calha técnica, 2 cabos de fibra ótica emergem 
-  provenientes do IC.
+- A distribuição dos outlets foi realizada tendo em consideração os melhores locais
+  para que o room em questão não fosse muito afetado, para que não ficassem próximas de portas
+  e para que seja possível com maior facilidade aproveitar o meio da sala para trabalhar.
+
+- No posicionamento dos outlets foi também pensado de modo que entre os mesmos, a distância máxima seja
+  de três metros, para que em qualquer parte da sala onde o equipamento do utilizador se encontre
+  consiga com o patch cord que é fornecido ter acesso a uma tomada de rede.
+
+- A quantidade de outlets por room foi obtida utilizando a proporção de 2 outlets para cada
+  10 metros quadrados de área.
+  
+#### Access Points
+
+- Neste andar apenas foi colocado um access point, dado as dimensões do edifício.
+
+- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7.
+
+- O AP ficará localizado
+
+- O canal para o AP deste piso será o 6.
 
 #### Consolidation Points
 
@@ -342,17 +373,23 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 #### Gabinetes de Telecomunicações
 
+A estratégia de super dimensionamento aplicada foi a seguinte: 
+
+- Determinar o tamanho dos gabinetes de telecomunicações multiplicando por quatro 
+  a quantidade de espaço necessária para os patch-panels alojados e arredondar para o próximo 
+  tamanho disponível comercialmente.
+
 ##### Sala 1.1.1
 
 - Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
-  CAT7 de 24 portas, tendo este o tamanho de 1U.
+  CAT7 de 48 portas, tendo este o tamanho de 2U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo e como o HC 
   conecta-se ao IC também com cabo de fibra ótica, será necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 6U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de .
 
 - Posto isto, o tamanho total para este gabinete de telecomunicações será de.
 
@@ -373,8 +410,8 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ##### Sala 1.1.8
 
-- Visto esta ter associado 26 outlets, existirão 26 ligações logo será necessário um patch panel
-  CAT7 de 48 portas, tendo este o tamanho de 2U.
+- Visto esta ter associado 26 outlets, existirão 26 ligações logo será necessário dois patch panels
+  CAT7 de 24 portas, tendo este o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
