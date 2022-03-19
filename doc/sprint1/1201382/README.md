@@ -5,27 +5,27 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 ## These were the followed structured cabling standards:
 - Minimum of 2 outlets per work area.
 - Ratio of 2 outlets for every 10 square meters of area
-- 
 
 
 ## Important remarks
 
 ### Scale measure:
 - 2,8 cm (scale) = 5m (reality)
- 
-### Buildind Dimensions
-* Ground floor - 20x20x4m 
-* First floor - 20x20x3m
-* Building - 40x40x7m
 
 # Building 4
+
+### Building Dimensions
+* Ground floor - 20x20x4m
+* First floor - 20x20x3m
+* Building - 20x20x7m
+
+---
 
 ## Floor 0 
 ![Building4_GroundFloor.png](resources/Building4_GroundFloor.png)
  
-###Observations regarding the design of the Floor 0
+### Observations regarding the design of the Floor 0
 * The ground floor has an underfloor cable raceway connected to the external technical ditch. Access to the underfloor cable raceway is available at points marked over the plan. The ceiling height on this floor is 4 meters.
-* Room 4.0.5 is a storage area that may be used to house a cross-connect, no network outlets are required there, and the same applies to restrooms and common areas like the entrance hall.
 
 ### Individual Rooms' Dimensions:
 ![Building4_GroundFloor.png](resources/Building4_GroundFloor_measured.png)
@@ -41,21 +41,129 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 | 4.0.7 | 3,31       | 3,9       | 12,91     | 4                 |
 
 ### Outlets Layout
+* There are no outlets in the common areas or in the WC's as there is no need.
+* The number of outlets in each division was calculated using the proportion of 2 outlets every 10 meters.
+* It was also taking into account that whatever point in the room to consider, an outlet is less than 3 meters away.
 
 ![Floor0_outletsLayout](resources/Building4_GroundFloor_outlets.png)
 
 ### Cables Layout:
-
+Bearing in mind that on this floor, the cables are passed under the ground, the following procedure was carried out:
 ![Floor0_cablesLayout](resources/Building4_GroundFloor_cables.png)
+
+### Access Point
+* Bearing in mind that an Access Point covers a radius of 25m, with the building having 20x20x7m, choosing a midpoint and placing there the access point, the entire building will be covered.
+* Therefore, the Acess Point is located in the room 4.0.2.
+* The acess point is connected to an outlet using a CAT7 copper cable.
+
+### Consolidation Points 
+* On this floor, were placed 2 consolidation points - one in the room 4.0.2 and the other in 4.0.4.
+* The connection to the HC is via the underfloor cable raceway.
+
+### Horizontal cross-connect
+* Bearing in mind that one HC covers about 1000m2 and the building has 400m2, one HC is enough for the whole building.
+
+### Intermediate cross-connect
+
+### Main cross-connect
+
+![Floor0_cablesLayout](resources/Building4_GroundFloor_AccessPoint.png)
+
+### Cables used and respective quantities
+* The outlets are numbered from left to right, top to bottom.
+
+##### CAT7 Copper Cable
+
+###### Sala 4.0.1.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 13,46	|
+| 2 | 12,08 |
+| 3 | 10,71 | 
+| 4 | 9,33  |
+| 5 | 7,95  |
+| 6 | 10,73 |
+| 7 | 9,35  |
+| 8 | 7,98  |
+| 9 | 6,60  |
+| 10 | 5,22 |
+
+Total = 93,41m
+
+###### Sala 4.0.2.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 7,96	|
+| 2 | 5,77 |
+| 3 | 3,57 | 
+| 4 | 6,53 |
+| 5 | 4,34 |
+| 6 | 2,14 |
+
+Total = 30.31m
+
+###### Sala 4.0.3.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 5,69 |
+| 2 | 3,49 |
+| 3 | 1,30 | 
+| 4 | 7,00 |
+| 5 | 4,79 |
+| 6 | 2,6  |
+| 7 | 8,26 |
+| 8 | 6,06 |
+| 9 | 3,86 |
+| 10 | 9,58 |
+| 11 | 7,38 |
+| 12 | 5,18 |
+
+Total = 65,19m
+
+###### Sala 4.0.6.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 7,15 |
+| 2 | 5,05 |
+| 3 | 5,45 | 
+| 4 | 3,35 |
+
+Total = 21m
+
+###### Sala 4.0.7.
+
+| Outlet |	Quantity CAT7 (m) |	
+|-------------|-------------|
+| 1 | 12,21 |
+| 2 | 10,2 |
+| 3 | 10,63 | 
+| 4 | 8,62 |
+
+Total = 41,66m
+
+##### Fiber Optic Cable
+
+* From the HC to the CP (room 4.0.4) - 18,28m
+* Between CPs (rooms 4.0.2 and 4.0.4) - 3,67m
+* From MC and other building's ICs - 7,55m (indoors)
+
+##### Telecommunications Offices
 
 ### Inventory:
 
-| Equipment |	Quantity |
+| Equipment | Quantity |
 |-------------|------------|
-|Outlets	  |	42		   |
+| Access Point |	1	   |
+| CAT7 Copper Cable (m) | 251,57m  |
+| Fiber Optic Cable (m)| 29,5m  | 
+| Outlets	  |	42		   |
 
 
-
+---
 
 
 ## Floor 1
@@ -86,12 +194,38 @@ In order to calculate the area of division 4.1.1, the division was divided into 
 ![4.1.1_case.png](resources/floorOne_411case.png)
 
 ### Outlets Layout
-
+* There are no outlets in the common areas or in the WC's as there is no need.
+* The number of outlets in each division was calculated using the proportion of 2 outlets every 10 meters.
+* It was also taking into account that whatever point in the room to consider, an outlet is less than 3 meters away.
 ![Floor1_outletsLayout](resources/Building4_FloorOne_outlets.png)
 
 ### Cables Layout:
 
 ![Floor1_cablesLayout](resources/Building4_FloorOne_cables.png)
+
+### Access Point
+* Bearing in mind that an Access Point covers a radius of 25m, with the building having 40x40x7m, choosing a midpoint and placing there the acess point, the entire building will be covered.
+* Therefore, the Acess Point is located in the room 4.0.2.
+
+### Consolidation Points
+* On this floor, were placed 3 consolidation points - one in the room 4.1.1. and the other in 4.1.3. and 4.1.7
+* The connection to the HC is via the underfloor cable raceway.
+
+### Horizontal cross-connect
+
+### Intermediate cross-connect
+
+### Main cross-connect
+
+![Floor0_cablesLayout](resources/Building4_GroundFloor_AccessPoint.png)
+
+### Cables used and respective quantities
+
+##### CAT7 Copper Cable
+
+##### Fiber Optic Cable
+
+##### Telecommunications Offices
 
 ### Inventory:
 
