@@ -47,13 +47,125 @@ by just multiplying a division's length by its width.
 
 ![floor0_plant_outlets](resources/Building2_Floor0_Outlets.png)
 
+### Justifications about the decisions made
+
+*Thanks to the integrated underfloor raceway on the building, it is possible to route the needed cables to the several rooms.\
+The mentioned cables include copper and fiber cabling.* 
+
+> **Intermediate Cross-Connect**
+>>  The intermediate cross-connect is responsible for receiving the optic fiber cable coming from the Main Cross-Connect located on Building 1.\
+> It's located on room 2.0.1 and connected to the Horizontal Cross-Connect on the same floor and the floor above.
+
+> **Horizontal Cross-Connect**
+>> This floor contains a single HC, since its total area is inferior to 1000 m2 (based on the given standards).\
+>  Being located on the same room as the IC (2.0.1), it allows for the needed cable to be a lesser amount than if mounted on other room.\
+> It also allowed to copper connect to all the outlets on rooms 2.0.2 and 2.0.3
+
+> **Consolidation Points**
+>> There is only one consolidation point on this floor. It connects to the 2.0.4,5,6 rooms' 18 total outlets.
+
+> **Outlets**
+>> Having in consideration a real world outlet layout, the floor outlets were mostly placed on the rooms' walls.\
+> Only in one room will the building owner be able to find outlets on the ground (which is on the biggest room).\
+> The mapped placement was also defined respecting the rule which states that wherever a user may stand in a room, it should have an outlet located at a maximum of 3m, with a patch cord of 5m
+
+### Important Note: The Outlet Order is defined clockwise
+
+### Room 2.0.1
+
+ - This room is responsible for housing the Building's IC and the floor's HC.
+ - The Building's **IC** requires a Fiber Patch Panel, since it is fiber connected to both HC's (Ground and First Floor). Although the number of unused outlets is big, it allows for future expansibility. This Fiber Patch Panel is 1U sized.
+ - The **HC** connects to a total of 26 Outlets, which requires a 48 Ports Copper Patch Panel, 2U sized. Since the CP's are also fiber connected, it is required for the HC to have a 1U sized fiber patch panel.
+ - The total required space sits at 6U, however, a 50% increase in terms of capacity to futureproof the enclosure leads to a 9U sized enclosure.
+ 
+### Room 2.0.2
+
+| Outlet | CAT 7 needed cable length (m) |
+|--------|-------------------------------|
+| 1      | 4,44                          |
+| 2      | 6,85                          |
+| 3      | 9,81                          |
+| 4      | 11,48                         |
+| 5      | 13,15                         |
+| 6      | 4,44                          |
+| 7      | 6,67                          |
+| 8      | 9,26                          |
+
+### Room 2.0.3
+
+| Outlet | CAT 7 needed cable length (m) |
+|--------|-------------------------------|
+| 1      | 10,74                         |
+| 2      | 13,89                         |
+| 3      | 17,04                         |
+| 4      | 20,56                         |
+| 5      | 22,96                         |
+| 6      | 25,37                         |
+| 7      | 28,51                         |
+| 8      | 31,67                         |
+| 9      | 34,63                         |
+| 10     | 36,67                         |
+| 11     | 14,26                         |
+| 12     | 10,93                         |
+| 13     | 15,74                         |
+| 14     | 18,89                         |
+| 15     | 22,22                         |
+| 16     | 19,26                         |
+| 17     | 22,22                         |
+| 18     | 18,89                         |
+
+### Room 2.0.4
+
+| Outlet | CAT 7 needed cable length (m) |
+|--------|-------------------------------|
+| 1      | 12,96                         |
+| 2      | 10,56                         |
+| 3      | 8,15                          |
+| 4      | 11,48                         |
+| 5      | 13,70                         |
+| 6      | 16,30                         |
+
+### Room 2.0.5
+
+ - This room is responsible for housing the Consolidation Point which makes the Outlets on rooms 2.0.4,5,6 possible.
+ - The CP requires a 24 Port Cat7 Copper Patch Panel, which has a size of 1U.
+ - Futureproofing the enclosure makes the total at 1.5*2U = 3U.
+
+| Outlet | CAT 7 needed cable length (m) |
+|--------|-------------------------------|
+| 1      | 9,81                          |
+| 2      | 7,22                          |
+| 3      | 5                             |
+| 4      | 1,67                          |
+| 5      | 2,97                          |
+| 6      | 6,48                          |
+
+### Room 2.0.6
+
+| Outlet | CAT 7 needed cable length (m) |
+|--------|-------------------------------|
+| 1      | 13,33                         |
+| 2      | 10,93                         |
+| 3      | 8,52                          |
+| 4      | 5,37                          |
+| 5      | 7,78                          |
+| 6      | 10,37                         |
+
 ### Floor inventory:
+
+| Room | Total CAT7A Cable (m) |
+|------|-----------------------|
+| 2    | 66,1                  |
+| 3    | 384,45                |
+| 4    | 73,15                 |
+| 5    | 33,15                 |
+| 6    | 56,3                  |
 
 | Equipment      | Quantity |
 |----------------|----------|
 | Outlets        | 40       |
-| Copper Cable   | -        |
-| Fiber Cable    | -        |
+| Copper Cable   | 613,15m  |
+| Fiber Cable    | 35,56m   |
 
 
 ## Floor Nº1:
@@ -100,6 +212,6 @@ by just multiplying a division's length by its width.
 
 | Equipment    | Quantity |
 |--------------|----------|
-| Outlets      | -        |
+| Outlets      | 89       |
 | Copper Cable | -        |
 | Fiber Cable  | -        |

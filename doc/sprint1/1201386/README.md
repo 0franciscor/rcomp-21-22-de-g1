@@ -26,7 +26,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 |1.0.9  |4,6296          	|5,9259     	 |27,4345	  |	6	            	 |
 |1.0.10 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Plano da Cablagem Estruturada:
+### Plano Esquemático:
 
 ![1201386](1201386_Building1_Floor0_Cabos.jpg)
 
@@ -213,6 +213,15 @@ Obtendo-se um total de 38,46 m de cabo CAT 7.
 
 Obtendo-se um total de 88,78 m de cabo CAT 7.
 
+###### Access Point
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 21,43                                                           |
+
+Obtendo-se um total de 21,43 m de cabo CAT 7.
+
+
 ##### Cabo Fibra Ótica
 
 - A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.9
@@ -239,36 +248,35 @@ A estratégia de super dimensionamento aplicada foi a seguinte:
   Como o IC conecta-se ao HC e ao MC através de cabo de fibra ótica será necessário mais um Fiber Patch Panel, 
   tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 6U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 9U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 18U.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficará instalado.
 
 - Será necessário um Fiber Patch Panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 2U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 1U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 3U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 2U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 9U.
-
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 6U.
 
 ##### Sala 1.0.7
 
-- Visto esta ter associado 18 outlets, existirão 18 ligações logo será necessário um patch panel
+- Visto esta ter associado 18 outlets, existirão 19 ligações logo será necessário um patch panel
   CAT7 de 24 portas, tendo este o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 4U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 2U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 4U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 9U.
 
 ##### Sala 1.0.9
 
@@ -278,20 +286,25 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será 
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
   
-- O espaço guardado para os equipamentos ativos terá um tamanho de 4U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 2U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 4U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 9U.
 
 ### Inventário Total Piso 0:
 
-| Equipamento        |	Quantidade  |
-|--------------------|--------------|
-|Access Point 		 |	1		    |
-|Cabo CAT7 (m)       |  572,14      |
-|Cabo Fibra Ótica (m)|              |
-|Outlets	         |	57		    |
+| Equipamento                           |	Quantidade  |
+|---------------------------------------|---------------|
+|Access Point 		                    |	1		    |
+|Cabo CAT7 (m)                          |  593,57       |
+|Cabo Fibra Ótica (m)                   |               |
+|Fiber Patch Panel 1U (24 entradas)		|	5			|
+|Outlets	                            |	57		    |
+|Patch Panel ISO 8877 1U (24 entradas)	|	3			|
+|Telecommunication Enclosure 6U 	    |	1			|
+|Telecommunication Enclosure 9U 	    |	2			|
+|Telecommunication Enclosure 12U     	|	1			|
 
 ## Edifico 1 - Piso 1
 
@@ -317,7 +330,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 |1.1.13 |5               	|2,7778     	 |13,889	  |	4	            	 |
 |1.1.14 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Plano da Cablagem Estruturada:
+### Plano Esquemático:
 
 ![1201386](1201386_Building1_Floor1_Cabos.jpg)
 
@@ -369,7 +382,189 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 #### Cabos Utilizados e Respetivas Quantidades
 
--
+##### Cabo de Cobre CAT 7
+
+###### Sala 1.1.2
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 7,11                                                            |
+| 2      | 9,01                                                            |
+| 3      | 10,91                                                           |
+| 4      | 12,81                                                           |
+| 5      | 9,01                                                            |
+| 6      | 10,91                                                           |
+| 7      | 12,81                                                           |
+| 8      | 14,71                                                           |
+| 9      | 10,91                                                           |
+| 10     | 12,81                                                           |
+| 11     | 14,71                                                           |
+| 12     | 16,61                                                           |
+
+Obtendo-se um total de 142,32 m de cabo CAT 7.
+
+###### Sala 1.1.3
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 14,98                                                           |
+| 2      | 17,08                                                           |
+| 3      | 19,48                                                           |
+| 4      | 21,58                                                           |
+| 5      | 16,88                                                           |
+| 6      | 18,98                                                           |
+| 7      | 21,38                                                           |
+| 8      | 23,48                                                           |
+| 9      | 18,78                                                           |
+| 10     | 20,88                                                           |
+| 11     | 23,28                                                           |
+| 12     | 25,38                                                           |
+
+Obtendo-se um total de 242,16 m de cabo CAT 7.
+
+###### Sala 1.1.4
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 9,58                                                            |
+| 2      | 9,58                                                            |
+| 3      | 11,61                                                           |
+| 4      | 11,61                                                           |
+
+Obtendo-se um total de 42,38 m de cabo CAT 7.
+
+###### Sala 1.1.5
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 3,32                                                            |
+| 2      | 3,32                                                            |
+| 3      | 5,35                                                            |
+| 4      | 5,35                                                            |
+
+Obtendo-se um total de 17,34 m de cabo CAT 7.
+
+###### Sala 1.1.6
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 8,47                                                            |
+| 2      | 8,47                                                            |
+| 3      | 10,5                                                            |
+| 4      | 10,5                                                           |
+
+Obtendo-se um total de 37,94 m de cabo CAT 7.
+
+###### Sala 1.1.7
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 5,8                                                             |
+| 2      | 7,58                                                            |
+| 3      | 9,61                                                            |
+| 4      | 9,61                                                           |
+
+Obtendo-se um total de 32,6 m de cabo CAT 7.
+
+###### Sala 1.1.8
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 3,51                                                            |
+| 2      | 5,29                                                            |
+| 3      | 7,32                                                            |
+| 4      | 7,32                                                            |
+
+Obtendo-se um total de 23,44 m de cabo CAT 7.
+
+###### Sala 1.1.9
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 9,95                                                            |
+| 2      | 9,95                                                            |
+| 3      | 11,98                                                           |
+| 4      | 11,98                                                           |
+
+Obtendo-se um total de 43,86 m de cabo CAT 7.
+
+###### Sala 1.1.10
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 5,69                                                            |
+| 2      | 5,69                                                            |
+| 3      | 7,72                                                            |
+| 4      | 7,72                                                            |
+
+Obtendo-se um total de 26,82 m de cabo CAT 7.
+
+###### Sala 1.1.11
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 8,84                                                            |
+| 2      | 8,84                                                            |
+| 3      | 10,87                                                           |
+| 4      | 10,87                                                           |
+
+Obtendo-se um total de 39,42 m de cabo CAT 7.
+
+###### Sala 1.1.12
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 6,17                                                            |
+| 2      | 7,95                                                            |
+| 3      | 9,98                                                            |
+| 4      | 9,98                                                           |
+
+Obtendo-se um total de 34,08 m de cabo CAT 7.
+
+###### Sala 1.1.13
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o HC até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 5,91                                                            |
+| 2      | 7,69                                                            |
+| 3      | 9,72                                                            |
+| 4      | 9,72                                                           |
+
+Obtendo-se um total de 33,04 m de cabo CAT 7.
+
+###### Sala 1.1.14
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 15,59                                                           |
+| 2      | 17,81                                                           |
+| 3      | 20,03                                                           |
+| 4      | 20,03                                                           |
+| 5      | 22,25                                                           |
+| 6      | 20,03                                                           |
+| 7      | 22,25                                                            |
+| 8      | 24,47                                                            |
+| 9      | 22,25                                                            |
+| 10     | 24,47                                                            |
+
+Obtendo-se um total de 209,18 m de cabo CAT 7.
+
+###### Access Point
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 19,57                                                           |
+
+Obtendo-se um total de 19,57 m de cabo CAT 7.
+
+##### Cabo Fibra Ótica
+
+- A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.9
+  até o HC do piso é de 36,34m.
+
+- A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.7
+  até o HC do piso é de 35,09m.
+
 
 #### Gabinetes de Telecomunicações
 
@@ -381,64 +576,71 @@ A estratégia de super dimensionamento aplicada foi a seguinte:
 
 ##### Sala 1.1.1
 
-- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
-  CAT7 de 48 portas, tendo este o tamanho de 2U.
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo serão necessários dois patch panels
+  CAT7 de 24 portas, tendo cada um destes o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo e como o HC 
   conecta-se ao IC também com cabo de fibra ótica, será necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 6U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de .
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
-
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 ##### Sala 1.1.5
 
-- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
-  CAT7 de 24 portas, tendo este o tamanho de 1U.
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo serão necessários dois patch panels
+  CAT7 de 24 portas, tendo cada um destes o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 ##### Sala 1.1.8
 
-- Visto esta ter associado 26 outlets, existirão 26 ligações logo será necessário dois patch panels
-  CAT7 de 24 portas, tendo este o tamanho de 1U.
+- Visto esta ter associado 27 outlets, existirão 27 ligações logo serão necessários dois patch panels
+  CAT7 de 24 portas, tendo cada um destes o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
-
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 
 ### Inventário Total Piso 1:
 
-| Equipamento        |	Quantidade  |
-|--------------------|--------------|
-|Access Point 		 |	1		    |
-|Cabo CAT7 (m)       |              |
-|Cabo Fibra Ótica (m)|              |
-|Outlets	         |	75  	    |
+| Equipamento                           |	Quantidade  |
+|---------------------------------------|-------------- |
+|Access Point 		                    |	1		    |
+|Cabo CAT7 (m)                          |  944,15       |
+|Cabo Fibra Ótica (m)                   |               |
+|Fiber Patch Panel 1U (24 entradas)		|	3			|
+|Outlets	                            |	75  	    |
+|Patch Panel ISO 8877 1U (24 entradas)	|	6			|
+|Telecommunication Enclosure 12U	    |	3			|
 
-### Inventário Total Do Edifício 
 
-| Equipamento        |	Quantidade  |
-|--------------------|--------------|
-|Access Point 		 |	2		    |
-|Cabo CAT7 (m)       |  572,14      |
-|Cabo Fibra Ótica (m)|              |
-|Outlets	         |	138		    |
+### Inventário Total Do Edifício:
+
+| Equipamento                           |	Quantidade  |
+|---------------------------------------|---------------|
+|Access Point 		                    |	2		    |
+|Cabo CAT7 (m)                          |  1537,72      |
+|Cabo Fibra Ótica (m)                   |               |
+|Fiber Patch Panel 1U (24 entradas)		|	8			|
+|Outlets	                            |	138		    |
+|Patch Panel ISO 8877 1U (24 entradas)	|	9			|
+|Telecommunication Enclosure 6U      	|	1			|
+|Telecommunication Enclosure 9U     	|	2			|
+|Telecommunication Enclosure 12U	    |	4			|
 
