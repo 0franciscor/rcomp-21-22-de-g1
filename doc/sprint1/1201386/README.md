@@ -26,7 +26,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 |1.0.9  |4,6296          	|5,9259     	 |27,4345	  |	6	            	 |
 |1.0.10 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Plano da Cablagem Estruturada:
+### Plano Esquemático:
 
 ![1201386](1201386_Building1_Floor0_Cabos.jpg)
 
@@ -213,6 +213,15 @@ Obtendo-se um total de 38,46 m de cabo CAT 7.
 
 Obtendo-se um total de 88,78 m de cabo CAT 7.
 
+###### Access Point
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 21,43                                                           |
+
+Obtendo-se um total de 21,43 m de cabo CAT 7.
+
+
 ##### Cabo Fibra Ótica
 
 - A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.9
@@ -239,36 +248,35 @@ A estratégia de super dimensionamento aplicada foi a seguinte:
   Como o IC conecta-se ao HC e ao MC através de cabo de fibra ótica será necessário mais um Fiber Patch Panel, 
   tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 6U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 9U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 18U.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficará instalado.
 
 - Será necessário um Fiber Patch Panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 2U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 1U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 3U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 2U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 9U.
-
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 6U.
 
 ##### Sala 1.0.7
 
-- Visto esta ter associado 18 outlets, existirão 18 ligações logo será necessário um patch panel
+- Visto esta ter associado 18 outlets, existirão 19 ligações logo será necessário um patch panel
   CAT7 de 24 portas, tendo este o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 4U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 2U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 4U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 9U.
 
 ##### Sala 1.0.9
 
@@ -278,20 +286,25 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será 
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
   
-- O espaço guardado para os equipamentos ativos terá um tamanho de 4U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 2U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 4U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 9U.
 
 ### Inventário Total Piso 0:
 
-| Equipamento        |	Quantidade  |
-|--------------------|--------------|
-|Access Point 		 |	1		    |
-|Cabo CAT7 (m)       |  572,14      |
-|Cabo Fibra Ótica (m)|              |
-|Outlets	         |	57		    |
+| Equipamento                           |	Quantidade  |
+|---------------------------------------|---------------|
+|Access Point 		                    |	1		    |
+|Cabo CAT7 (m)                          |  593,57       |
+|Cabo Fibra Ótica (m)                   |               |
+|Fiber Patch Panel 1U (24 entradas)		|	5			|
+|Outlets	                            |	57		    |
+|Patch Panel ISO 8877 1U (24 entradas)	|	3			|
+|Telecommunication Enclosure 6U 	    |	1			|
+|Telecommunication Enclosure 9U 	    |	2			|
+|Telecommunication Enclosure 12U     	|	1			|
 
 ## Edifico 1 - Piso 1
 
@@ -317,7 +330,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 |1.1.13 |5               	|2,7778     	 |13,889	  |	4	            	 |
 |1.1.14 |7,2222          	|5,9259     	 |42,798	  |	10	            	 |
 
-### Plano da Cablagem Estruturada:
+### Plano Esquemático:
 
 ![1201386](1201386_Building1_Floor1_Cabos.jpg)
 
@@ -368,6 +381,8 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 
 #### Cabos Utilizados e Respetivas Quantidades
+
+##### Cabo de Cobre CAT 7
 
 ###### Sala 1.1.2
 
@@ -534,6 +549,22 @@ Obtendo-se um total de 33,04 m de cabo CAT 7.
 
 Obtendo-se um total de 209,18 m de cabo CAT 7.
 
+###### Access Point
+
+| Outlet | Quantidade de cabo CAT 7 necessário desde o CP até ao outlet (m)|
+|--------|-----------------------------------------------------------------|
+| 1      | 19,57                                                           |
+
+Obtendo-se um total de 19,57 m de cabo CAT 7.
+
+##### Cabo Fibra Ótica
+
+- A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.9
+  até o HC do piso é de 36,34m.
+
+- A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.7
+  até o HC do piso é de 35,09m.
+
 
 #### Gabinetes de Telecomunicações
 
@@ -545,64 +576,71 @@ A estratégia de super dimensionamento aplicada foi a seguinte:
 
 ##### Sala 1.1.1
 
-- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
-  CAT7 de 48 portas, tendo este o tamanho de 2U.
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo serão necessários dois patch panels
+  CAT7 de 24 portas, tendo cada um destes o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo e como o HC 
   conecta-se ao IC também com cabo de fibra ótica, será necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de 6U.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de .
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
-
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 ##### Sala 1.1.5
 
-- Visto esta ter associado 24 outlets, existirão 24 ligações logo será necessário um patch panel
-  CAT7 de 24 portas, tendo este o tamanho de 1U.
+- Visto esta ter associado 24 outlets, existirão 24 ligações logo serão necessários dois patch panels
+  CAT7 de 24 portas, tendo cada um destes o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 ##### Sala 1.1.8
 
-- Visto esta ter associado 26 outlets, existirão 26 ligações logo será necessário dois patch panels
-  CAT7 de 24 portas, tendo este o tamanho de 1U.
+- Visto esta ter associado 27 outlets, existirão 27 ligações logo serão necessários dois patch panels
+  CAT7 de 24 portas, tendo cada um destes o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
   necessário 1 fibre patch panel, tendo este o tamanho de 1U.
 
-- O espaço guardado para os equipamentos ativos terá um tamanho de.
+- O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
 
-- Irá ser adicionado, para além do valor já calculado, um tamanho extra de.
+- Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
 
-- Posto isto, o tamanho total para este gabinete de telecomunicações será de.
-
+- Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 
 ### Inventário Total Piso 1:
 
-| Equipamento        |	Quantidade  |
-|--------------------|--------------|
-|Access Point 		 |	1		    |
-|Cabo CAT7 (m)       |  924,58      |
-|Cabo Fibra Ótica (m)|              |
-|Outlets	         |	75  	    |
+| Equipamento                           |	Quantidade  |
+|---------------------------------------|-------------- |
+|Access Point 		                    |	1		    |
+|Cabo CAT7 (m)                          |  944,15       |
+|Cabo Fibra Ótica (m)                   |               |
+|Fiber Patch Panel 1U (24 entradas)		|	3			|
+|Outlets	                            |	75  	    |
+|Patch Panel ISO 8877 1U (24 entradas)	|	6			|
+|Telecommunication Enclosure 12U	    |	3			|
 
-### Inventário Total Do Edifício 
 
-| Equipamento        |	Quantidade  |
-|--------------------|--------------|
-|Access Point 		 |	2		    |
-|Cabo CAT7 (m)       |  1496,72     |
-|Cabo Fibra Ótica (m)|              |
-|Outlets	         |	138		    |
+### Inventário Total Do Edifício:
+
+| Equipamento                           |	Quantidade  |
+|---------------------------------------|---------------|
+|Access Point 		                    |	2		    |
+|Cabo CAT7 (m)                          |  1537,72      |
+|Cabo Fibra Ótica (m)                   |               |
+|Fiber Patch Panel 1U (24 entradas)		|	8			|
+|Outlets	                            |	138		    |
+|Patch Panel ISO 8877 1U (24 entradas)	|	9			|
+|Telecommunication Enclosure 6U      	|	1			|
+|Telecommunication Enclosure 9U     	|	2			|
+|Telecommunication Enclosure 12U	    |	4			|
 
