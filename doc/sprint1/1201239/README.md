@@ -377,6 +377,8 @@ The mentioned cables include copper and fiber cabling.*
 
 ### Access Point
 
+![Building2_floor1_AP](resources/Building2_Floor1_AP.jpg)
+
 > Since the dimensions of the building are reduced, it was opted for a single Access Point Strategy.\
 > This means that the only AP placed on the building is located on Floor 1 on the ceiling of room 2.1.7.\
 > It is powered thanks to a Power Over Ethernet device and the chosen Wi-Fi Channel was 1 (1,6,11 are the best ones, since they don't overlap themselves in terms of frequency).\
