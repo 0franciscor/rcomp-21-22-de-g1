@@ -30,6 +30,10 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 ![1201386](1201386_Building1_Floor0_Cabos.jpg)
 
+### Legenda:
+
+![1201386](1201386_Building1_Floor0_legenda.jpg)
+
 ### Justificações Relevantes:
   
 #### Outlets
@@ -52,11 +56,12 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 - Neste andar apenas foi colocado um access point, dado as dimensões do edifício.
 
-- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7.
+- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7 e concede uma cobertura circular de aproximadamente 50 m de
+   diâmetro.
 
-- O AP ficará localizado 
+- O canal para o AP deste piso será o 11, para evitar interferências entre sinais.
 
-- O canal para o AP deste piso será o 11.
+- A sua localização foi pensada tendo em atenção também que o sinal dos access points pode ser acessado nos dois pisos.
 
 ##### Alcance do Access Point
 
@@ -65,7 +70,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 ####  Consolidation Points
 
 - Ao todo neste piso temos 2 Consolidation Points. 
-  Um na sala 1.0.7, que é responsável por controlar as salas 1.0.5, 1.0.6, 1.0.7 e 1.0.8, ficando responsável por 18 outlets.
+  Um na sala 1.0.7, que é responsável por controlar as salas 1.0.5, 1.0.6, 1.0.7 e 1.0.8 e pela tomada para o access point, ficando responsável por 19 outlets.
   O outro encontra-se na sala 1.0.9, que é responsável por controlar as salas 1.0.9 e 1.0.10, ficando responsável por 16 outlets.
   
 - A ligação do HC com os CP's é feita através do underfloor cable raceway.
@@ -78,6 +83,9 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 - O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Horizontal cross-connect
   foi colocado nesta sala localizado no mesmo armário técnico que o Intermediate cross-connect.
   
+- O comprimento de cada cabo é inferior a 90 m.
+
+- A distância em linha reta entre o HC e o outlet inferior a 80 m.
 ####  Intermediate cross-connect
 
 - O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Intermediate cross-connect
@@ -85,6 +93,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 - O IC recebe fibra ótica do MC e passa a fibra ótica para os dois HC's deste edifício.
 
+- Cabos entre o HC e o IC limitados a 500m.
 ####  Main cross-connect
 
 - O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o main cross-connect
@@ -92,9 +101,18 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 - O Main cross-connect é responsável por distribuir para o Intermediate cross-connect deste edifício e dos outros
   a fibra ótica monomodo através da passagem para o exterior, por este motivo do MC sai 1 cabo de fibra ótica monomodo
-  que se conecta ao IC deste edifício.
+  que se conecta ao IC deste edifício e 4 cabos para os IC's dos outros edifícios.
+  
+- Cabos entre o MC e o IC limitados a 1500m.
   
 #### Cabos Utilizados e Respetivas Quantidades
+
+- O tipo de cabo utilizado é Copper cable CAT7, para ligar HC's/CP's a outlets.
+
+- Devido a não existirem custos associados ao projeto e a uma maior velocidade da transmissão, optei por fazer a ligação entre
+  o HC e os CP's com cabo de fibra ótica monomodo de 8 fios, para ter em conta também a redundância.
+
+- Usa-se Fibra Ótica monomodo de 8 fios na ligação do IC ao HC e do MC ao IC.
 
 ##### Cabo de Cobre CAT7
 
@@ -225,7 +243,6 @@ Obtendo-se um total de 88,78 m de cabo CAT 7.
 
 Obtendo-se um total de 21,43 m de cabo CAT 7.
 
-
 ##### Cabo Fibra Ótica
 
 - A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.9
@@ -236,20 +253,24 @@ Obtendo-se um total de 21,43 m de cabo CAT 7.
 
 - A quantidade de cabo de fibra ótica necessária desde o MC até o IC do edifício é de 4,85 m.
 
-- A quantidade de cabo de fibra ótica necessária desde o IC e o HC do piso é de m.
+- A quantidade de cabo de fibra ótica necessária desde o IC e o HC do piso é de 0,5 m.
 
 - A quantidade de cabo de fibra ótica necessária desde o MC até a saída do edifício é de 13,17 m, 
   para apenas um fio.
 
-Obtendo-se um total de 128,96 m de cabo de fibra ótica.
+Obtendo-se um total de 129,46 m de cabo de fibra ótica.
 
 #### Gabinetes de Telecomunicações 
+
+Encontram-se posicionados a 1,5 m do chão.
 
 A estratégia de super dimensionamento aplicada foi a seguinte:
 
 - Determinar o tamanho dos gabinetes de telecomunicações multiplicando por quatro
   a quantidade de espaço necessária para os patch-panels alojados e arredondar para o próximo
   tamanho disponível comercialmente.
+
+Foi tido também em consideração que o número máximo a entrar num gabinete de telecomunicações é 200. 
 
 ##### Sala 1.0.2
 
@@ -278,7 +299,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ##### Sala 1.0.7
 
-- Visto esta ter associado 18 outlets, existirão 19 ligações logo será necessário um patch panel
+- Visto esta ter associado 19 outlets, existirão 19 ligações logo será necessário um patch panel
   CAT7 de 24 portas, tendo este o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
@@ -306,18 +327,25 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ### Inventário Total Piso 0:
 
-| Equipamento                           |	Quantidade  |
-|---------------------------------------|---------------|
-|Access Point 		                    |	1		    |
-|Cabo CAT7 (m)                          |   593,57      |
-|Cabo Fibra Ótica (m)                   |   128,96      |
-|Fiber Patch Panel 1U (24 entradas)		|	5			|
-|Outlets	                            |	57		    |
-|Patch cords                            |               |
-|Patch Panel ISO 8877 1U (24 entradas)	|	3			|
-|Telecommunication Enclosure 6U 	    |	1			|
-|Telecommunication Enclosure 9U 	    |	2			|
-|Telecommunication Enclosure 12U     	|	1			|
+| Equipamento                                   |	Quantidade  |
+|-----------------------------------------------|---------------|
+|Cabo CAT7 (m)                                  |   593,57      |
+|Cabo Fibra Ótica (m)                           |   129,46      |
+|Copper Patch cords (m)                         |   316,5       |
+|Fiber Patch cords (m)                          |   59,5        |
+|Fiber Patch Panel 1U                       	|	5			|
+|Outlets	                                    |	57		    |
+|Patch Panel ISO 8877 1U (24 entradas)        	|	3			|
+|RJ 45 Fêmea (2 por cada cabo de cobre)     	|	114			|
+|RJ 45 Macho (2 por cada patch cord de cobre)	|   258         |
+|Telecommunication Enclosure 6U 	            |	1			|
+|Telecommunication Enclosure 9U 	            |	2			|
+|Telecommunication Enclosure 12U             	|	1			|
+
+#### Justificações Relevantes
+
+- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
+- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
 
 ## Edifico 1 - Piso 1
 
@@ -347,6 +375,10 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ![1201386](1201386_Building1_Floor1_Cabos.jpg)
 
+### Legenda:
+
+![1201386](1201386_Building1_Floor1_legenda.jpg)
+
 ### Justificações Relevantes:
 
 #### Outlets
@@ -369,7 +401,8 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 - Neste andar apenas foi colocado um access point, dado as dimensões do edifício.
 
-- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7.
+- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7 e concede uma cobertura circular de aproximadamente 50 m de
+  diâmetro.
 
 - O canal para o AP deste piso será o 6, para evitar interferências entre sinais.
 
@@ -385,8 +418,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 - Ao todo neste piso temos 2 Consolidation Points.
   Um na sala 1.1.5, que é responsável por controlar as salas 1.1.4, 1.1.5, 1.1.6, 1.1.9, 1.1.10 e 1.1.11, ficando responsável por 24 outlets.
-  O outro encontra-se na sala 1.1.8, que é responsável por controlar as salas 1.1.7, 1.1.8, 1.1.12, 1.1.13 e 1.1.14, ficando responsável por 27 outlets.
-
+  O outro encontra-se na sala 1.1.8, que é responsável por controlar as salas 1.1.7, 1.1.8, 1.1.12, 1.1.13 e 1.1.14 e o outlet para o access point, ficando responsável por 27 outlets.
   
 ####  Horizontal cross-connect
 
@@ -398,16 +430,18 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 - O HC é responsável pelas salas 1.1.2 e 1.1.3.
 
+- O comprimento de cada cabo é inferior a 90 m.
+
+- A distância em linha reta entre o HC e o outlet inferior a 80 m.
+
 #### Cabos Utilizados e Respetivas Quantidades
 
 - O tipo de cabo utilizado é Copper cable CAT7, para ligar HC's/CP's a outlets.
 
 - Devido a não existirem custos associados ao projeto e a uma maior velocidade da transmissão, optei por fazer a ligação entre 
-  o HC e os CP's com cabo de fibra ótica monomodo. 
+  o HC e os CP's com cabo de fibra ótica monomodo de 8 fios, para ter em conta também a redundância. 
   
-- Usa-se Fibra Ótica na ligação do MC ao IC e do IC aos dois HC's
-  
-- Cada cabo cumpre a regra de não exceder o comprimento de 90 metros.
+- Usa-se Fibra Ótica monomodo de 8 fios na ligação do IC ao HC.
 
 ##### Cabo de Cobre CAT 7
 
@@ -604,7 +638,9 @@ A estratégia de super dimensionamento aplicada foi a seguinte:
 - Determinar o tamanho dos gabinetes de telecomunicações multiplicando por quatro 
   a quantidade de espaço necessária para os patch-panels alojados e arredondar para o próximo 
   tamanho disponível comercialmente.
-  
+
+Foi tido também em consideração que o número máximo a entrar num gabinete de telecomunicações é 200.
+
 Encontram-se posicionados a 1,5 m do chão.
 
 ##### Sala 1.1.1
@@ -649,38 +685,40 @@ Encontram-se posicionados a 1,5 m do chão.
 
 - Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
-
 ### Inventário Total Piso 1:
 
-| Equipamento                           |	Quantidade  |
-|---------------------------------------|-------------- |
-|Access Point 		                    |	1		    |
-|Cabo CAT7 (m)                          |   944,15      |
-|Cabo Fibra Ótica (m)                   |   65,28       |
-|Fiber Patch Panel 1U (24 entradas)		|	3			|
-|Outlets	                            |	75  	    |
-|Patch cords                            |               |
-|Patch Panel ISO 8877 1U (24 entradas)	|	6			|
-|Telecommunication Enclosure 12U	    |	3			|
+| Equipamento                                   |	Quantidade  |
+|-----------------------------------------------|-------------- |
+|Cabo CAT7 (m)                                  |   944,15      |
+|Cabo Fibra Ótica (m)                           |   65,28       |
+|Copper Patch cords (m)                         |   442,5       |
+|Fiber Patch cords (m)                          |   36          |
+|Fiber Patch Panel 1U           	        	|	3			|
+|Outlets	                                    |	75  	    |
+|Patch Panel ISO 8877 1U (24 entradas)	        |	6			|
+|RJ 45 Fêmea (2 por cada cabo de cobre)     	|	150			|
+|RJ 45 Macho (2 por cada patch cord de cobre)	|   438         |
+|Telecommunication Enclosure 12U	            |	3			|
 
 #### Justificações Relevantes
 
 - Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
 - Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
 
-
 ### Inventário Total Do Edifício:
 
-| Equipamento                           |	Quantidade  |
-|---------------------------------------|---------------|
-|Access Point 		                    |	2		    |
-|Cabo CAT7 (m)                          |   1537,72     |
-|Cabo Fibra Ótica (m)                   |   194,24      |
-|Fiber Patch Panel 1U (24 entradas)		|	8			|
-|Outlets	                            |	138		    |
-|Patch cords                            |               |
-|Patch Panel ISO 8877 1U (24 entradas)	|	9			|
-|Telecommunication Enclosure 6U      	|	1			|
-|Telecommunication Enclosure 9U     	|	2			|
-|Telecommunication Enclosure 12U	    |	4			|
+| Equipamento                                   |	Quantidade  |
+|-----------------------------------------------|---------------|
+|Cabo CAT7 (m)                                  |   1537,72     |
+|Cabo Fibra Ótica (m)                           |   194,74      |
+|Copper Patch cords (m)                         |   759         |
+|Fiber Patch cords (m)                          |   95,5        |
+|Fiber Patch Panel 1U            		        |	8			|
+|Outlets	                                    |	138		    |
+|Patch Panel ISO 8877 1U (24 entradas)	        |	9			|
+|RJ 45 Fêmea (2 por cada cabo de cobre)     	|	264			|
+|RJ 45 Macho (2 por cada patch cord de cobre)	|   696         |
+|Telecommunication Enclosure 6U      	        |	1			|
+|Telecommunication Enclosure 9U     	        |	2			|
+|Telecommunication Enclosure 12U	            |	4			|
 
