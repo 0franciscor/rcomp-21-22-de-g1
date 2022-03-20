@@ -3,9 +3,18 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 (This folder is to be created/edited by the team member 1201382 only)
 
 ## These were the followed structured cabling standards:
-- Minimum of 2 outlets per work area.
-- Ratio of 2 outlets for every 10 square meters of area
 
+- Minimum of 2 outlets per work area.
+- Proportion of 2 outlets for every 10 square meters of area.
+- Patch cords can reach up to 5 meters.
+- There must always be an outlet less than 3 meters from the user's equipment.
+- Work areas require copper cable outlets.
+- Each cable (whatever type) length should be less than 90 meters.
+- The total area covered by a horizontal cross-connect should be less than 1000 m2.
+- Straight line distance between the horizontal cross-connect and the outlet should be less than 80 meters.
+- Cables connecting an intermediate cross-connect (IC) to a horizontal cross-connect (HC) are limited to 500 meters in length.
+- Cables connecting the main cross-connect (MC) to an IC are limited to 1500 meters in length.
+- The number of cables entering a telecommunications cabinet must always be less than 200.
 
 ## Important remarks
 
@@ -49,10 +58,11 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 
 ### Cables Layout:
 Bearing in mind that on this floor, the cables are passed under the ground, the following procedure was carried out:
-![Floor0_cablesLayout](resources/Building4_GroundFloor_cables.png)
+
+![Floor0_cablesLayout](resources/Building4_GroundFloor_Cables.png)
 
 ### Access Point
-* Bearing in mind that an Access Point covers a radius of 25m, with the building having 20x20x7m, choosing a midpoint and placing there the access point, the entire building will be covered.
+* Bearing in mind that an Access Point covers a radius of 25m, with the floor having 20x20x7m, choosing a midpoint and placing there the access point, the entire floor will be covered.
 * Therefore, the Acess Point is located in the room 4.0.2.
 * The acess point is connected to an outlet using a CAT7 copper cable.
 
@@ -64,21 +74,20 @@ Bearing in mind that on this floor, the cables are passed under the ground, the 
 * The connection to the HC is via the underfloor cable raceway.
 
 ### Horizontal cross-connect
-* Bearing in mind that one HC covers about 1000m2 and the building has 400m2, one HC is enough for the whole building.
+* Bearing in mind that one HC covers about 1000m2 and the floor has 400m2, one HC is enough for the whole floor.
 
 ### Intermediate cross-connect
+* The building's datacentre is located in room 4.0.5 so the Intermediate cross-connect was placed in this room located in the same technical cabinet as the Horizontal cross-connect.
+* The IC receives optical fiber from the MC and passes the optical fiber to the two HC's in this building.
 
 ### Main cross-connect
-
-![Floor0_cablesLayout](resources/Building4_GroundFloor_AccessPoint.png)
+* The campus datacentre is located in room 1.0.2 of building 1 so the main cross-connect was placed in this room.
 
 ### Cables used and respective quantities
 * The outlets are numbered from left to right, top to bottom.
 
 ##### CAT7 Copper Cable
-
 ###### Sala 4.0.1.
-
 | Outlet |	Quantity CAT7 (m) |	
 |-------------|-------------|
 | 1 | 13,46	|
@@ -91,11 +100,8 @@ Bearing in mind that on this floor, the cables are passed under the ground, the 
 | 8 | 7,98  |
 | 9 | 6,60  |
 | 10 | 5,22 |
-
 Total = 93,41m
-
 ###### Sala 4.0.2.
-
 | Outlet |	Quantity CAT7 (m) |	
 |-------------|-------------|
 | 1 | 7,96	|
@@ -104,11 +110,8 @@ Total = 93,41m
 | 4 | 6,53 |
 | 5 | 4,34 |
 | 6 | 2,14 |
-
 Total = 30.31m
-
 ###### Sala 4.0.3.
-
 | Outlet |	Quantity CAT7 (m) |	
 |-------------|-------------|
 | 1 | 5,69 |
@@ -123,38 +126,40 @@ Total = 30.31m
 | 10 | 9,58 |
 | 11 | 7,38 |
 | 12 | 5,18 |
-
 Total = 65,19m
-
 ###### Sala 4.0.6.
-
 | Outlet |	Quantity CAT7 (m) |	
 |-------------|-------------|
 | 1 | 7,15 |
 | 2 | 5,05 |
 | 3 | 5,45 | 
 | 4 | 3,35 |
-
 Total = 21m
-
 ###### Sala 4.0.7.
-
 | Outlet |	Quantity CAT7 (m) |	
 |-------------|-------------|
 | 1 | 12,21 |
 | 2 | 10,2 |
 | 3 | 10,63 | 
 | 4 | 8,62 |
-
 Total = 41,66m
 
 ##### Fiber Optic Cable
-
 * From the HC to the CP (room 4.0.4) - 18,28m
 * Between CPs (rooms 4.0.2 and 4.0.4) - 3,67m
 * From MC and other building's ICs - 7,55m (indoors)
 
 ##### Telecommunications Offices
+###### Sala 4.0.2.
+* Since it has associated 16 outlets, there will be 16 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
+###### Sala 4.0.4.
+* Since it has associated 18 outlets, there will be 18 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
+###### Sala 4.1.6.
+* Since the HC connects to the IC and the 2 CP's will need a Fiber Patch Panel, which is 1U in size. As the IC connects to the HC and MC through fiber optic cable, one more Fiber Patch Panel will be needed, which is 1U in size.
+* Conecta diretamento tbm a 8 outlets.
+* O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
+* Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
+* Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
 ### Inventory:
 
@@ -207,16 +212,23 @@ In order to calculate the area of division 4.1.1, the division was divided into 
 ![Floor1_cablesLayout](resources/Building4_FloorOne_cables.png)
 
 ### Access Point
-* Bearing in mind that an Access Point covers a radius of 25m, with the building having 40x40x7m, choosing a midpoint and placing there the acess point, the entire building will be covered.
-* Therefore, the Acess Point is located in the room 4.0.2.
+* Bearing in mind that an Access Point covers a radius of 25m, with the floor having 20x20x7m, choosing a midpoint and placing there the acess point, the entire floor will be covered.
+* Therefore, the Acess Point is located between the rooms 4.1.2 and 4.1.3. .
+* The acess point is connected to the 4.1.1 room's consolidation point using a CAT7 copper cable.
+
+* ![Floor1_acessPoint](resources/Building4_FloorOne_AccessPoint_Radius.png)
+
 
 ### Consolidation Points
 * On this floor, were placed 3 consolidation points - one in the room 4.1.1. and the other in 4.1.3. and 4.1.7
 * The connection to the HC is via the underfloor cable raceway.
 
 ### Horizontal cross-connect
+* * Bearing in mind that one HC covers about 1000m2 and the floor has 400m2, one HC is enough for the whole floor.
+
 
 ### Intermediate cross-connect
+* Não tem IC este piso
 
 ### Main cross-connect
 
@@ -334,6 +346,23 @@ Total = 64,29m
 * From the HC to the CP (room 4.1.7) - 18,98m
 
 ##### Telecommunications Offices
+
+###### Sala 4.1.1.
+* Since it has associated 18 outlets, there will be 18 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
+
+###### Sala 4.1.4.
+* Since it has associated 16 outlets, there will be 16 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
+
+###### Sala 4.1.6.
+* Since the HC connects to the IC and the 3 CP's will need a Fiber Patch Panel, which is 1U in size. As the IC connects to the HC and MC through fiber optic cable, one more Fiber Patch Panel will be needed, which is 1U in size.
+* O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
+* Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
+* Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
+
+###### Sala 4.1.7.
+* Since it has associated 24 outlets, there will be 24 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
+
+
 
 ### Inventory:
 
