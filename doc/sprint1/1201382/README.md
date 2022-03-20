@@ -30,6 +30,10 @@
 >>
 >> ## Floor 0 
 >>![Building4_GroundFloor.png](resources/Building4_GroundFloor.png)
+>>
+>>### Legenda:
+>>
+>>![1201382](resources/1201382_Building4_Floor0_legenda.jpg)
 >>### Observations regarding the design of the Floor 0
 >>* The ground floor has an underfloor cable raceway connected to the external technical ditch. Access to the underfloor cable raceway is available at points marked over the plan. The ceiling height on this floor is 4 meters.
 >>### Individual Rooms' Dimensions:
@@ -177,6 +181,9 @@
 >>## Floor 1
 >>![Building4_FloorOne.png](resources/Building4_FloorOne.png)
 >>
+> >>### Legenda:
+>>
+>>![1201382](resources/1201382_Building4_Floor1_legenda.jpg)
 >>###Observations regarding the design of the Floor 1
 >>* The ceiling height on this floor is 3 meters, but there’s a removable dropped ceiling, placed 2.5 meters from the ground, and covering this entire floor. 
 >>* The space over the dropped ceiling is perfect to install cable raceways and wireless access-points.
