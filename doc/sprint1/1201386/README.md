@@ -258,7 +258,7 @@ Obtendo-se um total de 21,43 m de cabo CAT 7.
 - A quantidade de cabo de fibra ótica necessária desde o MC até a saída do edifício é de 13,17 m, 
   para apenas um fio.
 
-Obtendo-se um total de 142,63 m de cabo de fibra ótica.
+Obtendo-se um total de 195,31 m de cabo de fibra ótica.
 
 #### Gabinetes de Telecomunicações 
 
@@ -330,8 +330,8 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 | Equipamento                                   |	Quantidade  |
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   593,57      |
-|Cabo Fibra Ótica (m)                           |   142,63      |
-|Copper Patch cords (m)                         |   316,5       |
+|Cabo Fibra Ótica (m)                           |   195,31      |
+|Copper Patch cords (m)                         |   357         |
 |Fiber Patch cords (m)                          |   59,5        |
 |Fiber Patch Panel 1U                       	|	5			|
 |Outlets	                                    |	57		    |
@@ -344,8 +344,8 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 #### Justificações Relevantes
 
-- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
-- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
+- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m (3 × 24 × 0,5).
+- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m por cada outlet.
 
 ## Edifico 1 - Piso 1
 
@@ -691,7 +691,7 @@ Encontram-se posicionados a 1,5 m do chão.
 |-----------------------------------------------|-------------- |
 |Cabo CAT7 (m)                                  |   944,15      |
 |Cabo Fibra Ótica (m)                           |   65,28       |
-|Copper Patch cords (m)                         |   442,5       |
+|Copper Patch cords (m)                         |   447         |
 |Fiber Patch cords (m)                          |   36          |
 |Fiber Patch Panel 1U           	        	|	3			|
 |Outlets	                                    |	75  	    |
@@ -702,16 +702,16 @@ Encontram-se posicionados a 1,5 m do chão.
 
 #### Justificações Relevantes
 
-- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
-- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
+- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m (6 × 24 × 0,5).
+- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m por cada outlet.
 
 ### Inventário Total Do Edifício:
 
 | Equipamento                                   |	Quantidade  |
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   1537,72     |
-|Cabo Fibra Ótica (m)                           |   207,91      |
-|Copper Patch cords (m)                         |   759         |
+|Cabo Fibra Ótica (m)                           |   260,59      |
+|Copper Patch cords (m)                         |   804         |
 |Fiber Patch cords (m)                          |   95,5        |
 |Fiber Patch Panel 1U            		        |	8			|
 |Outlets	                                    |	138		    |
