@@ -243,7 +243,6 @@ Obtendo-se um total de 88,78 m de cabo CAT 7.
 
 Obtendo-se um total de 21,43 m de cabo CAT 7.
 
-
 ##### Cabo Fibra Ótica
 
 - A quantidade de cabo de fibra ótica necessária desde o CP que se encontra na sala 1.0.9
@@ -328,24 +327,25 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ### Inventário Total Piso 0:
 
-| Equipamento                           |	Quantidade  |
-|---------------------------------------|---------------|
-|Cabo CAT7 (m)                          |   593,57      |
-|Cabo Fibra Ótica (m)                   |   129,46      |
-|Copper Patch cords (m)                 |   316         |
-|Fiber Patch cords (m)                  |   59,5        |
-|Fiber Patch Panel 1U               	|	5			|
-|Outlets	                            |	57		    |
-|Patch Panel ISO 8877 1U (24 entradas)	|	3			|
-|Telecommunication Enclosure 6U 	    |	1			|
-|Telecommunication Enclosure 9U 	    |	2			|
-|Telecommunication Enclosure 12U     	|	1			|
+| Equipamento                                   |	Quantidade  |
+|-----------------------------------------------|---------------|
+|Cabo CAT7 (m)                                  |   593,57      |
+|Cabo Fibra Ótica (m)                           |   129,46      |
+|Copper Patch cords (m)                         |   316         |
+|Fiber Patch cords (m)                          |   59,5        |
+|Fiber Patch Panel 1U                       	|	5			|
+|Outlets	                                    |	57		    |
+|Patch Panel ISO 8877 1U (24 entradas)        	|	3			|
+|RJ 45 Fêmea (2 por cada cabo de cobre)     	|	114			|
+|RJ 45 Macho (2 por cada patch cord de cobre)	|   256         |
+|Telecommunication Enclosure 6U 	            |	1			|
+|Telecommunication Enclosure 9U 	            |	2			|
+|Telecommunication Enclosure 12U             	|	1			|
 
 #### Justificações Relevantes
 
 - Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
 - Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
-
 
 ## Edifico 1 - Piso 1
 
@@ -419,7 +419,6 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 - Ao todo neste piso temos 2 Consolidation Points.
   Um na sala 1.1.5, que é responsável por controlar as salas 1.1.4, 1.1.5, 1.1.6, 1.1.9, 1.1.10 e 1.1.11, ficando responsável por 24 outlets.
   O outro encontra-se na sala 1.1.8, que é responsável por controlar as salas 1.1.7, 1.1.8, 1.1.12, 1.1.13 e 1.1.14, ficando responsável por 27 outlets.
-
   
 ####  Horizontal cross-connect
 
@@ -686,38 +685,40 @@ Encontram-se posicionados a 1,5 m do chão.
 
 - Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
 
-
 ### Inventário Total Piso 1:
 
-| Equipamento                           |	Quantidade  |
-|---------------------------------------|-------------- |
-|Cabo CAT7 (m)                          |   944,15      |
-|Cabo Fibra Ótica (m)                   |   65,28       |
-|Copper Patch cords (m)                 |   442         |
-|Fiber Patch cords (m)                  |   36          |
-|Fiber Patch Panel 1U           		|	3			|
-|Outlets	                            |	75  	    |
-|Patch Panel ISO 8877 1U (24 entradas)	|	6			|
-|Telecommunication Enclosure 12U	    |	3			|
+| Equipamento                                   |	Quantidade  |
+|-----------------------------------------------|-------------- |
+|Cabo CAT7 (m)                                  |   944,15      |
+|Cabo Fibra Ótica (m)                           |   65,28       |
+|Copper Patch cords (m)                         |   442         |
+|Fiber Patch cords (m)                          |   36          |
+|Fiber Patch Panel 1U           	        	|	3			|
+|Outlets	                                    |	75  	    |
+|Patch Panel ISO 8877 1U (24 entradas)	        |	6			|
+|RJ 45 Fêmea (2 por cada cabo de cobre)     	|	150			|
+|RJ 45 Macho (2 por cada patch cord de cobre)	|   436         |
+|Telecommunication Enclosure 12U	            |	3			|
 
 #### Justificações Relevantes
 
 - Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
 - Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
 
-
 ### Inventário Total Do Edifício:
 
-| Equipamento                           |	Quantidade  |
-|---------------------------------------|---------------|
-|Cabo CAT7 (m)                          |   1537,72     |
-|Cabo Fibra Ótica (m)                   |   194,74      |
-|Copper Patch cords (m)                 |   758         |
-|Fiber Patch cords (m)                  |   95,5        |
-|Fiber Patch Panel 1U            		|	8			|
-|Outlets	                            |	138		    |
-|Patch Panel ISO 8877 1U (24 entradas)	|	9			|
-|Telecommunication Enclosure 6U      	|	1			|
-|Telecommunication Enclosure 9U     	|	2			|
-|Telecommunication Enclosure 12U	    |	4			|
+| Equipamento                                   |	Quantidade  |
+|-----------------------------------------------|---------------|
+|Cabo CAT7 (m)                                  |   1537,72     |
+|Cabo Fibra Ótica (m)                           |   194,74      |
+|Copper Patch cords (m)                         |   758         |
+|Fiber Patch cords (m)                          |   95,5        |
+|Fiber Patch Panel 1U            		        |	8			|
+|Outlets	                                    |	138		    |
+|Patch Panel ISO 8877 1U (24 entradas)	        |	9			|
+|RJ 45 Fêmea (2 por cada cabo de cobre)     	|	264			|
+|RJ 45 Macho (2 por cada patch cord de cobre)	|   692         |
+|Telecommunication Enclosure 6U      	        |	1			|
+|Telecommunication Enclosure 9U     	        |	2			|
+|Telecommunication Enclosure 12U	            |	4			|
 
