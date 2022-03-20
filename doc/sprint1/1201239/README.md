@@ -425,7 +425,7 @@ The mentioned cables include copper and fiber cabling.*
 > So, Structured Cabling Standards indicate that a system should have parallel connections to its elements. If that's a system characteristic, if a connection cable fails, others will resume its functionality.\
 > Not only that, but it also allows for load balancing on the network.
 >
-> Let's look at a Real Work Application 
+> Let's look at a Real Work Application: 
 >> Applying this concept to the in-development Project, multiple cables should connect the Building 1 to other buildings. The buildings which don't contain the MCC should also be interconnected.\
 > Inside building 2, the connections between the building's IC and floor 1 HC should be doubled or even tripled and HC's and CP's cables should also be multiplied.\
 > This would make the total fiber optic length rise to 106,88m. However, it would make the network failproof since everytime a cable failed, failover would be an option and other connections would take Place.  
