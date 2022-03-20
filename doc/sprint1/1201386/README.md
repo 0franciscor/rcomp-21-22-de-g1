@@ -702,23 +702,23 @@ Encontram-se posicionados a 1,5 m do chão.
 
 #### Justificações Relevantes
 
-- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m (6 × 24 × 0,5).
+- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m.
 - Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m por cada outlet.
 
 ### Inventário Total Do Edifício:
 
-| Equipamento                                   |	Quantidade  |
-|-----------------------------------------------|---------------|
-|Cabo CAT7 (m)                                  |   1537,72     |
-|Cabo Fibra Ótica (m)                           |   260,59      |
-|Copper Patch cords (m)                         |   804         |
-|Fiber Patch cords (m)                          |   95,5        |
-|Fiber Patch Panel 1U            		        |	8			|
-|Outlets	                                    |	138		    |
-|Patch Panel ISO 8877 1U (24 entradas)	        |	9			|
-|RJ 45 Fêmea (2 por cada cabo de cobre)     	|	264			|
-|RJ 45 Macho (2 por cada patch cord de cobre)	|   696         |
-|Telecommunication Enclosure 6U      	        |	1			|
-|Telecommunication Enclosure 9U     	        |	2			|
-|Telecommunication Enclosure 12U	            |	4			|
+| Equipamento                                        |	Quantidade  |
+|----------------------------------------------------|---------------|
+| Cabo CAT7 (m)                                      |   1537,72     |
+| Cabo Fibra Ótica (m)                               |   260,59      |
+| Copper Patch cords (m)                             |   804         |
+| Fiber Patch cords (m)                              |   95,5        |
+| Fiber Patch Panel 1U            		                 |	8			|
+| Outlets	                                           |	138		    |
+| Patch Panel ISO 8877 1U (24 entradas)	             |	9			|
+| RJ 45 Fêmea (2 por cada cabo de cobre)     	       |	264			|
+| RJ 45 Macho (2 por cada patch cord de cobre)	      |   696         |
+| Telecommunication Enclosure 6U      	              |	1			|
+| Telecommunication Enclosure 9U     	               |	2			|
+| Telecommunication Enclosure 12U	                   |	4			|
 

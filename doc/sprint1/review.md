@@ -1,35 +1,43 @@
 RCOMP 2021-2022 Project - Sprint 1 review
 =========================================
-### Sprint master: 1111111 ###
-(This file is to be created/edited by the sprint master only)
+### Sprint master: 1200720 ###
+
 # 1. Sprint's backlog #
-(Copy here a summary of the provided sprint's backlog, the same text as for the Planning Meeting)
+
+For each task on this sprint, the output is a structured cabling project. 
+Each team member is free to provide this output in any desired format, it may be a single report or a set of items.
+Whatever the format is, the following items are mandatory and will be subject of assessment:
+- Demonstration of calculations regarding the number of network outlets for each room.
+- Network outlets deployment schematic plan (including outlets for wireless access points) and justification comments.
+- Cross-connects deployment schematic plan and justification comments. 
+- Cable pathways deployment schematic plan and justification comments. 
+- Hardware inventories, including total cable lengths by cable type, appropriate type patch
+  panels, network outlets, telecommunication enclosures of suitable size.
+
+| **Task**    | **Task Description**                                                                            |
+|-------------|-------------------------------------------------------------------------------------------------|
+| **T.1.1**   | _Development of a structured cabling project for building 1, encompassing the campus backbone._ | 
+| **T.1.2**   | _Development of a structured cabling project for building 2._                                   |
+| **T.1.3**   | _Development of a structured cabling project for building 3._                                   |
+| **T.1.4**   | _Development of a structured cabling project for building 4._                                   |
+
+
 # 2. Subtasks assessment #
-One by one, each team member presents his/her outcomes to the team, the team assesses 		the accomplishment of the subtask backlog.
-The subtask backlog accomplishment can be assessed as one of:
 
-  * Totally implemented with no issues
-  * Totally implemented with issues
-  * Partially implemented with no issues
-  * Partially implemented with issues
-
-For the last three cases, a text description of what has not been implemented and present issues must be added.
-Unimplemented features and issues solving is assigned to the same member on the next sprint.
-
-(Examples)
-## 2.1. 1111111 - Structured cable design for building A, floors 2 and 3 #
-### Totally implemented with no issues. ###
-## 2.2. 2222222 - Structured cable design for building B, floors 0 and 1 #
+## 2.1. 1200720 - Structured cable design for building 3, floors 0 and 1 #
 ### Totally implemented with issues. ###
-The number of outlets in room X is incorrect.
-A better solution for the cable pathways between the floor 1 		distributer and rooms Z and Y should be found.
-## 2.3. 3333333 - VLAN devices configuration for building C #
-### Partially implemented with no issues. ###
-The VLAN CCCC with VLANID 400 has not been implemented.
-The VTP configuration is not present in switch DD.
-## 2.4. 4444444 - IPv4 addressing and routing configurations for building D #
-### Partially implemented with issues. ###
-The IPv4 network TTT has not been implemented.
-The routing table at router FF has the wrong mask for network YYY.
-Nodes on network CCC are not receiving the default-gateway by DHCP.
+- Difficulty in understanding how the connection between the path panels and switches will be made.
+- Difficulty in calculating the size of communication offices.
+- 
+## 2.2. 1201239 - Structured cable design for building 2, floors 0 and 1 #
+### Totally implemented with issues. ###
+- Difficulty in positioning the Outlets in larger rooms.
+- Difficulty in decisions taking into account the redundancy of the wires.
 
+## 2.3. 1201382 - Structured cable design for building 4, floors 0 and 1 #
+### Totally implemented with issues. ###
+- Difficulty in positioning the Outlets in larger rooms.
+
+## 2.3. 1201386 - Structured cable design for building 1, floors 0 and 1 #
+### Totally implemented with issues. ###
+- Doubt about the connectors for the fiber wires.

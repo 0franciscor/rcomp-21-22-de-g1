@@ -205,7 +205,7 @@ The mentioned cables include copper and fiber cabling.*
 | Access Point                | 0              |
 | Copper Patch Panel          | 3 (3 * 1U)     |
 | Fiber Optic Patch Panel     | 3 (1U, 1U, 1U) |
-| Telecommunication Enclosure | 2 (16U, 8U)    |
+| Telecommunication Enclosure | 2 (16U, 9U)    |
 
 ## Floor Nº1:
 
@@ -425,7 +425,7 @@ The mentioned cables include copper and fiber cabling.*
 | Access Point                 | 1          |
 | Copper Patch Panel           | 3 (3 * 1U) |
 | Fiber Optic Patch Panel      | 2 (2 * 1U) |
-| Telecommunication Enclosure  | 2 (4U, 8U) |
+| Telecommunication Enclosure  | 2 (6U, 9U) |
 
 
 ===========================================
@@ -445,4 +445,4 @@ The mentioned cables include copper and fiber cabling.*
 | Access Point                | 1                   |
 | Copper Patch Panel          | 6 (6 * 1U)          |
 | Fiber Optic Patch Panel     | 5 (5 * 1U)          |
-| Telecommunication Enclosure | 4 (16U, 2 * 8U, 4U) |
+| Telecommunication Enclosure | 4 (16U, 2 * 9U, 6U) |

@@ -159,7 +159,7 @@
 >>* Since the HC connects to the IC and the 2 CP'sn and the floor 1 HC, it will need a Fiber Patch Panel, which is 2U in size. 
 >>* As the IC connects to the HC and MC through fiber optic cable, one more Fiber Patch Panel will be needed, which is 2U in size.
 >>* Since the HC is connected directy to 8 outlets, it will need another Copper Patch Panel, with 1U size.
->>* The space were the equipments are stored, will have 8U size.
+>>* The space were the equipments are stored, will have 9U size.
 >>
 >>### Inventory:
 >>
@@ -170,7 +170,7 @@
 >>| Fiber Optic Cable (m)| 29,5m  | 
 >>| Outlets	  |	42 |
 >>| Fiber Patch Panels | 2x2U |
->> | Copper Patch Panel | 1x1U
+>> | Copper Patch Panel | 3x1U |
 >>
 >>
 >>
@@ -368,5 +368,6 @@
 >>| CAT7 Copper Cable (m) | 621,12m  |
 >>| Fiber Optic Cable (m)| 54,04m  | 
 >>| Fiber Patch Panels | 1x2U |
+>>| Copper Patch Panel | 3x1U |
 >>## Redundancy
 >> Every Fibre connection is multiplied by 5 in order to reasure the redundancy.
