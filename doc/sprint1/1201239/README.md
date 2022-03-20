@@ -99,8 +99,8 @@ The mentioned cables include copper and fiber cabling.*
  - This room is responsible for housing the Building's IC and the floor's HC.
  - The Building's **IC** requires a Fiber Patch Panel, since it is fiber connected to both HC's (Ground and First Floor) through 8 Fiber Optic Cables each, which leads to a total of 16 occupied ports.
  - Although the number of unused outlets is big, it allows for future expansibility. This Fiber Patch Panel is 1U sized.
- - The **HC** connects to a total of 26 Outlets, which requires a 48 Ports Copper Patch Panel, 2U sized. Since the CP is also fiber connected (through 8 fiber optic cables), it is required for the HC to have a 1U sized fiber patch panel.
- - The total required space sits at 6U, however, a 50% increase in terms of capacity to futureproof the enclosure leads to a 9U sized enclosure.
+ - The **HC** connects to a total of 26 Outlets, which requires a 2 24 Ports Copper Patch Panel, which totals 2U size. Since the CP is also fiber connected (through 8 fiber optic cables), it is required for the HC to have a 1U sized fiber patch panel.
+ - The total required space sits at 4U, however, a 2x increase in terms of capacity to futureproof the enclosure leads to a 16U sized enclosure.
  
 ### Room 2.0.2
 
@@ -154,7 +154,7 @@ The mentioned cables include copper and fiber cabling.*
  - This room is responsible for housing the Consolidation Point which makes the Outlets on rooms 2.0.4,5,6 possible.
  - The CP requires a 24 Port Fiber Optic Patch Panel, so that the Redundant connection to the HC can be successfully completed. It has a size of 1U.
  - The CP requires a 24 Port Cat7 Copper Patch Panel, which has a size of 1U.
- - Futureproofing the enclosure makes the total at 1.5*2U = 3U.
+ - The total required space sits at 2U, however, a 2x increase in terms of capacity to futureproof the enclosure leads to a 4U sized enclosure.
 
 | Outlet | CAT 7 Length (m) |
 |--------|------------------|
@@ -203,9 +203,9 @@ The mentioned cables include copper and fiber cabling.*
 | 5m Copper Patch Cord        | 40 (200m)      |
 | 0,5m Copper Patch Cord      | 72 (36m)       |
 | Access Point                | 0              |
-| Copper Patch Panel          | 2 (2U, 1U)     |
+| Copper Patch Panel          | 3 (3 * 1U)     |
 | Fiber Optic Patch Panel     | 3 (1U, 1U, 1U) |
-| Telecommunication Enclosure | 2 (9U, 3U)     |
+| Telecommunication Enclosure | 2 (16U, 8U)    |
 
 ## Floor Nº1:
 
@@ -262,7 +262,7 @@ The mentioned cables include copper and fiber cabling.*
 - Since the only CP on the floor is also fiber connected (8 cables), it is required for the HC to have a 1U sized fiber patch panel, with 16 ports occupied.
 - The **HC** connects to a total of 20 Outlets, which requires a 24 Ports Copper Patch Panel, 1U sized.
     - Although a small numer of fiber ports will be used, it allows for costless future upgrades.
-- The total required space sits at 2U, however, a 50% increase in terms of capacity to futureproof the enclosure leads to a 3U sized enclosure.
+- The total required space sits at 2U, however, a 50% increase in terms of capacity to futureproof the enclosure leads to a 4U sized enclosure.
 
 ### Room 2.1.2
 
@@ -314,8 +314,8 @@ The mentioned cables include copper and fiber cabling.*
 - The drop ceiling close to this room is responsible for housing the Consolidation Point which makes the Outlets on rooms 2.1.7,8 possible.
 - Besides, it also allows the Unique Access Point installed on the building to operate.
 - The CP requires a 24 Port Fiber Optic Patch Panel, so that the Redundant connection to the HC can be successfully completed. It has a size of 1U.
-- The CP requires a 48 Port Cat7 Copper Patch Panel, which will have 28 occupied ports. It has a size of 2U.
-- Futureproofing the enclosure makes the total at 1.5*3U = 5U. The closest commercial standard is 6U.
+- The CP requires 2 * 24 Port Cat7 Copper Patch Panel, which will have 28 occupied ports. It will have a size of 2U.
+- Futureproofing the enclosure makes the total at 2*4U = 8U.
 
 | Outlet | CAT 7 Length (m)  |
 |--------|-------------------|
@@ -423,9 +423,9 @@ The mentioned cables include copper and fiber cabling.*
 | 5m Copper Patch Cord         | 49 (245m)  |
 | 0,5m Copper Patch Cord       | 72 (36m)   |
 | Access Point                 | 1          |
-| Copper Patch Panel           | 2 (1U, 2U) |
-| Fiber Optic Patch Panel      | 2 (1U, 1U) |
-| Telecommunication Enclosure  | 2 (3U, 6U) |
+| Copper Patch Panel           | 3 (3 * 1U) |
+| Fiber Optic Patch Panel      | 2 (2 * 1U) |
+| Telecommunication Enclosure  | 2 (4U, 8U) |
 
 
 ===========================================
@@ -435,14 +435,14 @@ The mentioned cables include copper and fiber cabling.*
 
 - After performing the building planning, this is the total Inventory:
 
-| Equipment                   | Quantity         |
-|-----------------------------|------------------|
-| RJ45 Outlet                 | 89               |
-| CAT7A Cable                 | 1386,96m         |
-| Fiber Optic Cable           | 427,52m          |
-| 5m Copper Patch Cord        | 89 (445m)        |
-| 0,5m Copper Patch Cord      | 144 (72m)        |
-| Access Point                | 1                |
-| Copper Patch Panel          | 4 (2*2U, 2*1U)   |
-| Fiber Optic Patch Panel     | 5 (5*1U)         |
-| Telecommunication Enclosure | 4 (9U, 6U, 2*3U) |
+| Equipment                   | Quantity            |
+|-----------------------------|---------------------|
+| RJ45 Outlet                 | 89                  |
+| CAT7A Cable                 | 1386,96m            |
+| Fiber Optic Cable           | 427,52m             |
+| 5m Copper Patch Cord        | 89 (445m)           |
+| 0,5m Copper Patch Cord      | 144 (72m)           |
+| Access Point                | 1                   |
+| Copper Patch Panel          | 6 (6 * 1U)          |
+| Fiber Optic Patch Panel     | 5 (5 * 1U)          |
+| Telecommunication Enclosure | 4 (16U, 2 * 8U, 4U) |
