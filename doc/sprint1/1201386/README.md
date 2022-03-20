@@ -344,8 +344,8 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 #### Justificações Relevantes
 
-- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
-- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
+- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m (3 × 24 × 0,5).
+- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m por cada outlet.
 
 ## Edifico 1 - Piso 1
 
@@ -702,8 +702,8 @@ Encontram-se posicionados a 1,5 m do chão.
 
 #### Justificações Relevantes
 
-- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
-- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
+- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m (6 × 24 × 0,5).
+- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m por cada outlet.
 
 ### Inventário Total Do Edifício:
 
