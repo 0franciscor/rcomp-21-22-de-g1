@@ -1,33 +1,33 @@
-RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
-===========================================
-(This folder is to be created/edited by the team member 1201382 only)
-
-## These were the followed structured cabling standards:
-
-- Minimum of 2 outlets per work area.
-- Proportion of 2 outlets for every 10 square meters of area.
-- Patch cords can reach up to 5 meters.
-- There must always be an outlet less than 3 meters from the user's equipment.
-- Work areas require copper cable outlets.
-- Each cable (whatever type) length should be less than 90 meters.
-- The total area covered by a horizontal cross-connect should be less than 1000 m2.
-- Straight line distance between the horizontal cross-connect and the outlet should be less than 80 meters.
-- Cables connecting an intermediate cross-connect (IC) to a horizontal cross-connect (HC) are limited to 500 meters in length.
-- Cables connecting the main cross-connect (MC) to an IC are limited to 1500 meters in length.
-- The number of cables entering a telecommunications cabinet must always be less than 200.
-
-
-### Scale measure:
-- 2,8 cm (scale) = 5m (reality)
-
-> # Building 4
+>>RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
+>>===========================================
+>>(This folder is to be created/edited by the team member 1201382 only)
+>>
+>>## These were the followed structured cabling standards:
+>>
+>>- Minimum of 2 outlets per work area.
+>>- Proportion of 2 outlets for every 10 square meters of area.
+>>- Patch cords can reach up to 5 meters.
+>>- There must always be an outlet less than 3 meters from the user's equipment.
+>>- Work areas require copper cable outlets.
+>>- Each cable (whatever type) length should be less than 90 meters.
+>>- The total area covered by a horizontal cross-connect should be less than 1000 m2.
+>>- Straight line distance between the horizontal cross-connect and the outlet should be less than 80 meters.
+>>- Cables connecting an intermediate cross-connect (IC) to a horizontal cross-connect (HC) are limited to 500 meters in length.
+>>- Cables connecting the main cross-connect (MC) to an IC are limited to 1500 meters in length.
+>>- The number of cables entering a telecommunications cabinet must always be less than 200.
+>>
+>>
+>>### Scale measure:
+>>- 2,8 cm (scale) = 5m (reality)
+>>
+>> # Building 4
 >>
 >>### Building Dimensions
 >>* Ground floor - 20x20x4m
 >>* First floor - 20x20x3m
 >>* Building - 20x20x7m
 >> ---
-
+>>
 >> ## Floor 0 
 >>![Building4_GroundFloor.png](resources/Building4_GroundFloor.png)
 >>### Observations regarding the design of the Floor 0
@@ -141,29 +141,22 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 >>| 3 | 10,63 | 
 >>| 4 | 8,62 |
 >>Total = 41,66m
->>###### Redondancy
->> Connection between CP´s - ??
->> Connection between HP's - ??
->> To each CP
 >>
 >>##### Fiber Optic Cable
 >>* From the HC to the CP (room 4.0.4) - 18,28m
 >>* Between CPs (rooms 4.0.2 and 4.0.4) - 3,67m
 >>* From MC and other building's ICs - 7,55m (indoors)
 >>
->>###### Redondancy
->
 >>##### Telecommunications Offices
 >>###### Sala 4.0.2.
 >>* Since it has associated 16 outlets, there will be 16 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
 >>###### Sala 4.0.4.
 >>* Since it has associated 18 outlets, there will be 18 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
 >>###### Sala 4.1.6.
->>* Since the HC connects to the IC and the 2 CP's will need a Fiber Patch Panel, which is 1U in size. As the IC connects to the HC and MC through fiber optic cable, one more Fiber Patch Panel will be needed, which is 1U in size.
->>* Conecta diretamento tbm a 8 outlets.
->>* O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
->>* Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
->>* Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
+>>* Since the HC connects to the IC and the 2 CP'sn and the floor 1 HC, it will need a Fiber Patch Panel, which is 2U in size. 
+>>* As the IC connects to the HC and MC through fiber optic cable, one more Fiber Patch Panel will be needed, which is 2U in size.
+>>* Since the HC is connected directy to 8 outlets, it will need another Copper Patch Panel, with 1U size.
+>>* The space were the equipments are stored, will have 8U size.
 >>
 >>### Inventory:
 >>
@@ -173,8 +166,10 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 >>| CAT7 Copper Cable (m) | 251,57m  |
 >>| Fiber Optic Cable (m)| 29,5m  | 
 >>| Outlets	  |	42		   |
+>>| Fiber Patch Panels | 2x2U |
+>> | Copper Patch Panel | 1x1U
 >>
-
+>>
 >>
 >>## Floor 1
 >>![Building4_FloorOne.png](resources/Building4_FloorOne.png)
@@ -218,7 +213,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 >>* Therefore, the Acess Point is located between the rooms 4.1.2 and 4.1.3. .
 >>* The acess point is connected to the 4.1.1 room's consolidation point using a CAT7 copper cable.
 >>
->>* ![Floor1_acessPoint](resources/Building4_FloorOne_AccessPoint_Radius.png)
+>>![Floor1_acessPoint](resources/Building4_FloorOne_AccessPoint_Radius.png)
 >>
 >>
 >>### Consolidation Points
@@ -226,14 +221,10 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 >>* The connection to the HC is via the underfloor cable raceway.
 >>
 >>### Horizontal cross-connect
->>* * Bearing in mind that one HC covers about 1000m2 and the floor has 400m2, one HC is enough for the whole floor.
+>>* Bearing in mind that one HC covers about 1000m2 and the floor has 400m2, one HC is enough for the whole floor.
 >>
->>### Intermediate cross-connect
->>* Não tem IC este piso
 >>
->>### Main cross-connect
->>
->>![Floor0_cablesLayout](resources/Building4_GroundFloor_AccessPoint.png)
+>>![Floor0_cablesLayout](resources/Building4_FloorOne_AccessPoint_Radius.png)
 >>
 >>### Cables used and respective quantities
 >>
@@ -338,12 +329,6 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 >>| 12 | 5,21 |
 >>
 >>Total = 64,29m
-> 
->>###### Redondancy
->> Connection between CP´s - ??
->> Connection between HP's - ??
->> To each CP
-> 
 >>
 >>##### Fiber Optic Cable
 >>
@@ -351,20 +336,18 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 >>* From the Floor 0 to the HC (room 4.1.6) - 3,07m
 >>* From the HC to the CP (room 4.1.3) - 14,73m
 >>* From the HC to the CP (room 4.1.7) - 18,98m
->>
 >>##### Telecommunications Offices
 >>
 >>###### Sala 4.1.1.
->>* Since it has associated 18 outlets, there will be 18 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
+>>* Since it has associated 19 outlets, there will be 19 connections (access point included), so a 24-port CAT7 patch panel will be needed, which is 1U in size.
 >>
 >>###### Sala 4.1.4.
 >>* Since it has associated 16 outlets, there will be 16 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
 >>
 >>###### Sala 4.1.6.
->>* Since the HC connects to the IC and the 3 CP's will need a Fiber Patch Panel, which is 1U in size. As the IC connects to the HC and MC through fiber optic cable, one more Fiber Patch Panel will be needed, which is 1U in size.
->>* O espaço guardado para os equipamentos ativos terá um tamanho de 3U.
->>* Irá ser adicionado, para além do valor já calculado, um tamanho extra de 6U.
->>* Posto isto, o tamanho total para este gabinete de telecomunicações será de 12U.
+>>* Since the HC connects to the IC and the 3 CP's and the other floor HC. it will need a Fiber Patch Panel, which is 2U in size. 
+>>* The space for storage needed will be 3U.
+>>* The total storage of the telecomunication enclousure will be 3U.
 >>
 >>###### Sala 4.1.7.
 >>* Since it has associated 24 outlets, there will be 24 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
@@ -376,4 +359,6 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201382 folder
 >>| Outlets	  |	58		   |
 >>| CAT7 Copper Cable (m) | 331,12m  |
 >>| Fiber Optic Cable (m)| 54,04m  | 
->>---
+>>| Fiber Patch Panels | 1x2U |
+>>## Redundancy
+>> Every Fibre connection is multiplied by 5 in order to reasure the redundancy.
