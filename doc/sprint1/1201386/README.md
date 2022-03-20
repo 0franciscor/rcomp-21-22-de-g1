@@ -56,9 +56,12 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 - Neste andar apenas foi colocado um access point, dado as dimensões do edifício.
 
-- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7.
+- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7 e concede uma cobertura circular de aproximadamente 50 m de
+   diâmetro.
 
-- O canal para o AP deste piso será o 11.
+- O canal para o AP deste piso será o 11, para evitar interferências entre sinais.
+
+- A sua localização foi pensada tendo em atenção também que o sinal dos access points pode ser acessado nos dois pisos.
 
 ##### Alcance do Access Point
 
@@ -80,6 +83,9 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 - O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Horizontal cross-connect
   foi colocado nesta sala localizado no mesmo armário técnico que o Intermediate cross-connect.
   
+- O comprimento de cada cabo é inferior a 90 m.
+
+- A distância em linha reta entre o HC e o outlet inferior a 80 m.
 ####  Intermediate cross-connect
 
 - O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o Intermediate cross-connect
@@ -87,6 +93,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 - O IC recebe fibra ótica do MC e passa a fibra ótica para os dois HC's deste edifício.
 
+- Cabos entre o HC e o IC limitados a 500m.
 ####  Main cross-connect
 
 - O datacentre do edifício e do campus está localizado na sala 1.0.2 portanto o main cross-connect
@@ -96,6 +103,8 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   a fibra ótica monomodo através da passagem para o exterior, por este motivo do MC sai 1 cabo de fibra ótica monomodo
   que se conecta ao IC deste edifício.
   
+- - Cabos entre o MC e o IC limitados a 1500m.
+  
 #### Cabos Utilizados e Respetivas Quantidades
 
 - O tipo de cabo utilizado é Copper cable CAT7, para ligar HC's/CP's a outlets.
@@ -104,8 +113,6 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   o HC e os CP's com cabo de fibra ótica monomodo de 8 fios, para ter em conta também a redundância.
 
 - Usa-se Fibra Ótica monomodo de 8 fios na ligação do IC ao HC e do MC ao IC.
-
-- Cada cabo cumpre a regra de não exceder o comprimento de 90 metros.
 
 ##### Cabo de Cobre CAT7
 
@@ -256,11 +263,15 @@ Obtendo-se um total de 129,46 m de cabo de fibra ótica.
 
 #### Gabinetes de Telecomunicações 
 
+Encontram-se posicionados a 1,5 m do chão.
+
 A estratégia de super dimensionamento aplicada foi a seguinte:
 
 - Determinar o tamanho dos gabinetes de telecomunicações multiplicando por quatro
   a quantidade de espaço necessária para os patch-panels alojados e arredondar para o próximo
   tamanho disponível comercialmente.
+
+Foi tido também em consideração que o número máximo a entrar num gabinete de telecomunicações é 200. 
 
 ##### Sala 1.0.2
 
@@ -390,7 +401,8 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 - Neste andar apenas foi colocado um access point, dado as dimensões do edifício.
 
-- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7.
+- Os Access Points são conectados a um outlet através de um cabo de cobre CAT7 e concede uma cobertura circular de aproximadamente 50 m de
+  diâmetro.
 
 - O canal para o AP deste piso será o 6, para evitar interferências entre sinais.
 
@@ -419,6 +431,10 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 - O HC é responsável pelas salas 1.1.2 e 1.1.3.
 
+- O comprimento de cada cabo é inferior a 90 m.
+
+- A distância em linha reta entre o HC e o outlet inferior a 80 m.
+
 #### Cabos Utilizados e Respetivas Quantidades
 
 - O tipo de cabo utilizado é Copper cable CAT7, para ligar HC's/CP's a outlets.
@@ -427,8 +443,6 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
   o HC e os CP's com cabo de fibra ótica monomodo de 8 fios, para ter em conta também a redundância. 
   
 - Usa-se Fibra Ótica monomodo de 8 fios na ligação do IC ao HC.
-  
-- Cada cabo cumpre a regra de não exceder o comprimento de 90 metros.
 
 ##### Cabo de Cobre CAT 7
 
@@ -625,7 +639,9 @@ A estratégia de super dimensionamento aplicada foi a seguinte:
 - Determinar o tamanho dos gabinetes de telecomunicações multiplicando por quatro 
   a quantidade de espaço necessária para os patch-panels alojados e arredondar para o próximo 
   tamanho disponível comercialmente.
-  
+
+Foi tido também em consideração que o número máximo a entrar num gabinete de telecomunicações é 200.
+
 Encontram-se posicionados a 1,5 m do chão.
 
 ##### Sala 1.1.1
