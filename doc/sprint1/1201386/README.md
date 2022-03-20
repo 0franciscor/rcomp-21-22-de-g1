@@ -331,7 +331,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   593,57      |
 |Cabo Fibra Ótica (m)                           |   142,63      |
-|Copper Patch cords (m)                         |   316,5       |
+|Copper Patch cords (m)                         |   357         |
 |Fiber Patch cords (m)                          |   59,5        |
 |Fiber Patch Panel 1U                       	|	5			|
 |Outlets	                                    |	57		    |
@@ -691,7 +691,7 @@ Encontram-se posicionados a 1,5 m do chão.
 |-----------------------------------------------|-------------- |
 |Cabo CAT7 (m)                                  |   944,15      |
 |Cabo Fibra Ótica (m)                           |   65,28       |
-|Copper Patch cords (m)                         |   442,5       |
+|Copper Patch cords (m)                         |   447         |
 |Fiber Patch cords (m)                          |   36          |
 |Fiber Patch Panel 1U           	        	|	3			|
 |Outlets	                                    |	75  	    |
@@ -711,7 +711,7 @@ Encontram-se posicionados a 1,5 m do chão.
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   1537,72     |
 |Cabo Fibra Ótica (m)                           |   207,91      |
-|Copper Patch cords (m)                         |   759         |
+|Copper Patch cords (m)                         |   804         |
 |Fiber Patch cords (m)                          |   95,5        |
 |Fiber Patch Panel 1U            		        |	8			|
 |Outlets	                                    |	138		    |
