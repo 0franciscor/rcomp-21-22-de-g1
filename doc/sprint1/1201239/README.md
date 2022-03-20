@@ -406,12 +406,12 @@ The mentioned cables include copper and fiber cabling.*
 
 - After performing the building planning, this is the total Inventory:
 
-| Equipment                   | Quantity |
-|-----------------------------|----------|
-| RJ45 Outlet                 | 89       |
-| CAT7A Cable                 |          |
-| Fiber Optic Cable           |          |
-| Access Point                | 1        |
-| Copper Patch Panel          |          |
-| Fiber Optic Patch Panel     |          |
-| Telecommunication Enclosure |          |
+| Equipment                   | Quantity     |
+|-----------------------------|--------------|
+| RJ45 Outlet                 | 89           |
+| CAT7A Cable                 | 1386,96m     |
+| Fiber Optic Cable           | 53,44m       |
+| Access Point                | 1            |
+| Copper Patch Panel          | 4 (2U, 3*1U) |
+| Fiber Optic Patch Panel     | 3 (3*1U)     |
+| Telecommunication Enclosure | 4 (9U, 3*3U) |
