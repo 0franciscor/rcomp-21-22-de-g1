@@ -101,7 +101,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 - O Main cross-connect é responsável por distribuir para o Intermediate cross-connect deste edifício e dos outros
   a fibra ótica monomodo através da passagem para o exterior, por este motivo do MC sai 1 cabo de fibra ótica monomodo
-  que se conecta ao IC deste edifício e 4 cabos para os IC's dos outros edifícios.
+  que se conecta ao IC deste edifício e 4 cabos para os IC's dos outros edifícios e chega 1 fio da entrada do campus até ao MC.
   
 - Cabos entre o MC e o IC limitados a 1500m.
   
@@ -258,7 +258,7 @@ Obtendo-se um total de 21,43 m de cabo CAT 7.
 - A quantidade de cabo de fibra ótica necessária desde o MC até a saída do edifício é de 13,17 m, 
   para apenas um fio.
 
-Obtendo-se um total de 129,46 m de cabo de fibra ótica.
+Obtendo-se um total de 142,63 m de cabo de fibra ótica.
 
 #### Gabinetes de Telecomunicações 
 
@@ -330,7 +330,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 | Equipamento                                   |	Quantidade  |
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   593,57      |
-|Cabo Fibra Ótica (m)                           |   129,46      |
+|Cabo Fibra Ótica (m)                           |   142,63      |
 |Copper Patch cords (m)                         |   316,5       |
 |Fiber Patch cords (m)                          |   59,5        |
 |Fiber Patch Panel 1U                       	|	5			|
@@ -710,7 +710,7 @@ Encontram-se posicionados a 1,5 m do chão.
 | Equipamento                                   |	Quantidade  |
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   1537,72     |
-|Cabo Fibra Ótica (m)                           |   194,74      |
+|Cabo Fibra Ótica (m)                           |   207,91      |
 |Copper Patch cords (m)                         |   759         |
 |Fiber Patch cords (m)                          |   95,5        |
 |Fiber Patch Panel 1U            		        |	8			|
