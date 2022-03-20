@@ -30,6 +30,10 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 
 ![1201386](1201386_Building1_Floor0_Cabos.jpg)
 
+### Legenda:
+
+![1201386](1201386_Building1_Floor0_legenda.jpg)
+
 ### Justificações Relevantes:
   
 #### Outlets
@@ -53,8 +57,6 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 - Neste andar apenas foi colocado um access point, dado as dimensões do edifício.
 
 - Os Access Points são conectados a um outlet através de um cabo de cobre CAT7.
-
-- O AP ficará localizado 
 
 - O canal para o AP deste piso será o 11.
 
@@ -95,6 +97,15 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   que se conecta ao IC deste edifício.
   
 #### Cabos Utilizados e Respetivas Quantidades
+
+- O tipo de cabo utilizado é Copper cable CAT7, para ligar HC's/CP's a outlets.
+
+- Devido a não existirem custos associados ao projeto e a uma maior velocidade da transmissão, optei por fazer a ligação entre
+  o HC e os CP's com cabo de fibra ótica monomodo de 8 fios, para ter em conta também a redundância.
+
+- Usa-se Fibra Ótica monomodo de 8 fios na ligação do IC ao HC e do MC ao IC.
+
+- Cada cabo cumpre a regra de não exceder o comprimento de 90 metros.
 
 ##### Cabo de Cobre CAT7
 
@@ -236,12 +247,12 @@ Obtendo-se um total de 21,43 m de cabo CAT 7.
 
 - A quantidade de cabo de fibra ótica necessária desde o MC até o IC do edifício é de 4,85 m.
 
-- A quantidade de cabo de fibra ótica necessária desde o IC e o HC do piso é de m.
+- A quantidade de cabo de fibra ótica necessária desde o IC e o HC do piso é de 0,5 m.
 
 - A quantidade de cabo de fibra ótica necessária desde o MC até a saída do edifício é de 13,17 m, 
   para apenas um fio.
 
-Obtendo-se um total de 128,96 m de cabo de fibra ótica.
+Obtendo-se um total de 129,46 m de cabo de fibra ótica.
 
 #### Gabinetes de Telecomunicações 
 
@@ -308,16 +319,22 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 | Equipamento                           |	Quantidade  |
 |---------------------------------------|---------------|
-|Access Point 		                    |	1		    |
 |Cabo CAT7 (m)                          |   593,57      |
-|Cabo Fibra Ótica (m)                   |   128,96      |
-|Fiber Patch Panel 1U (24 entradas)		|	5			|
+|Cabo Fibra Ótica (m)                   |   129,46      |
+|Copper Patch cords (m)                 |   316         |
+|Fiber Patch cords (m)                  |   59,5        |
+|Fiber Patch Panel 1U               	|	5			|
 |Outlets	                            |	57		    |
-|Patch cords                            |               |
 |Patch Panel ISO 8877 1U (24 entradas)	|	3			|
 |Telecommunication Enclosure 6U 	    |	1			|
 |Telecommunication Enclosure 9U 	    |	2			|
 |Telecommunication Enclosure 12U     	|	1			|
+
+#### Justificações Relevantes
+
+- Para determinar a quantidade de patch cords, foi utilizado o número de patch panel ports * 0,5 m
+- Para determinar a quantidade de patch cords para outlets, foi considerado um patch cord de 5 m.
+
 
 ## Edifico 1 - Piso 1
 
@@ -346,6 +363,10 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 ### Plano Esquemático:
 
 ![1201386](1201386_Building1_Floor1_Cabos.jpg)
+
+### Legenda:
+
+![1201386](1201386_Building1_Floor1_legenda.jpg)
 
 ### Justificações Relevantes:
 
@@ -403,9 +424,9 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 - O tipo de cabo utilizado é Copper cable CAT7, para ligar HC's/CP's a outlets.
 
 - Devido a não existirem custos associados ao projeto e a uma maior velocidade da transmissão, optei por fazer a ligação entre 
-  o HC e os CP's com cabo de fibra ótica monomodo. 
+  o HC e os CP's com cabo de fibra ótica monomodo de 8 fios, para ter em conta também a redundância. 
   
-- Usa-se Fibra Ótica na ligação do MC ao IC e do IC aos dois HC's
+- Usa-se Fibra Ótica monomodo de 8 fios na ligação do IC ao HC.
   
 - Cada cabo cumpre a regra de não exceder o comprimento de 90 metros.
 
@@ -654,12 +675,12 @@ Encontram-se posicionados a 1,5 m do chão.
 
 | Equipamento                           |	Quantidade  |
 |---------------------------------------|-------------- |
-|Access Point 		                    |	1		    |
 |Cabo CAT7 (m)                          |   944,15      |
 |Cabo Fibra Ótica (m)                   |   65,28       |
-|Fiber Patch Panel 1U (24 entradas)		|	3			|
+|Copper Patch cords (m)                 |   442         |
+|Fiber Patch cords (m)                  |   36          |
+|Fiber Patch Panel 1U           		|	3			|
 |Outlets	                            |	75  	    |
-|Patch cords                            |               |
 |Patch Panel ISO 8877 1U (24 entradas)	|	6			|
 |Telecommunication Enclosure 12U	    |	3			|
 
@@ -673,12 +694,12 @@ Encontram-se posicionados a 1,5 m do chão.
 
 | Equipamento                           |	Quantidade  |
 |---------------------------------------|---------------|
-|Access Point 		                    |	2		    |
 |Cabo CAT7 (m)                          |   1537,72     |
-|Cabo Fibra Ótica (m)                   |   194,24      |
-|Fiber Patch Panel 1U (24 entradas)		|	8			|
+|Cabo Fibra Ótica (m)                   |   194,74      |
+|Copper Patch cords (m)                 |   758         |
+|Fiber Patch cords (m)                  |   95,5        |
+|Fiber Patch Panel 1U            		|	8			|
 |Outlets	                            |	138		    |
-|Patch cords                            |               |
 |Patch Panel ISO 8877 1U (24 entradas)	|	9			|
 |Telecommunication Enclosure 6U      	|	1			|
 |Telecommunication Enclosure 9U     	|	2			|
