@@ -399,7 +399,6 @@ The mentioned cables include copper and fiber cabling.*
 
 
 ===========================================
-## Cabling Redundancy:
 
 
 ## Building Inventory:
@@ -415,3 +414,18 @@ The mentioned cables include copper and fiber cabling.*
 | Copper Patch Panel          | 4 (2U, 3*1U) |
 | Fiber Optic Patch Panel     | 3 (3*1U)     |
 | Telecommunication Enclosure | 4 (9U, 3*3U) |
+
+## Cabling Redundancy:
+
+> Cabling Redundancy allows for automatic or manual failoever.
+>> Failover is a process which consists of switching between cables in order to keep the network running.
+>
+> But how could failover increase a system fidelity?
+>> For example, if Building 1 MCC Fiber Optic Cable which connects to other buildings failed, it would mean that the connections would be lost.\
+> So, Structured Cabling Standards indicate that a system should have parallel connections to its elements. If that's a system characteristic, if a connection cable fails, others will resume its functionality.\
+> Not only that, but it also allows for load balancing on the network.
+>
+> Let's look at a Real Work Application 
+>> Applying this concept to the in-development Project, multiple cables should connect the Building 1 to other buildings. The buildings which don't contain the MCC should also be interconnected.\
+> Inside building 2, the connections between the building's IC and floor 1 HC should be doubled or even tripled and HC's and CP's cables should also be multiplied.\
+> This would make the total fiber optic length rise to 106,88m. However, it would make the network failproof since everytime a cable failed, failover would be an option and other connections would take Place.  
