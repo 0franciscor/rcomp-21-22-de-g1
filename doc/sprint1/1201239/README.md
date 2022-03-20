@@ -29,15 +29,31 @@ This means that the vertical connections between Cross-Connects were made with F
 For example, IC and HC are connected through fiber, while CP's and Outlets are Copper Cable Connected.\
 Although Fiber Optic Cabling may be cheaper, on this ocasion it might require the use of more Fiber Optic Patch Panels, which can greatly increase the cost of the network design and installation.
 
+## Cabling Redundancy:
 
-
+> Cabling Redundancy allows for automatic or manual failoever.
+>> Failover is a process which consists of switching between cables in order to keep the network running.
+>
+> But how could failover increase a system fidelity?
+>> For example, if Building 1 MCC Fiber Optic Cable which connects to other buildings failed, it would mean that the connections would be lost.\
+> So, Structured Cabling Standards indicate that a system should have parallel connections to its elements. If that's a system characteristic, if a connection cable fails, others will resume its functionality.\
+> Not only that, but it also allows for load balancing on the network.
+>
+> On this network, it was opted for each Fiber Optic Connection to have 8 cables instead of 1, which allows for a secure failover.
+  
 # Building 2 
+
+- This is a subtitle which helps interpretate the performed design for the building:Ç
+
+![representation_subtitle](resources/subtitle.png)
 
 ## Ground Floor:
 
 ![floor0_plant](resources/Building2_Floor0.png)
 
 > The floor itself is square, with a side of **19,07 m (10,3 cm)**, thus having an area of **363,67 m2**.
+> 
+> The ceiling height is **4m**.
 
 ### Individual Rooms' Dimensions:
 
@@ -81,8 +97,9 @@ The mentioned cables include copper and fiber cabling.*
 ### Room 2.0.1
 
  - This room is responsible for housing the Building's IC and the floor's HC.
- - The Building's **IC** requires a Fiber Patch Panel, since it is fiber connected to both HC's (Ground and First Floor). Although the number of unused outlets is big, it allows for future expansibility. This Fiber Patch Panel is 1U sized.
- - The **HC** connects to a total of 26 Outlets, which requires a 48 Ports Copper Patch Panel, 2U sized. Since the CP's are also fiber connected, it is required for the HC to have a 1U sized fiber patch panel.
+ - The Building's **IC** requires a Fiber Patch Panel, since it is fiber connected to both HC's (Ground and First Floor) through 8 Fiber Optic Cables each, which leads to a total of 16 occupied ports.
+ - Although the number of unused outlets is big, it allows for future expansibility. This Fiber Patch Panel is 1U sized.
+ - The **HC** connects to a total of 26 Outlets, which requires a 48 Ports Copper Patch Panel, 2U sized. Since the CP is also fiber connected (through 8 fiber optic cables), it is required for the HC to have a 1U sized fiber patch panel.
  - The total required space sits at 6U, however, a 50% increase in terms of capacity to futureproof the enclosure leads to a 9U sized enclosure.
  
 ### Room 2.0.2
@@ -135,6 +152,7 @@ The mentioned cables include copper and fiber cabling.*
 ### Room 2.0.5
 
  - This room is responsible for housing the Consolidation Point which makes the Outlets on rooms 2.0.4,5,6 possible.
+ - The CP requires a 24 Port Fiber Optic Patch Panel, so that the Redundant connection to the HC can be successfully completed. It has a size of 1U.
  - The CP requires a 24 Port Cat7 Copper Patch Panel, which has a size of 1U.
  - Futureproofing the enclosure makes the total at 1.5*2U = 3U.
 
@@ -160,12 +178,12 @@ The mentioned cables include copper and fiber cabling.*
 
 ### Fiber Optic Cable
 
-| Outlet              | Fiber Optic (m) |
-|---------------------|-----------------|
-| From Building 1     | Unknown         |
-| On the Actual floor | 35,56           |
+| Type of Planning                      | Fiber Optic (m) |
+|---------------------------------------|-----------------|
+| On the Actual floor (no redundancy)   | 35,56           |
+| On the Actual floor (with redundancy) | 284,48          |
 
-**This leads to a total of 17,88m of fiber optic used to connect the Floor 1 to the Building network**
+**This leads to a total of 284,48m of fiber optic used to connect the Floor 0 to the Building network**
 
 ### Floor inventory:
 
@@ -177,21 +195,25 @@ The mentioned cables include copper and fiber cabling.*
 | 5    | 33,15                 |
 | 6    | 56,30                 |
 
-| Equipment                   | Quantity   |
-|-----------------------------|------------|
-| RJ45 Outlet                 | 40         |
-| CAT7A Cable                 | 613,15m    |
-| Fiber Optic Cable           | 35,56m     |
-| Access Point                | 0          |
-| Copper Patch Panel          | 2 (2U, 1U) |
-| Fiber Optic Patch Panel     | 2 (1U, 1U) |
-| Telecommunication Enclosure | 2 (9U, 3U) |
+| Equipment                   | Quantity       |
+|-----------------------------|----------------|
+| RJ45 Outlet                 | 40             |
+| CAT7A Cable                 | 613,15m        |
+| Fiber Optic Cable           | 284,48m        |
+| 5m Copper Patch Cord        | 40 (200m)      |
+| 0,5m Copper Patch Cord      | 72 (36m)       |
+| Access Point                | 0              |
+| Copper Patch Panel          | 2 (2U, 1U)     |
+| Fiber Optic Patch Panel     | 3 (1U, 1U, 1U) |
+| Telecommunication Enclosure | 2 (9U, 3U)     |
 
 ## Floor Nº1:
 
 ![floor1_plant](resources/Building2_Floor1.png)
 
 > Like the floor beneath, it has a side of **19,07 m (10,3 cm)**, thus having an area of **363,67 m2**.
+> 
+> This floor is a bit different. It has a drop ceiling, which sits at a height of **2.5m**.
 
 ### Individual Rooms' Dimensions:
 
@@ -236,8 +258,9 @@ The mentioned cables include copper and fiber cabling.*
 
 ### Room 2.1.1
 
-- This room is responsible for housing the Building's floor's HC.
-- The **HC** connects to a total of 20 Outlets, which requires a 24 Ports Copper Patch Panel, 1U sized. Since the only CP on the floor is fiber connected, it is required for the HC to have a 1U sized fiber patch panel.
+- This room is responsible for housing the Building's floor's HC, which is connected  to the building's IC, through 8 fiber optic cables
+- Since the only CP on the floor is also fiber connected (8 cables), it is required for the HC to have a 1U sized fiber patch panel, with 16 ports occupied.
+- The **HC** connects to a total of 20 Outlets, which requires a 24 Ports Copper Patch Panel, 1U sized.
     - Although a small numer of fiber ports will be used, it allows for costless future upgrades.
 - The total required space sits at 2U, however, a 50% increase in terms of capacity to futureproof the enclosure leads to a 3U sized enclosure.
 
@@ -290,8 +313,9 @@ The mentioned cables include copper and fiber cabling.*
 
 - The drop ceiling close to this room is responsible for housing the Consolidation Point which makes the Outlets on rooms 2.1.7,8 possible.
 - Besides, it also allows the Unique Access Point installed on the building to operate.
-- The CP requires a 24 Port Cat7 Copper Patch Panel, which has a size of 1U.
-- Futureproofing the enclosure makes the total at 1.5*2U = 3U.
+- The CP requires a 24 Port Fiber Optic Patch Panel, so that the Redundant connection to the HC can be successfully completed. It has a size of 1U.
+- The CP requires a 48 Port Cat7 Copper Patch Panel, which will have 28 occupied ports. It has a size of 2U.
+- Futureproofing the enclosure makes the total at 1.5*3U = 5U. The closest commercial standard is 6U.
 
 | Outlet | CAT 7 Length (m)  |
 |--------|-------------------|
@@ -360,12 +384,14 @@ The mentioned cables include copper and fiber cabling.*
 
 ### Fiber Optic Cable
 
-| Outlet               | Fiber Optic (m)                          |
-|----------------------|------------------------------------------|
-| From the Floor below | 4 (due to the height of the floow below) |
-| On the Actual floor  | 13,88                                    |
+| Type of Planning                        | Fiber Optic (m)                          |
+|-----------------------------------------|------------------------------------------|
+| From the Floor below (no redundancy)    | 4 (due to the height of the floow below) |
+| On the Actual floor (no redundancy)     | 13,88                                    |
+| From the Floor below (after redundancy) | 32                                       |
+| On the Actual floor (after redundancy)  | 111,04                                   |
 
-**This leads to a total of 17,88m of fiber optic used to connect the Floor 1 to the Building network**
+**This leads to a total of 143,04m of fiber optic used to connect the Floor 1 to the Building network**
 
 
 ### Floor inventory:
@@ -387,15 +413,17 @@ The mentioned cables include copper and fiber cabling.*
 
 ### Floor inventory:
 
-| Equipment                    | Quantity          |
-|------------------------------|-------------------|
-| RJ45 Outlet                  | 49                |
-| CAT7A Cable                  | 773,81m           |
-| Fiber Optic Cable            | 17,88m            |
-| Access Point                 | 1                 |
-| Copper Patch Panel           | 2 (1U, 1U)        |
-| Fiber Optic Patch Panel      | 1 (1U, 1U)        |
-| Telecommunication Enclosure  | 2 (both 3U sized) |
+| Equipment                    | Quantity   |
+|------------------------------|------------|
+| RJ45 Outlet                  | 49         |
+| CAT7A Cable                  | 773,81m    |
+| Fiber Optic Cable            | 143,04m    |
+| 5m Copper Patch Cord         | 49 (245m)  |
+| 0,5m Copper Patch Cord       | 72 (36m)   |
+| Access Point                 | 1          |
+| Copper Patch Panel           | 2 (1U, 2U) |
+| Fiber Optic Patch Panel      | 2 (1U, 1U) |
+| Telecommunication Enclosure  | 2 (3U, 6U) |
 
 
 ===========================================
@@ -405,30 +433,14 @@ The mentioned cables include copper and fiber cabling.*
 
 - After performing the building planning, this is the total Inventory:
 
-| Equipment                   | Quantity     |
-|-----------------------------|--------------|
-| RJ45 Outlet                 | 89           |
-| CAT7A Cable                 | 1386,96m     |
-| Fiber Optic Cable           | 53,44m       |
-| Access Point                | 1            |
-| Copper Patch Panel          | 4 (2U, 3*1U) |
-| Fiber Optic Patch Panel     | 3 (3*1U)     |
-| Telecommunication Enclosure | 4 (9U, 3*3U) |
-
-## Cabling Redundancy:
-
-> Cabling Redundancy allows for automatic or manual failoever.
->> Failover is a process which consists of switching between cables in order to keep the network running.
->
-> But how could failover increase a system fidelity?
->> For example, if Building 1 MCC Fiber Optic Cable which connects to other buildings failed, it would mean that the connections would be lost.\
-> So, Structured Cabling Standards indicate that a system should have parallel connections to its elements. If that's a system characteristic, if a connection cable fails, others will resume its functionality.\
-> Not only that, but it also allows for load balancing on the network.
->
-> Let's look at a Real Work Application: 
->> Applying this concept to the in-development Project, multiple cables should connect the Building 1 to other buildings. The buildings which don't contain the MCC should also be interconnected.\
-> Inside building 2, the connections between the building's IC and floor 1 HC should be doubled or even tripled and HC's and CP's cables should also be multiplied.\
-> This would make the total fiber optic length rise to 106,88m. However, it would make the network failproof since everytime a cable failed, failover would be an option and other connections would take Place.
-> 
-> The way Fiber Patch Panels were introduced to the inventory allow for several more cables to be connected between devices, which means this network is ready to adopt Cable Redundancy. 
->
+| Equipment                   | Quantity         |
+|-----------------------------|------------------|
+| RJ45 Outlet                 | 89               |
+| CAT7A Cable                 | 1386,96m         |
+| Fiber Optic Cable           | 427,52m          |
+| 5m Copper Patch Cord        | 89 (445m)        |
+| 0,5m Copper Patch Cord      | 144 (72m)        |
+| Access Point                | 1                |
+| Copper Patch Panel          | 4 (2*2U, 2*1U)   |
+| Fiber Optic Patch Panel     | 5 (5*1U)         |
+| Telecommunication Enclosure | 4 (9U, 6U, 2*3U) |
