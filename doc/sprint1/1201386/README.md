@@ -258,7 +258,7 @@ Obtendo-se um total de 21,43 m de cabo CAT 7.
 - A quantidade de cabo de fibra ótica necessária desde o MC até a saída do edifício é de 13,17 m, 
   para apenas um fio.
 
-Obtendo-se um total de 142,63 m de cabo de fibra ótica.
+Obtendo-se um total de 195,31 m de cabo de fibra ótica.
 
 #### Gabinetes de Telecomunicações 
 
@@ -330,7 +330,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 | Equipamento                                   |	Quantidade  |
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   593,57      |
-|Cabo Fibra Ótica (m)                           |   142,63      |
+|Cabo Fibra Ótica (m)                           |   195,31      |
 |Copper Patch cords (m)                         |   357         |
 |Fiber Patch cords (m)                          |   59,5        |
 |Fiber Patch Panel 1U                       	|	5			|
@@ -710,7 +710,7 @@ Encontram-se posicionados a 1,5 m do chão.
 | Equipamento                                   |	Quantidade  |
 |-----------------------------------------------|---------------|
 |Cabo CAT7 (m)                                  |   1537,72     |
-|Cabo Fibra Ótica (m)                           |   207,91      |
+|Cabo Fibra Ótica (m)                           |   260,59      |
 |Copper Patch cords (m)                         |   804         |
 |Fiber Patch cords (m)                          |   95,5        |
 |Fiber Patch Panel 1U            		        |	8			|
