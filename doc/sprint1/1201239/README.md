@@ -428,4 +428,7 @@ The mentioned cables include copper and fiber cabling.*
 > Let's look at a Real Work Application: 
 >> Applying this concept to the in-development Project, multiple cables should connect the Building 1 to other buildings. The buildings which don't contain the MCC should also be interconnected.\
 > Inside building 2, the connections between the building's IC and floor 1 HC should be doubled or even tripled and HC's and CP's cables should also be multiplied.\
-> This would make the total fiber optic length rise to 106,88m. However, it would make the network failproof since everytime a cable failed, failover would be an option and other connections would take Place.  
+> This would make the total fiber optic length rise to 106,88m. However, it would make the network failproof since everytime a cable failed, failover would be an option and other connections would take Place.
+> 
+> The way Fiber Patch Panels were introduced to the inventory allow for several more cables to be connected between devices, which means this network is ready to adopt Cable Redundancy. 
+>
