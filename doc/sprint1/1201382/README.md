@@ -141,6 +141,9 @@
 >>| 3 | 10,63 | 
 >>| 4 | 8,62 |
 >>Total = 41,66m
+> 
+> ###### External patch cords 
+> 42*5m = 210m
 >>
 >>##### Fiber Optic Cable
 >>* From the HC to the CP (room 4.0.4) - 18,28m
@@ -163,9 +166,9 @@
 >>| Equipment | Quantity |
 >>|-------------|------------|
 >>| Access Point |	1	   |
->>| CAT7 Copper Cable (m) | 251,57m  |
+>>| CAT7 Copper Cable (m) | 461,57m  |
 >>| Fiber Optic Cable (m)| 29,5m  | 
->>| Outlets	  |	42		   |
+>>| Outlets	  |	42 |
 >>| Fiber Patch Panels | 2x2U |
 >> | Copper Patch Panel | 1x1U
 >>
@@ -202,6 +205,7 @@
 >>* There are no outlets in the common areas or in the WC's as there is no need.
 >>* The number of outlets in each division was calculated using the proportion of 2 outlets every 10 meters.
 >>* It was also taking into account that whatever point in the room to consider, an outlet is less than 3 meters away.
+>>
 >>![Floor1_outletsLayout](resources/Building4_FloorOne_outlets.png)
 >>
 >>## Cables Layout:
@@ -330,6 +334,8 @@
 >>
 >>Total = 64,29m
 >>
+>>
+>>
 >>##### Fiber Optic Cable
 >>
 >>* From the HC to the CP (room 4.1.1) - 17,26m
@@ -352,12 +358,14 @@
 >>###### Sala 4.1.7.
 >>* Since it has associated 24 outlets, there will be 24 connections, so a 24-port CAT7 patch panel will be needed, which is 1U in size.
 >>
+>> ###### External patch cords
+>>  58*5=290m
 >>### Inventory:
 >>
 >>| Equipment |	Quantity |
 >>|-------------|------------|
 >>| Outlets	  |	58		   |
->>| CAT7 Copper Cable (m) | 331,12m  |
+>>| CAT7 Copper Cable (m) | 621,12m  |
 >>| Fiber Optic Cable (m)| 54,04m  | 
 >>| Fiber Patch Panels | 1x2U |
 >>## Redundancy
