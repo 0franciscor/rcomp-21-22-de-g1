@@ -70,7 +70,7 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
 ####  Consolidation Points
 
 - Ao todo neste piso temos 2 Consolidation Points. 
-  Um na sala 1.0.7, que é responsável por controlar as salas 1.0.5, 1.0.6, 1.0.7 e 1.0.8, ficando responsável por 18 outlets.
+  Um na sala 1.0.7, que é responsável por controlar as salas 1.0.5, 1.0.6, 1.0.7 e 1.0.8 e pela tomada para o access point, ficando responsável por 19 outlets.
   O outro encontra-se na sala 1.0.9, que é responsável por controlar as salas 1.0.9 e 1.0.10, ficando responsável por 16 outlets.
   
 - A ligação do HC com os CP's é feita através do underfloor cable raceway.
@@ -101,9 +101,9 @@ RCOMP 2021-2022 Project - Sprint 1 - Member 1201386 Folder
   
 - O Main cross-connect é responsável por distribuir para o Intermediate cross-connect deste edifício e dos outros
   a fibra ótica monomodo através da passagem para o exterior, por este motivo do MC sai 1 cabo de fibra ótica monomodo
-  que se conecta ao IC deste edifício.
+  que se conecta ao IC deste edifício e 4 cabos para os IC's dos outros edifícios.
   
-- - Cabos entre o MC e o IC limitados a 1500m.
+- Cabos entre o MC e o IC limitados a 1500m.
   
 #### Cabos Utilizados e Respetivas Quantidades
 
@@ -299,7 +299,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 ##### Sala 1.0.7
 
-- Visto esta ter associado 18 outlets, existirão 19 ligações logo será necessário um patch panel
+- Visto esta ter associado 19 outlets, existirão 19 ligações logo será necessário um patch panel
   CAT7 de 24 portas, tendo este o tamanho de 1U.
 
 - Como optei que a ligação entre o HC e o CP fosse realizada com cabo de fibra ótica monomodo também será
@@ -418,7 +418,7 @@ Nesta sala existe outro gabinete de telecomunicações que será onde o MC ficar
 
 - Ao todo neste piso temos 2 Consolidation Points.
   Um na sala 1.1.5, que é responsável por controlar as salas 1.1.4, 1.1.5, 1.1.6, 1.1.9, 1.1.10 e 1.1.11, ficando responsável por 24 outlets.
-  O outro encontra-se na sala 1.1.8, que é responsável por controlar as salas 1.1.7, 1.1.8, 1.1.12, 1.1.13 e 1.1.14, ficando responsável por 27 outlets.
+  O outro encontra-se na sala 1.1.8, que é responsável por controlar as salas 1.1.7, 1.1.8, 1.1.12, 1.1.13 e 1.1.14 e o outlet para o access point, ficando responsável por 27 outlets.
   
 ####  Horizontal cross-connect
 
