@@ -1,9 +1,10 @@
 RCOMP 2021-2022 Project - Sprint 2 review
 =========================================
-### Sprint master: 2222222 ###
-(This file is to be created/edited by the sprint master only)
+### Sprint master: 1201386 ###
+
 # 1. Sprint's backlog #
 (Copy here a summary of the provided sprint's backlog, the same text as for the Planning Meeting)
+
 # 2. Subtasks assessment #
 One by one, each team member presents his/her outcomes to the team, the team assesses 		the accomplishment of the subtask backlog.
 The subtask backlog accomplishment can be assessed as one of:

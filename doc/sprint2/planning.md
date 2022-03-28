@@ -1,26 +1,47 @@
 RCOMP 2021-2022 Project - Sprint 2 planning
 ===========================================
-### Sprint master: 2222222 ###
-(This file is to be created/edited by the sprint master only)
+### Sprint master: 1201386 ###
+
 # 1. Sprint's backlog #
-(Copy here a summary of the provided sprint's backlog)
+| Task | Task Description                                                                                                                                                                                                 |
+|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|T.2.1 | Development of a layer two and layer three Packet Tracer simulation for building one, encompassing the campus backbone. Integration of every member's Packet Tracer simulations into a single simulation.        |
+|T.2.2 | Development of a layer two and layer three Packet Tracer simulation for building two, encompassing the campus backbone.                                                                                          |
+|T.2.3 | Development of a layer two and layer three Packet Tracer simulation for building three, encompassing the campus backbone.                                                                                        |
+|T.2.4 | Development of a layer two and layer three Packet Tracer simulation for building four, encompassing the campus backbone.                                                                                         |
+
+
 # 2. Technical decisions and coordination #
-In this section, all technical decisions taken in the planning meeting should be mentioned. 		Most importantly, all technical decisions impacting on the subtasks implementation must be settled on this 		meeting and specified here.
+* **Packet Tracer Version:** V 8.1.1
 
-#### Examples: ####
-  * Backbone cable types to be used
-  * VLAN IDs to be used
-  * VTP domains
-  * WiFi channels
-  * IPv4 networks' addresses and routers' addresses
-  * Routing protocols
-  * Application protocols outlining (further coordination may be required between members)
+#### Devices naming
+
+#### VLAN database
+* **Range dos VLAN IDs usados:** 240 – 270
+
+| Nome da VLAN  | ID da VLAN |
+|---------------|------------|
+|               |            |
+|               |            |
+|               |            |
+|               |            |
+
+####   VTP Domain
+* **VTP Domain:** rc22deg1
+
+#### IPv4 network
+| Edifício   | IPv4 Networks |
+|------------|---------------|
+|1 + Backbone|               |
+|2           |               |
+|3           |               |
+|4           |               |
+
+
 # 3. Subtasks assignment #
-(For each team member (sprint master included), the description of the assigned subtask in sprint 2)
-
-#### Example: ####
-  * 1111111 - Structured cable design for building A, floors 2 and 3
-  * 2222222 - Structured cable design for building B, floors 0 and 1
-  * 3333333 - VLAN devices configuration for building C
-  * 4444444 - IPv4 addressing and routing configurations for building D
+* 1200720 - Development of a layer two and layer three Packet Tracer simulation for building three, encompassing the campus backbone.
+* 1201239 - Development of a layer two and layer three Packet Tracer simulation for building two, encompassing the campus backbone.
+* 1201382 - Development of a layer two and layer three Packet Tracer simulation for building four, encompassing the campus backbone.
+* 1201386 - Development of a layer two and layer three Packet Tracer simulation for building one, encompassing the campus backbone. Integration of every member's Packet Tracer simulations into a single simulation.
+  
 
