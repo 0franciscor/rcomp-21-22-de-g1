@@ -21,4 +21,6 @@ desperdiçados.
 
 * Esta solução também permite uma expansão futura no edifício 1, caso seja necessário devido ao facto da rede _________ ficar vazia, podendo esta ser dividida em mais redes conforme a necessidade.
 
+### Commands and Settings
 
+- VLAN Trucking Protocol (VTP) was successfully configured, VTP domain name assigned was rc22deg1.
