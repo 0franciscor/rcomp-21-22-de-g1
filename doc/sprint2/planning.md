@@ -15,12 +15,11 @@ RCOMP 2021-2022 Project - Sprint 2 planning
 * **Packet Tracer Version:** V 8.1.1
 
 #### Devices naming
-(ver melhor a nomenclatura atribuída)
-* **Routers:** Router Number-Building Number (Example: Router3-B3), where the mc router is Router 0 
-* **Switches:** Switch Number-Cross Connect Type-Building Number (Example: Switch0-CP-B1)
-* **PCs or Laptops:** PC|Laptop Number-Building Number (Example: PC1-B1)
-* **Wireless Access Points:** WAP Number-Building Number-Floor Number (Example: WAP1-B1-F1)
-* **IP-phones:** IPphone number-Building Number (Example: ipPhone1-B2-2.1.4)
+* **Routers:** [R][Router Number]_Building Number (Example: R3_B3)
+* **Switches:** [Cross Connect Type][Switch Number]_Building Number (Example: CP1_B1)
+* **PCs or Laptops:** PC|Laptop Number_Building Number (Example: PC1_B1)
+* **Wireless Access Points:** WAP Number_Building Number (Example: WAP1_B1)
+* **IP-phones:** IPphone number_Building Number (Example: ipPhone1_B2)
 
 #### VLAN database
 * **Range of VLAN IDs used:** 240 – 270
