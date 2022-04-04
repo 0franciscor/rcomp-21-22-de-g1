@@ -5,6 +5,8 @@ RCOMP 2021-2022 Project - Sprint  - Member 1201386 folder
 
 ### VLAN database and IPv4 network
 
+![IPv4](./IPv4.svg)
+
 |                |VLAN ID |VLAN Name      | TOTAL NODES  | IP               | FIRST IP         | LAST IP          |  BROADCAST          |
 |----------------|--------|---------------|--------------|------------------|------------------|------------------|---------------------|
 |Backbone        |240     | backbone      |120           |172.16.200.0/25   |172.16.200.1/25   |172.16.200.126/25 |172.16.200.127/25    |
@@ -15,11 +17,8 @@ RCOMP 2021-2022 Project - Sprint  - Member 1201386 folder
 |VoIP            |245     | b1voip        |40            |172.16.202.64/26  |172.16.202.65/26  |172.16.202.126/26 |172.16.202.127/26    |
 
 #### Relevant Justifications
-(Ainda não está finalizado e falta traduzir)
-- Para esta solução, foi utilizada a sequential assignment strategy, ou seja, as redes foram ordenadas por ordem decrescente de nodes, assim preenchendo o maior número de endereços sem que estes sejam
-desperdiçados.
-
-* Esta solução também permite uma expansão futura no edifício 1, caso seja necessário devido ao facto da rede _________ ficar vazia, podendo esta ser dividida em mais redes conforme a necessidade.
+(Ainda não está finalizado)
+- This solution allows for future expansion in building 1, if necessary due to the fact that networks 172.16.202.128/25 and 172.16.203.0/24 are empty, which can be divided into more networks as needed.
 
 ### Commands and Settings
 
