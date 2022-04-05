@@ -41,21 +41,21 @@ Campus range: 240 - 270
 |243         |b1wifi         |
 |244         |b1dmz          |
 |245         |b1voip         |
-|246         |               |
-|247         |               |
-|248         |               |
-|249         |               |
-|250         |               |
-|251         |               |
-|252         |               |
-|253         |               |
-|254         |               |
-|255         |               |
-|256         |               |
-|257         |               |
-|258         |               |
-|259         |               |
-|260         |               |
+|246         |b2groundfloor  |
+|247         |b2floorone     |
+|248         |b2wifi         |
+|249         |b2dmz          |
+|250         |b2voip         |
+|251         |b3groundfloor  |
+|252         |b3floorone     |
+|253         |b3wifi         |
+|254         |b3dmz          |
+|255         |b3voip         |
+|256         |b4groundfloor  |
+|257         |b4floorone     |
+|258         |b4wifi         |
+|259         |b4dmz          |
+|260         |b4voip         |
 
 ####   VTP Domain
 * **VTP Domain:** rc22deg1
