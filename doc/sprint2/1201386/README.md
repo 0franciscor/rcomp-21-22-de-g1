@@ -21,7 +21,7 @@ RCOMP 2021-2022 Project - Sprint  - Member 1201386 folder
 
 ### Routing Tables ##
 
-#### Building 1 MC - R0_B1 (172.16.200.6/25 e 15.203.47.93/30) ###
+#### Building 1 MC - R0_B1 (172.16.200.6/25) ###
 
 | Network               | Next Hop                  |
 |-----------------------|---------------------------|
