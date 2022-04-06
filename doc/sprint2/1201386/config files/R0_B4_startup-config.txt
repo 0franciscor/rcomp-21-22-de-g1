@@ -54,7 +54,8 @@ interface FastEthernet1/0
  no ip address
 !
 interface FastEthernet1/0.1
- no ip address
+ encapsulation dot1Q 240
+ ip address 172.16.200.4 255.255.255.128
 !
 interface Vlan1
  no ip address
