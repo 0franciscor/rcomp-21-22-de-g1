@@ -4,6 +4,7 @@ RCOMP 2021-2022 Project - Sprint 2 - Member 1200720 folder
 # Building 3
 
 ### VLAN database and IPv4 network
+![IPv4](ipv4treeBuild3.svg)
 
 |              | VLAN ID | VLAN Name     | TOTAL NODES | NETMASK | IP             | FIRST IP       | LAST IP        | BROADCAST      |
 |--------------|---------|---------------|-------------|---------|----------------|----------------|----------------|----------------|
