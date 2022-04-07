@@ -1,7 +1,15 @@
-RCOMP 2021-2022 Project - Sprint 1 - Member 1111111 folder
+RCOMP 2021-2022 Project - Sprint 2 - Member 1200720 folder
 ===========================================
-(This folder is to be created/edited by the team member 1111111 only)
 
-#### This is just an example for a team member with number 1111111 ####
-### Each member should create a folder similar to this, matching his/her number. ###
-The owner of this folder (member number 1111111) will commit here all the outcomes (results/artifacts/products)		       of his/her work during sprint 1. This may encompass any kind of standard file types.
+# Building 3
+
+### VLAN database and IPv4 network
+
+|              | VLAN ID | VLAN Name     | TOTAL NODES | NETMASK | IP             | FIRST IP       | LAST IP        | BROADCAST      |
+|--------------|---------|---------------|-------------|---------|----------------|----------------|----------------|----------------|
+| Wi-fi        | 253     | b3wifi        | 55          | /26     | 172.16.205.0   | 172.16.205.1   | 172.16.205.62  | 172.16.205.63  |
+| First Floor  | 252     | b3firstfllor  | 45          | /26     | 172.16.205.64  | 172.16.205.65  | 172.16.205.126 | 172.16.205.127 |
+| Ground Floor | 251     | b3groundfloor | 35          | /26     | 172.16.205.128 | 172.16.205.129 | 172.16.205.190 | 172.16.205.191 |
+| DMZ          | 254     | b3dmz         | 28          | /27     | 172.16.205.192 | 172.16.205.193 | 172.16.205.222 | 172.16.205.223 |
+| VoIP         | 255     | b3voip        | 25          | /27     | 172.16.205.224 | 172.16.205.225 | 172.16.205.254 | 172.16.205.255 |
+
