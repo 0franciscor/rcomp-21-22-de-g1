@@ -1,7 +1,17 @@
-RCOMP 2021-2022 Project - Sprint 1 - Member 3333333 folder
+RCOMP 2021-2022 Project - Sprint  - Member 1201382 folder
 ===========================================
-(This folder is to be created/edited by the team member 3333333 only)
 
-#### This is just an example for a team member with number 3333333 ####
-### Each member should create a folder similar to this, matching his/her number. ###
-The owner of this folder (member number 3333333) will commit here all the outcomes (results/artifacts/products)		       of his/her work during sprint 1. This may encompass any kind of standard file types.
+# Edifício 4
+
+### VLAN database and IPv4 network
+
+![IPv4](./IPv4_network.svg)
+
+|                |VLAN ID |VLAN Name      | TOTAL NODES  | IP               | FIRST IP         | LAST IP          |  BROADCAST          |
+|----------------|--------|---------------|--------------|------------------|------------------|------------------|---------------------|
+|Wi-Fi           |258     | b4wifi        |70            |172.16.206.0/25   |172.16.206.1/25   |172.16.206.126/25 |172.16.206.127/25    |
+|First Floor     |257     | b4floorone    |55            |172.16.206.128/26 |172.16.206.129/26 |172.16.206.190/26 |172.16.206.191/26    |
+|Ground Floor    |256     | b4groundfloor |28            |172.16.206.192/27 |172.16.206.193/27 |172.16.206.222/27 |172.16.206.223/27    |
+|DMZ             |259     | b4dmz         |10            |172.16.206.224/28 |172.16.206.225/28 |172.16.206.238/28 |172.16.206.239/28    |
+|VoIP            |260     | b4voip        |12            |172.16.206.240/28 |172.16.206.241/28 |172.16.206.254/28 |172.16.206.255/28    |
+
