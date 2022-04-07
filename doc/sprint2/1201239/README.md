@@ -5,7 +5,7 @@ RCOMP 2021-2022 Project - Sprint 2 - Member 1201239 folder
 
 ### VLAN Database and IPv4 Network
 
-![network_diagram](resources/network_diagram.png)
+![network_diagram](resources/network_diagram.svg)
 
 ## VLAN Database and IPv4 Network Table ##
 
