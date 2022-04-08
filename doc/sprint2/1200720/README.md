@@ -4,7 +4,7 @@ RCOMP 2021-2022 Project - Sprint 2 - Member 1200720 folder
 # Building 3
 
 ### VLAN database and IPv4 network
-![IPv4](ipv4treeBuild3.svg)
+![IPv4](images/ipv4treeBuild3.svg)
 
 |              | VLAN ID | VLAN Name     | TOTAL NODES | NETMASK | IP             | FIRST IP       | LAST IP        | BROADCAST      |
 |--------------|---------|---------------|-------------|---------|----------------|----------------|----------------|----------------|
@@ -14,3 +14,6 @@ RCOMP 2021-2022 Project - Sprint 2 - Member 1200720 folder
 | DMZ          | 254     | b3dmz         | 28          | /27     | 172.16.205.192 | 172.16.205.193 | 172.16.205.222 | 172.16.205.223 |
 | VoIP         | 255     | b3voip        | 25          | /27     | 172.16.205.224 | 172.16.205.225 | 172.16.205.254 | 172.16.205.255 |
 
+### Packet Tracer
+
+![PacketTracer.png](images/packetTracer.png)
