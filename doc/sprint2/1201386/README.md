@@ -1,7 +1,7 @@
 RCOMP 2021-2022 Project - Sprint  - Member 1201386 folder
 ===========================================
 
-# Edifício 1
+# Building 1
 
 ### VLAN database and IPv4 network
 
@@ -16,35 +16,37 @@ RCOMP 2021-2022 Project - Sprint  - Member 1201386 folder
 |Ground Floor    |241     | b1groundfloor |60            |172.16.202.0/26   |172.16.202.1/26   |172.16.202.62/26  |172.16.202.63/26     |
 |VoIP            |245     | b1voip        |40            |172.16.202.64/26  |172.16.202.65/26  |172.16.202.126/26 |172.16.202.127/26    |
 
-#### Relevant Justifications
+- The networks were sorted in descending order of nodes, thus filling the largest number of addresses without them being wasted.
+  
 - This solution allows for future expansion in building 1, if necessary due to the fact that networks 172.16.202.128/25 and 172.16.203.0/24 are empty, which can be divided into more networks as needed.
 
 ### Packet Tracer
-![Packet Tracer](./1201386.jpg)
+- Having made the necessary considerations regarding the VLANs and addresses used, I started the project in *Packet Tracer*.
 
-#### Backbone
-- O *backbone* do campus está epresentado na simulação através do ***Switch MC*** (que corresponde ao ***Main-cross connect do campus***), pelos vários ***Switches IC*** de todos os edifícios e pelo **router 0 do edifício 1.
+![Packet Tracer](./1201386.png)
 
-#### Internet
+**Figure 2: Building 1 .pkt simulation.**
 
-- A representar a ligação à Internet está uma ***Cloud***, um **router ISP** (de endereço 15.203.47.93/30) e um ***Modem***, respeitando a configuração apresentada na PL3. O router RT-ISP está a finalizar a ligação da Internet, tendo sido o ponto de contacto escolhido entre a Internet proveniente dos elementos anteriormente apresentados e a *network* interior.
+- The approach taken complies with what was established in Sprint 1.
 
-#### Especificações
+- As requested, the simulation allows communication between the different VLANs and communication with the ISP. Each router
+  forward any address it doesn't know to the MC's present router and this router forwards it to each building or forwards it to the ISP via a DSL Modem.
+  
+- All *switches* were configured to have the number of ports needed to 
+  establish the connections specified in the statement (**FFE** ports for fiber cables and **FCE** ports for copper cables).
+  
+- All connections between switches were changed to truck mode, the vtp domain changed to the domain provided 
+  in the statement, and the MC switch configured in server mode, the rest being configured in client mode, 
+  thus allowing all switches in all buildings to have in your VLAN database all the configured VLANs.
 
-A implementação dos requistios propostos para o edifício 1 começa a partir do *Switch* de *hostname* **ICC-B1** que estabelece uma ligação a dois outros *switches* representantes dos pisos 0 e 1 (**HCC-B1-F0** e **HCC-B1-F1** respetivamente). Todos os *switches* foram configurados de forma a possuírem a quantidade de portas necessárias para estabelecer as ligações especificadas no enunciado (portas **FGE** para os cabos de fibra e portas **FCE** para cabos de cobre).
-Todas as portas que **não se encontram ligadas a *end-devices* **, encontram-se configuradas em ***trunk mode*** (caso do *switch* ICC-B1), sendo o tipo de porta indicado para estabelecer uma ligação a várias VLANs. Por outro lado, as portas que se conectam com *end-devices* estão configuradas em ***access mode***, uma vez que apenas estabelecem ligação a uma única VLAN.
-Nas configurações dos dois **HCC's** do edifício, foram associadas as VLANs (correspondentes aos *end-devices* do edifício) com ids pertencentes a [120-124]:
-
-   1. **VLAN 241: B1-F0**, representada pelo dispositivo ;
-   2. **VLAN 242: B1-F1**, representada pelo dispositivo ;
-   3. **VLAN 243: B1-WIFI**, representada pelos dispositivos , cada um com um **LAPTOP** a si conectado ;
-   4. **VLAN 244: B1-VOIP**, representada pelo dispositivo ;
-   5. **VLAN 245: B1-DMZ**, representada pelo dispositivo .
-
-
-
-
-
+- The Internet connection is represented through a ***Cloud***, an **ISP router** and a ***Modem***, 
+  respecting the configuration shown in PL3. Has only 2 valid addresses (in addition to those 
+  reserved for network identification and broadcasting), the first being associated 
+  with the ISP's router, and the second associated with the MC router.
+  
+- The campus *backbone* is represented in the simulation via the ***Switch MC***, 
+  the various ***Switches IC*** of all buildings and the **router R0_B1 of building 1.
+  
 ### Routing Tables 
 
 #### Building 1 MC - R0_B1 (172.16.200.6/25) ###
@@ -89,5 +91,17 @@ Nas configurações dos dois **HCC's** do edifício, foram associadas as VLANs (
 | Network               | Next Hop                  |
 |-----------------------|---------------------------|
 | 172.16.200.0/21 	    |		15.203.47.94		|
+
+# Campus Backbone
+- After the simulations of all the buildings were performed, the Backbone simulation
+started in a new Packet Tracer project.
+
+![Backbone](./backbone.png)
+
+**Figure 3: Full campus backbone .pkt simulation.**
+
+- All nodes are properly implemented communicating with each other and with the ISP, 
+as intended.
+
 
 
