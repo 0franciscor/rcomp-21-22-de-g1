@@ -61,18 +61,20 @@ RCOMP 2021-2022 Project - Sprint 2 - Member 1200720 folder
 ## Network Configuration ##
 
 ### Backbone ###
+
 The campus backbone is represented in the simulation through the **MC_B1** Switch (corresponding to the main-cross connect of the campus), by the various IC Switches of all buildings on the campus and by the router of building 3, since it is the responsible for communication between the various buildings on the campus (information from Sprint1).
 
 As in the 1st Sprint, data transmission to the buildings was carried out through an inter-cross connects connection, represented by Switch **IC_B3**, the horizontal connects, represented by Switches **HC1_B3** and ** HC2_B3**, and from these to the end-devices. It should be noted that the MC-IC, IC-HC, HC-HC connections were made using fiber cable, for that it was necessary to use **FFE** adapters in the Switches and in the Router, **R0_B3** , which is connected to **IC_B3**. The connection between the HC-Outlets was made using copper cable.
 
 ### Internet Connection ### 
+
 Representing the Internet connection is a ***Cloud***, a ***router* ISP** and a ***Modem***, respecting the configuration shown in PL3. Router A is finalizing the Internet connection, having been the chosen point of contact between the Internet from the elements presented above and the *network* inside.
 
 ### Building Specifications ###
 
 The implementation of the proposed requirements for building 3 starts from the *Switch* of *hostname* **IC_B3** that establishes a connection to two other *switches* representing floors 0 and 1 (**HC1_B3** and ** HC2_B3** respectively). All *switches* were configured to have the number of ports necessary to establish the connections specified in the statement (**FGE** ports for fiber cables and **FCE** ports for copper cables).
 
-All ports that **are not connected to *end-devices*** are configured in ***trunk mode*** (in the case of *switch* IC_B3), being the type of port indicated to establish a connection to multiple VLANs. On the other hand, the ports that connect with *end-devices* are configured in ***access mode***, as they only connect to a single VLAN.
+All ports that are not connected to *end-devices* are configured in ***trunk mode*** (in the case of *switch* IC_B3), being the type of port indicated to establish a connection to multiple VLANs. On the other hand, the ports that connect with *end-devices* are configured in ***access mode***, as they only connect to a single VLAN.
 
 In the configurations of the two **HC's** of the building, the following VLANs were associated to the end-devices:
 
@@ -83,12 +85,14 @@ In the configurations of the two **HC's** of the building, the following VLANs w
 5. **VLAN 255: b3voip**, represented by the device **IP_Phone0_B3**.
 
 Since the main objective of the Sprint was to present a logical implementation plan for the network and for interpretation reasons, we chose not to present the total amount of *nodes* indicated in the statement. Thus, each ***end-device*** presented in the simulation represents the totality of devices that would be needed:
+
 * **PC0_B3**: 35 *nodes*;
 * **PC1_B3**: 45 *nodes*;
 * **WAP0_B3**: 27 *nodes*;
 * **WAP1_B3**: 28 *nodes*;
 * **IP_Phone0_B3**: 25 *nodes*;
 * **Server0_B3**: 28 *nodes*;
+
 ## Routing Tables ##
 
 #### Building 3 - R0_B3 (172.16.200.3/25) ###
