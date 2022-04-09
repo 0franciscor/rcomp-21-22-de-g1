@@ -17,8 +17,22 @@ RCOMP 2021-2022 Project - Sprint  - Member 1201382 folder
 
 #Packet Tracer Simulation
 
+* As requested, the simulation allows communication between the different VLANs and communication with the ISP. 
+* Each router forward any address it doesn't know to the MC's present router and this router forwards it to each building or forwards it to the ISP via a DSL Modem.
+* All switches were configured to have the number of ports needed to establish the connections specified in the statement (FFE ports for fiber cables and FCE ports for copper cables).
+* All connections between switches were changed to truck mode, the vtp domain changed to the domain provided in the statement, and the MC switch configured in server mode, the rest being configured in client mode, thus allowing all switches in all buildings to have in your VLAN database all the configured VLANs.
+* The Internet connection is represented through a Cloud, an ISP router and a Modem, Respecting the configuration shown in PL3.
+
 ![packetTracerSimulation](resources/b4_packetTracerSimulation.png)
 
+
+* The IP's of the laptops were configured but even when saving the project they are erased. Because of this, they have to be defined whenever we start the project. Below are the two assigned ip's.
+
+|                | IPv4 address        | Subnet Mask |
+|----------------|---------------------|-------------|
+|Laptop0_B4      |172.16.206.2         | 255.255.255.128 |
+|Laptop1_B4      |172.16.206.3         | 255.255.255.128 |
+ 
 #Network Configuration
 
 ## Backbone
