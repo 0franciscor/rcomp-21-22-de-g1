@@ -6,6 +6,7 @@ RCOMP 2021-2022 Project - Sprint  - Member 1201386 folder
 ### VLAN database and IPv4 network
 
 ![IPv4](./IPv4.svg)
+**Figure 1: Distribution of network addresses for building 1.**
 
 |                |VLAN ID |VLAN Name      | TOTAL NODES  | IP               | FIRST IP         | LAST IP          |  BROADCAST          |
 |----------------|--------|---------------|--------------|------------------|------------------|------------------|---------------------|
@@ -47,6 +48,27 @@ RCOMP 2021-2022 Project - Sprint  - Member 1201386 folder
 - The campus *backbone* is represented in the simulation via the ***Switch MC***, 
   the various ***Switches IC*** of all buildings and the **router R0_B1 of building 1.
   
+- To confirm that everything is confirmed, two images are displayed that show the success of pings between the same building and between other buildings and the ISP
+
+![Packet Tracer](./building1.jpg)
+
+**Figure 3: Pings between building 1.**
+
+![Packet Tracer](./entreEdificio.jpg)
+
+**Figure 4: Pings between buildings and to the ISP.**
+
+- The IP's of the laptops were configured but even when saving the project they are erased. Because of this, they have to be defined whenever we start the project. 
+  Below are the two assigned ip's.
+
+![Laptop0_B1](./laptop0.jpg)
+
+**Figure 5: Laptop0_B1.**
+
+![Laptop1_B1](./laptop1.jpg)
+
+**Figure 6: Laptop1_B1.**
+
 ### Routing Tables 
 
 #### Building 1 MC - R0_B1 (172.16.200.6/25) ###
