@@ -25,6 +25,7 @@ interface FastEthernet2/1
 interface FastEthernet3/1
  switchport mode access
  switchport voice vlan 250
+ no switchport access vlan
 !
 interface Vlan1
  no ip address
