@@ -35,9 +35,9 @@ A Cloud, the ISP Router and a Modem represent the connection to the internet (ac
 
 Since the Campus's MC (MC_B1) is housed in Building 1 to the Building 2 IC (IC_B1). 
 The building 2 IC is then connected to each floor's HC (HC0_B2 and HC1_B2), which then connect to end devices or Consolidation Points (CP0_B2).
-Then, each end device is connected to the respective port on the switch.
-Vertical Connections between these switches were made in Trunk mode. Access mode was only used when connecting to end devices.
-On the switches, it was only used the necessary number of ports (FGE for fiber connections and FCE for copper connections) and the only devices\
+Then, each end device is connected to the respective port on the switch.\
+Vertical Connections between these switches were made in Trunk mode. Access mode was only used when connecting to end devices.\
+On the switches, it was only used the necessary number of ports (FGE for fiber connections and FCE for copper connections) and the only devices
 that are connected through copper are end devices, such as Laptops, Workstations or Access Points.
 
 | VLAN | Device (example) |
@@ -47,6 +47,12 @@ that are connected through copper are end devices, such as Laptops, Workstations
 | 248  | LAPTOP0_B2       |
 | 249  | SV0_B2           |
 | 250  | ipPhone0_B2      |
+
+> Laptop Configurations would not save when exiting the Packet Tracer Simulation Software. Due to that, this is a representation of the used configurations for it:
+
+![gateway](resources/laptop0.png)
+
+![ipv4](resources/laptop1.png)
 
 ## Switches Configuration Files ##
 
