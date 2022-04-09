@@ -17,3 +17,7 @@ RCOMP 2021-2022 Project - Sprint 2 - Member 1200720 folder
 ### Packet Tracer
 
 ![PacketTracer.png](images/packetTracer.png)
+
+![LaptopO_IP.png](images/laptop0_ip.png)
+![Laptop1_IP.png](images/laptop1_ip.png)
+
