@@ -39,7 +39,7 @@ spanning-tree mode pvst
 !
 !
 interface FastEthernet0/0
- no ip address
+ ip address 15.203.47.93 255.255.255.252
  duplex auto
  speed auto
 !
