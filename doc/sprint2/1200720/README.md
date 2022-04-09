@@ -66,7 +66,7 @@ The campus backbone is represented in the simulation through the **MC_B1** Switc
 
 As in the 1st Sprint, data transmission to the buildings was carried out through an inter-cross connects connection, represented by Switch **IC_B3**, the horizontal connects, represented by Switches **HC1_B3** and ** HC2_B3**, and from these to the end-devices. It should be noted that the MC-IC, IC-HC, HC-HC connections were made using fiber cable, for that it was necessary to use **FFE** adapters in the Switches and in the Router, **R0_B3** , which is connected to **IC_B3**. The connection between the HC-Outlets was made using copper cable.
 
-### Internet Connection ### 
+### Internet Connection 
 
 Representing the Internet connection is a ***Cloud***, a ***router* ISP** and a ***Modem***, respecting the configuration shown in PL3. Router A is finalizing the Internet connection, having been the chosen point of contact between the Internet from the elements presented above and the *network* inside.
 
