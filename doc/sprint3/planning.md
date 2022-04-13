@@ -1,25 +1,97 @@
 RCOMP 2021-2022 Project - Sprint 3 planning
 ===========================================
-### Sprint master: 3333333 ###
+### Sprint master: 1201382 ###
 (This file is to be created/edited by the sprint master only)
+
 # 1. Sprint's backlog #
 (Copy here a summary of the provided sprint's backlog)
-# 2. Technical decisions and coordination #
-In this section, all technical decisions taken in the planning meeting should be mentioned. 		Most importantly, all technical decisions impacting on the subtasks implementation must be settled on this 		meeting and specified here.
 
-#### Examples: ####
-  * Backbone cable types to be used
-  * VLAN IDs to be used
-  * VTP domains
-  * WiFi channels
-  * IPv4 networks' addresses and routers' addresses
-  * Routing protocols
-  * Application protocols outlining (further coordination may be required between members)
+Considering the previous sprint, the team is now required continue working on the regarding building in order to
+adapt the static routing into a dynamic routing. For this proccess, the OSPF will be the protocol used.
+
+
+# 2. Technical decisions and coordination #
+In this section, all technical decisions taken in the planning meeting should be mentioned. 		
+
+-   All member used Cisco Packet Tracer version 8.1.1.
+
+-   VTP domain name must be rc22deg1.
+
+-   Devices naming convention follows the rule "DeviceName"-"BuildingName"-"Floor" i.e.(ICC-B2-F0).
+
+-   The main output is the Packet Tracer simulation file for the corresponding building, it should be named BuildingN.pkt, with N being the number which identifies the building.
+
+-	The **OSPF area ids** are:
+     - Backbone: 0
+     - Building 1: 1
+     - Building 2: 2
+     - Building 3: 3
+     - Building 4: 4
+
+
+-	The **VoIP prefixes** are:
+     - Building 1: 
+     Floor 0: 1-00
+     Floor 1: 1-01
+     
+     - Building 2:
+     Floor 0: 2-00
+     Floor 1: 2-01
+     
+     - Building 3:
+     Floor 0: 3-00
+     Floor 1: 3-01
+     
+     -Building 4:
+     Floor 0: 4-00
+     Floor 1: 4-01
+
+
+-	The highest level DNS domain will be part of Building 1, naming **rcomp-21-22-de-g1**.
+     It will be used as if it was the DNS root domain.
+
+-	The other DNS domains will be created locally in each building, naming **building-X.rcomp-21-22-de-g1**.
+     The letter *X* will identify the building's number.
+
+-	In each building, all DNS servers will have the unqualified DNA name as **ns**.
+     While Building 1 will have **ns.rcomp-21-22-de-g1**, the others will have **ns.building-X.rcomp-21-22-de-g1**.
+
+-	The **IPv4 node address** for each DNS name server are:
+     - **Building 1 - ns.rcomp-21-22-de-g1**
+        B1-DMZ: 10.122.161.2
+
+	 - **Building 2 - ns.building-2.rcomp-20-21-dd-g2**
+		B2-DMZ: 10.122.163.134
+		
+	 - **Building 3 - ns.building-3.rcomp-20-21-dd-g2**
+		B3-DMZ: 10.122.164.2
+		
+	 - **Building 4 - ns.building-4.rcomp-20-21-dd-g2**
+		B4-DMZ: 10.122.167.2
+	 
+
 # 3. Subtasks assignment #
 (For each team member (sprint master included), the description of the assigned subtask in sprint 3)
 
 #### Example: ####
-  * 1111111 - Structured cable design for building A, floors 2 and 3
-  * 4444444 - IPv4 addressing and routing configurations for building D
-  * 5555555 - Network access policies enforcement for building X
-  * 6666666 - Network application Z development
+-   T.3.1 - Rita Ariana Sobral (1201386)
+
+       Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 1.
+
+
+-   T.3.2 - Francisco Redol (1201239)
+
+        Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 2.
+        
+        Final integration of each member’s Packet Tracer simulation into a single simulation.
+
+
+-   T.3.3 - Manuela Leite (1200720)
+
+        Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 3.
+
+-   T.3.4 - Pedro Rocha (1201382 - Sprint Master)
+
+        Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 4.
+
+
