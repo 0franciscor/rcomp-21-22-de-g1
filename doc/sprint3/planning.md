@@ -4,10 +4,15 @@ RCOMP 2021-2022 Project - Sprint 3 planning
 (This file is to be created/edited by the sprint master only)
 
 # 1. Sprint's backlog #
-(Copy here a summary of the provided sprint's backlog)
-
 Considering the previous sprint, the team is now required continue working on the regarding building in order to
 adapt the static routing into a dynamic routing. For this proccess, the OSPF will be the protocol used.
+
+| Task | Task Description                                                                                                                                                                                                 |
+|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|T.3.1 | Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 1.      |
+|T.3.2 | Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 2. Final integration of each member’s Packet Tracer simulation into a single simulation. |
+|T.3.3 | Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 3.                                                                                       |
+|T.3.4 | Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 4.                                                                                      |
 
 
 # 2. Technical decisions and coordination #
@@ -30,21 +35,13 @@ In this section, all technical decisions taken in the planning meeting should be
 
 
 -	The **VoIP prefixes** are:
-     - Building 1: 
-     Floor 0: 1-00
-     Floor 1: 1-01
+     - Building 1: 1...
      
-     - Building 2:
-     Floor 0: 2-00
-     Floor 1: 2-01
+     - Building 2: 2...
      
-     - Building 3:
-     Floor 0: 3-00
-     Floor 1: 3-01
+     - Building 3: 3...
      
-     -Building 4:
-     Floor 0: 4-00
-     Floor 1: 4-01
+     -Building 4: 4...
 
 
 -	The highest level DNS domain will be part of Building 1, naming **rcomp-21-22-de-g1**.
@@ -60,38 +57,23 @@ In this section, all technical decisions taken in the planning meeting should be
      - **Building 1 - ns.rcomp-21-22-de-g1**
         B1-DMZ: 10.122.161.2
 
-	 - **Building 2 - ns.building-2.rcomp-20-21-dd-g2**
+	 - **Building 2 - ns.building-2.rcomp-21-22-de-g2**
 		B2-DMZ: 10.122.163.134
 		
-	 - **Building 3 - ns.building-3.rcomp-20-21-dd-g2**
+	 - **Building 3 - ns.building-3.rcomp-21-22-de-g2**
 		B3-DMZ: 10.122.164.2
 		
-	 - **Building 4 - ns.building-4.rcomp-20-21-dd-g2**
+	 - **Building 4 - ns.building-4.rcomp-21-22-de-g2**
 		B4-DMZ: 10.122.167.2
 	 
 
 # 3. Subtasks assignment #
-(For each team member (sprint master included), the description of the assigned subtask in sprint 3)
 
 #### Example: ####
--   T.3.1 - Rita Ariana Sobral (1201386)
-
-       Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 1.
 
 
--   T.3.2 - Francisco Redol (1201239)
-
-        Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 2.
-        
-        Final integration of each member’s Packet Tracer simulation into a single simulation.
-
-
--   T.3.3 - Manuela Leite (1200720)
-
-        Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 3.
-
--   T.3.4 - Pedro Rocha (1201382 - Sprint Master)
-
-        Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 4.
-
-
+* 1200720 - Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 3. 
+* 1201239 - Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 2. Final integration of each member’s Packet Tracer simulation into a single simulation.
+* 1201382 - Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 4.
+* 1201386 - Update the campus.pkt layer three Packet Tracer simulation from the previous sprint, to include the described features in this sprint for building 1.
+  
