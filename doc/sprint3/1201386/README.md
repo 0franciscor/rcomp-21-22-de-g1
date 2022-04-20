@@ -1,7 +1,47 @@
-RCOMP 2021-2022 Project - Sprint 1 - Member 4444444 folder
+RCOMP 2021-2022 Project - Sprint 3 - Member 1201386 folder
 ===========================================
-(This folder is to be created/edited by the team member 4444444 only)
 
-#### This is just an example for a team member with number 4444444 ####
-### Each member should create a folder similar to this, matching his/her number. ###
-The owner of this folder (member number 4444444) will commit here all the outcomes (results/artifacts/products)		       of his/her work during sprint 1. This may encompass any kind of standard file types.
+
+### Building 1
+
+-------------------------------------------------------------------
+
+
+#### DHCPv4 Service
+
+* Floor 0:
+    - **Router(config)#** ip dhcp pool b1groundfloor
+    - **Router(config)#** network 172.16.202.0 255.255.255.192
+    - **Router(config)#** default-router 172.16.202.1
+    - **Router(config)#** dns-server 
+    - **Router(config)#** domain-name rcomp-21-22-de-g1
+
+* Floor 1:
+    - **Router(config)#** ip dhcp pool b1floorone
+    - **Router(config)#** network 172.16.200.128 255.255.255.128
+    - **Router(config)#** default-router 172.16.200.129
+    - **Router(config)#** dns-server
+    - **Router(config)#** domain-name rcomp-21-22-de-g1
+
+* WiFi:
+    - **Router(config)#** ip dhcp pool b1wifi
+    - **Router(config)#** network 172.16.201.0 255.255.255.128
+    - **Router(config)#** default-router 172.16.201.1
+    - **Router(config)#** dns-server
+    - **Router(config)#** domain-name rcomp-21-22-de-g1
+    
+* VoIP:
+    - **Router(config)#** ip dhcp pool b1voip
+    - **Router(config)#** network 172.16.202.64 255.255.255.192
+    - **Router(config)#** default-router 172.16.202.65
+    - **Router(config)#** option 150 ip 172.16.202.65
+    - **Router(config)#** dns-server 
+    - **Router(config)#** domain-name rcomp-21-22-de-g1
+    
+
+* Gateway adresses foram excluídos da pool:
+  
+    - **Router(config)#** ip dhcp excluded-address 172.16.202.1
+    - **Router(config)#** ip dhcp excluded-address 172.16.200.129
+    - **Router(config)#** ip dhcp excluded-address 172.16.201.1
+    - **Router(config)#** ip dhcp excluded-address 172.16.202.65
