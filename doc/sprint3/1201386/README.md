@@ -82,6 +82,9 @@ apontando para o roteador ISP (origem da informação padrão).
 
 #### VoIP Service
 
+- On the ports of the switches connected to the phones, the respective voice vlan was 
+  activated, and the access vlan deactivated.
+
 
 -------------------------------------------------------------------
 
