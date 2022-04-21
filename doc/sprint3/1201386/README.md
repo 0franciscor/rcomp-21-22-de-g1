@@ -25,7 +25,7 @@ RCOMP 2021-2022 Project - Sprint 3 - Member 1201386 folder
   - **Router(config)#** network 172.16.200.0 0.0.0.127 area 0
   
 - Default route definition
-  - **Router(config)#** ip route 0.0.0.0 0.0.0.0 190.0.0.2
+  - **Router(config)#** ip route 0.0.0.0 0.0.0.0 15.203.47.93
   - **Router(config)#** router ospf 5
   - **Router(config-router)#** default-information originate
 
@@ -93,7 +93,39 @@ RCOMP 2021-2022 Project - Sprint 3 - Member 1201386 folder
 
 - On the ports of the switches connected to the phones, the respective voice vlan was 
   activated, and the access vlan deactivated.
+  
+  
+- Automatic phone registration and directory number assignment
+  - **Router(config)#** telephony-service
+  - **Router(config-telephony)#** auto-reg-ephone
+  - **Router(config-telephony)#** ip source-address 172.16.202.65 port 2000
+  - **Router(config-telephony)#** max-ephones 40
+  - **Router(config-telephony)#** max-dn 40
+  - **Router(config-telephony)#** auto assign 11 to 12
+  - **Router(config)#** ephone-dn 11
+  - **Router(config-ephone-dn)#** number 1000
+  - **Router(config)#** ephone-dn 12
+  - **Router(config-ephone-dn)#** number 1001
+  
+  
+- Calls forwarding
 
+  - dial-peer voice 2 voip
+  - destination-pattern 2…
+  - session target ipv4:172.16.200.2
+
+  - dial-peer voice 3 voip
+  - destination-pattern 3…
+  - session target ipv4:172.16.200.3
+
+  - dial-peer voice 4 voip
+  - destination-pattern 4…
+  - session target ipv4:172.16.200.4
+  
+  
+- The image below shows mobile 1000 communicating with telephone 1001.
+
+![VoIPService.jpg](./VoIPService.jpg)
 
 -------------------------------------------------------------------
 
