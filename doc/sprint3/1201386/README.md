@@ -12,15 +12,24 @@ RCOMP 2021-2022 Project - Sprint 3 - Member 1201386 folder
   
   
 - All areas of the different buildings are connected to area 0, corresponding to the backbone.
-
+  
+- R1_B1 router configuration
   - **Router(config)#** router ospf 1
   - **Router(config)#** network 172.16.200.0 0.0.0.127 area 0
   - **Router(config)#** network 172.16.200.128 0.0.0.127 area 1
   - **Router(config)#** network 172.16.201.0 0.0.0.255 area 1
   - **Router(config)#** network 172.16.202.0 0.0.0.127 area 1
+
+- R0_B1 router configuration
+  - **Router(config)#** router ospf 5
+  - **Router(config)#** network 172.16.200.0 0.0.0.127 area 0
   
-Falta fazer: inserir no protocolo de roteamento OSPF a rota padrão,
-apontando para o roteador ISP (origem da informação padrão).
+- Default route definition
+  - **Router(config)#** ip route 0.0.0.0 0.0.0.0 190.0.0.2
+  - **Router(config)#** router ospf 5
+  - **Router(config-router)#** default-information originate
+
+  
 
 -------------------------------------------------------------------
 #### HTTP Server
