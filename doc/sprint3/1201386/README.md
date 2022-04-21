@@ -25,12 +25,21 @@ apontando para o roteador ISP (origem da informação padrão).
 -------------------------------------------------------------------
 #### HTTP Server
 
+- A server was placed in the DMZ VLAN to take over the HTTP service.
+- Added a building identifier to an HTML page.
+
+![HTML.PNG](./webPage.jpg)
+
+![HTML_2.PNG](./webPage2.jpg)
   
  
 
 -------------------------------------------------------------------
 
 #### DHCPv4 Service
+
+- The router in each building must be configured to provide a DHCPv4 service to all local networks excluding 
+  the DMZ networks and the backbone.
 
 * Floor 0:
     - **Router(config)#** ip dhcp pool b1groundfloor
