@@ -139,6 +139,15 @@ The DNS table is shown below.
 
 #### NAT
 
+- Static NAT was used to redirect traffic, and the commands below were used for this purpose:
+  
+  - **Router(config)#** ip nat inside source static tcp 172.16.201.131 80 172.16.200.1 80
+  - **Router(config)#** ip nat inside source static tcp 172.16.201.131 443 172.16.200.1 443
+  - **Router(config)#** ip nat inside source static tcp 172.16.201.130 53 172.16.200.1 53
+  - **Router(config)#** ip nat inside source static udp 172.16.201.130 53 172.16.200.1 53
+
+
+
 
 -------------------------------------------------------------------
 
