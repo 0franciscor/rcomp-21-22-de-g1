@@ -131,7 +131,9 @@ RCOMP 2021-2022 Project - Sprint 3 - Member 1201386 folder
 
 #### DNS
 
+The DNS table is shown below.
 
+![dns.jpg](./dns.jpg)
 
 -------------------------------------------------------------------
 
