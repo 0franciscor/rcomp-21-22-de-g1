@@ -147,11 +147,96 @@ The DNS table is shown below.
   - **Router(config)#** ip nat inside source static udp 172.16.201.130 53 172.16.200.1 53
 
 
-
-
+- Finally, each VLAN was placed inside the NAT created, with the exception of the backbone, through the commands:
+  - ip nat inside
+  - ip nat outside
 -------------------------------------------------------------------
 
 #### ACLS
+
+- no access-list 5
+- no access-list 100
+- no access-list 101
+- no access-list 102 
+- no access-list 103
+- no access-list 104
+- no access-list 105
+
+
+- access-list 5 permit 172.16.200.0 0.0.0.127
+
+
+- access-list 100 permit ip 172.16.202.0 0.0.0.63 any
+- access-list 100 permit icmp any any echo
+- access-list 100 permit icmp any any echo-reply
+- access-list 100 permit ip any host 255.255.255.255
+- access-list 100 permit udp any host 172.16.202.1 eq tftp
+- access-list 100 permit tcp any host 172.16.202.1 eq 2000
+- access-list 100 permit ospf any any
+- access-list 100 deny ip any host 172.16.202.1
+- access-list 100 permit ip any any
+
+
+- access-list 101 permit ip 172.16.200.128 0.0.0.127 any
+- access-list 101 permit icmp any any echo-reply
+- access-list 101 permit icmp any any echo 
+- access-list 101 permit ip any host 255.255.255.255
+- access-list 101 permit udp any host 172.16.200.129 eq tftp
+- access-list 101 permit tcp any host 172.16.200.129 eq 2000 
+- access-list 101 permit ospf any any
+- access-list 101 deny ip any host 172.16.200.129
+- access-list 101 permit ip any any
+
+
+- access-list 102 permit ip 172.16.201.0 0.0.0.127 any
+- access-list 102 permit icmp any any echo
+- access-list 102 permit icmp any any echo-reply
+- access-list 102 permit ip any host 255.255.255.255
+- access-list 102 permit udp any host 172.16.201.1 eq tftp
+- access-list 102 permit tcp any host 172.16.201.1 eq 2000
+- access-list 102 permit ospf any any
+- access-list 102 deny ip any host 172.16.201.1
+- access-list 102 permit ip any any
+
+
+- access-list 103 permit ip 172.16.202.64 0.0.0.63 any
+- access-list 103 permit icmp any any echo
+- access-list 103 permit icmp any any echo-reply
+- access-list 103 permit ip any host 255.255.255.255
+- access-list 103 permit udp any host 172.16.202.65 eq tftp
+- access-list 103 permit tcp any host 172.16.202.65 eq 2000
+- access-list 103 permit ospf any any
+- access-list 103 deny ip any host 172.16.202.65
+- access-list 103 permit ip any any
+
+
+- access-list 104 permit udp any host 172.16.201.130 eq domain
+- access-list 104 permit tcp any host 172.16.201.131 eq www
+- access-list 104 permit ip 172.16.201.128 0.0.0.127 any
+- access-list 104 permit ip any host 255.255.255.255
+- access-list 104 permit udp any host 172.16.201.129 eq tftp
+- access-list 104 permit tcp any host 172.16.201.129 eq 2000
+- access-list 104 permit ospf any any
+- access-list 104 deny ip any host 172.16.201.129
+- access-list 104 permit ip any any
+- access-list 104 permit ospf any host 172.16.200.1
+
+
+- access-list 105 deny ip 172.16.201.128 0.0.0.127 any
+- access-list 105 deny ip 172.16.201.0 0.0.0.127 any
+- access-list 105 deny ip 172.16.200.128 0.0.0.127 any
+- access-list 105 deny ip 172.16.202.0 0.0.0.63 any
+- access-list 105 deny ip 172.16.202.64 0.0.0.63 any
+- access-list 105 permit icmp any any echo
+- access-list 105 permit icmp any any echo-reply
+- access-list 105 permit ospf any any
+- access-list 105 permit tcp any host 172.16.200.1 eq 2000
+- access-list 105 permit tcp any host 172.16.200.1 eq 1720
+- access-list 105 permit tcp any eq 1720 host 172.16.200.1
+- access-list 105 permit udp any host 172.16.200.1 eq domain
+- access-list 105 permit tcp any host 172.16.200.1 eq www
+- access-list 105 deny ip any host 172.16.200.1
+- access-list 105 permit ip any any
 
 -------------------------------------------------------------------
 
