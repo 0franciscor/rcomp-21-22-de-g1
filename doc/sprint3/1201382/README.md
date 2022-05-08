@@ -7,7 +7,7 @@ RCOMP 2021-2022 Project - Sprint 3 - Member 1201382 folder
 -------------------------------------------------------------------
 #### OSPF (Open Shortest Path First)
 
--Static routes between buildings were eliminated, except for the default route connecting to the ISP
+Static routes between buildings were eliminated, except for the default route connecting to the ISP
   (since without this route there would be no internet distribution across the campus).
 
 
@@ -74,8 +74,6 @@ RCOMP 2021-2022 Project - Sprint 3 - Member 1201382 folder
 
 #### VoIP Service
 
-Building 4 prefix: 4...
-
 - On the ports of the switches connected to the phones, the respective voice vlan was activated, and the access vlan deactivated.
 
 - Automatic phone registration and directory number assignment
@@ -124,10 +122,10 @@ The DNS table is shown below.
 
 - Static NAT was used to redirect traffic, and the commands below were used for this purpose:
 
-  - **Router(config)#** ip nat inside source static tcp 172.16.206.227 80 172.16.200.1 80
-  - **Router(config)#** ip nat inside source static tcp 172.16.206.227 443 172.16.200.1 443
-  - **Router(config)#** ip nat inside source static tcp 172.16.206.226 53 172.16.200.1 53
-  - **Router(config)#** ip nat inside source static udp 172.16.206.226 53 172.16.200.1 53
+  - **Router(config)#** ip nat inside source static tcp 172.16.206.227 80 172.16.200.4 80
+  - **Router(config)#** ip nat inside source static tcp 172.16.206.227 443 172.16.200.4 443
+  - **Router(config)#** ip nat inside source static tcp 172.16.206.226 53 172.16.200.4 53
+  - **Router(config)#** ip nat inside source static udp 172.16.206.226 53 172.16.200.4 53
 
 
 - Finally, each VLAN was placed inside the NAT created, except the backbone, through the commands:
@@ -136,6 +134,76 @@ The DNS table is shown below.
 
 -------------------------------------------------------------------
 
-#### ACLS
+#### ACLs
+
+As for the ACLs, I tried to implement them, but as I can't get them to work, there's only a configuration file in the resources with my attempt - "R0_B4_startup-config_ACLs.txt".
+
+- access-list 5 permit 172.16.200.0 0.0.0.127
+- access-list 100 permit ip 172.16.206.192 0.0.0.31 any
+- access-list 100 permit icmp any any echo
+- access-list 100 permit icmp any any echo-reply
+- access-list 100 permit ip any host 255.255.255.255
+- access-list 100 permit udp any host 172.16.206.193 eq tftp
+- access-list 100 permit tcp any host 172.16.206.193 eq 2000
+- access-list 100 permit ospf any any
+- access-list 100 deny ip any host 172.16.206.193
+- access-list 100 permit ip any any
+
+- access-list 101 permit ip 172.16.206.128 0.0.0.191 any
+- access-list 101 permit icmp any any echo-reply
+- access-list 101 permit icmp any any echo
+- access-list 101 permit ip any host 255.255.255.255
+- access-list 101 permit udp any host 172.16.206.129 eq tftp
+- access-list 101 permit tcp any host 172.16.206.129 eq 2000
+- access-list 101 permit ospf any any
+- access-list 101 deny ip any host 172.16.206.129
+- access-list 101 permit ip any any
+
+- access-list 102 permit ip 172.16.206.0 0.0.0.127 any
+- access-list 102 permit icmp any any echo
+- access-list 102 permit icmp any any echo-reply
+- access-list 102 permit ip any host 255.255.255.255
+- access-list 102 permit udp any host 172.16.206.1 eq tftp
+- access-list 102 permit tcp any host 172.16.206.1 eq 2000
+- access-list 102 permit ospf any any
+- access-list 102 deny ip any host 172.16.206.1
+- access-list 102 permit ip any any
+ 
+- access-list 103 permit ip 172.16.206.240 0.0.0.15 any
+- access-list 103 permit icmp any any echo
+- access-list 103 permit icmp any any echo-reply
+- access-list 103 permit ip any host 255.255.255.255
+- access-list 103 permit udp any host 172.16.206.241 eq tftp
+- access-list 103 permit tcp any host 172.16.206.241 eq 2000
+- access-list 103 permit ospf any any
+- access-list 103 deny ip any host 172.16.206.241
+- access-list 103 permit ip any any
+
+- access-list 104 permit udp any host 172.16.206.226 eq domain
+- access-list 104 permit tcp any host 172.16.206.227 eq www
+- access-list 104 permit ip 172.16.206.224 0.0.0.15 any
+- access-list 104 permit ip any host 255.255.255.255
+- access-list 104 permit udp any host 172.16.206.225 eq tftp
+- access-list 104 permit tcp any host 172.16.206.225 eq 2000
+- access-list 104 permit ospf any any
+- access-list 104 deny ip any host 172.16.206.225
+- access-list 104 permit ip any any
+- access-list 104 permit ospf any host 172.16.206.1
+
+- access-list 105 deny ip 172.16.206.128 0.0.0.63 any
+- access-list 105 deny ip 172.16.206.0 0.0.0.127 any
+- access-list 105 deny ip 172.16.206.128 0.0.0.63 any
+- access-list 105 deny ip 172.16.206.192 0.0.0.31 any
+- access-list 105 deny ip 172.16.206.240 0.0.0.15 any
+- access-list 105 permit icmp any any echo
+- access-list 105 permit icmp any any echo-reply
+- access-list 105 permit ospf any any
+- access-list 105 permit tcp any host 172.16.206.1 eq 2000
+- access-list 105 permit tcp any host 172.16.206.1 eq 1720
+- access-list 105 permit tcp any eq 1720 host 172.16.206.1
+- access-list 105 permit udp any host 172.16.206.1 eq domain
+- access-list 105 permit tcp any host 172.16.206.1 eq www
+- access-list 105 deny ip any host 172.16.206.1
+- access-list 105 permit ip any any
 
 -------------------------------------------------------------------

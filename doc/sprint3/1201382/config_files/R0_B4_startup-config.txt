@@ -112,17 +112,17 @@ interface Vlan1
  no ip address
  shutdown
 !
-router ospf 4
+router ospf 40
  log-adjacency-changes
  network 172.16.200.0 0.0.0.127 area 0
  network 172.16.206.0 0.0.0.255 area 4
 !
 router rip
 !
-ip nat inside source static tcp 172.16.206.227 80 172.16.200.1 80 
-ip nat inside source static tcp 172.16.206.227 443 172.16.200.1 443 
-ip nat inside source static tcp 172.16.206.226 53 172.16.200.1 53 
-ip nat inside source static udp 172.16.206.226 53 172.16.200.1 53 
+ip nat inside source static tcp 172.16.206.227 80 172.16.200.4 80 
+ip nat inside source static tcp 172.16.206.227 443 172.16.200.4 443 
+ip nat inside source static tcp 172.16.206.226 53 172.16.200.4 53 
+ip nat inside source static udp 172.16.206.226 53 172.16.200.4 53 
 ip classless
 !
 ip flow-export version 9
