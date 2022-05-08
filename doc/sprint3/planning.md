@@ -55,16 +55,16 @@ In this section, all technical decisions taken in the planning meeting should be
 
 -	The **IPv4 node address** for each DNS name server are:
      - **Building 1 - ns.rcomp-21-22-de-g1**
-        B1-DMZ: 10.122.161.2
+        B1-DMZ: 172.16.202.0
 
 	 - **Building 2 - ns.building-2.rcomp-21-22-de-g2**
-		B2-DMZ: 10.122.163.134
+		B2-DMZ: 172.16.204.224
 		
 	 - **Building 3 - ns.building-3.rcomp-21-22-de-g2**
-		B3-DMZ: 10.122.164.2
+		B3-DMZ: 172.16.205.192
 		
 	 - **Building 4 - ns.building-4.rcomp-21-22-de-g2**
-		B4-DMZ: 10.122.167.2
+		B4-DMZ: 172.16.206.224
 	 
 
 # 3. Subtasks assignment #
