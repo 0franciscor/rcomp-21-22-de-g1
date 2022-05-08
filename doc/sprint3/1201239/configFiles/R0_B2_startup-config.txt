@@ -9,7 +9,32 @@ hostname Router
 !
 !
 !
+ip dhcp excluded-address 172.16.204.193
+ip dhcp excluded-address 172.16.204.129
+ip dhcp excluded-address 172.16.204.1
+ip dhcp excluded-address 172.16.204.241
 !
+ip dhcp pool b2groundfloor
+ network 172.16.204.192 255.255.255.224
+ default-router 172.16.204.193
+ dns-server 172.16.204.227
+ domain-name rcomp-21-22-de-g1
+ip dhcp pool b2floorone
+ network 172.16.204.128 255.255.255.192
+ default-router 172.16.204.129
+ dns-server 172.16.204.227
+ domain-name rcomp-21-22-de-g1
+ip dhcp pool b2wifi
+ network 172.16.204.0 255.255.255.128
+ default-router 172.16.204.1
+ dns-server 172.16.204.227
+ domain-name rcomp-21-22-de-g1
+ip dhcp pool b2voip
+ network 172.16.204.240 255.255.255.240
+ default-router 172.16.204.241
+ option 150 ip 172.16.204.241
+ dns-server 172.16.204.227
+ domain-name rcomp-21-22-de-g1
 !
 !
 !
@@ -19,7 +44,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017RO2Z-
+license udi pid CISCO2811/K9 sn FTX10174K0J-
 !
 !
 !
@@ -81,8 +106,14 @@ interface Vlan1
  no ip address
  shutdown
 !
+router ospf 2
+ log-adjacency-changes
+ network 172.16.200.0 0.0.0.127 area 0
+ network 172.16.204.0 0.0.0.255 area 2
+!
+router rip
+!
 ip classless
-ip route 0.0.0.0 0.0.0.0 172.16.200.6
 !
 ip flow-export version 9
 !
@@ -92,6 +123,36 @@ ip flow-export version 9
 !
 !
 !
+!
+dial-peer voice 1 voip
+ destination-pattern 1
+ session target ipv4:172.16.200.1
+!
+dial-peer voice 3 voip
+ destination-pattern 3
+ session target ipv4:172.16.200.3
+!
+dial-peer voice 4 voip
+ destination-pattern 4
+ session target ipv4:172.16.200.4
+!
+telephony-service
+ max-ephones 40
+ max-dn 40
+ ip source-address 172.16.204.241 port 2000
+ auto assign 11 to 12
+!
+ephone-dn 11
+ number 2000
+!
+ephone-dn 12
+ number 2001
+!
+ephone 1
+ device-security-mode none
+ mac-address 0060.3E66.1233
+ type 7960
+ button 1:11
 !
 line con 0
 !

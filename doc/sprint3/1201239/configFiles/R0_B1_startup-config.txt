@@ -19,7 +19,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017I8DD-
+license udi pid CISCO2811/K9 sn FTX1017U049-
 !
 !
 !
@@ -39,7 +39,7 @@ spanning-tree mode pvst
 !
 !
 interface FastEthernet0/0
- no ip address
+ ip address 15.203.47.94 255.255.255.252
  duplex auto
  speed auto
 !
@@ -60,13 +60,14 @@ interface Vlan1
  no ip address
  shutdown
 !
+router ospf 5
+ log-adjacency-changes
+ network 172.16.200.0 0.0.0.127 area 0
+ default-information originate
+!
+router rip
+!
 ip classless
-ip route 172.16.201.0 255.255.255.0 172.16.200.1 
-ip route 172.16.204.0 255.255.255.0 172.16.200.2 
-ip route 172.16.205.0 255.255.255.0 172.16.200.3 
-ip route 172.16.206.0 255.255.255.0 172.16.200.4 
-ip route 172.16.200.128 255.255.255.128 172.16.200.1 
-ip route 172.16.202.0 255.255.255.128 172.16.200.1 
 ip route 0.0.0.0 0.0.0.0 15.203.47.93 
 !
 ip flow-export version 9

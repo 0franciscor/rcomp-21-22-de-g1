@@ -19,7 +19,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX10173Y7G-
+license udi pid CISCO2811/K9 sn FTX1017G513-
 !
 !
 !
@@ -57,12 +57,29 @@ interface FastEthernet1/0.1
  encapsulation dot1Q 240
  ip address 172.16.200.3 255.255.255.128
 !
+interface FastEthernet1/0.2
+ encapsulation dot1Q 253
+ ip address 172.16.205.1 255.255.255.192
+!
+interface FastEthernet1/0.3
+ encapsulation dot1Q 252
+ ip address 172.16.205.65 255.255.255.192
+!
+interface FastEthernet1/0.4
+ encapsulation dot1Q 251
+ ip address 172.16.205.129 255.255.255.192
+!
+interface FastEthernet1/0.5
+ encapsulation dot1Q 254
+ ip address 172.16.205.193 255.255.255.224
+!
 interface Vlan1
  no ip address
  shutdown
 !
+router rip
+!
 ip classless
-ip route 0.0.0.0 0.0.0.0 172.16.200.6 
 !
 ip flow-export version 9
 !
