@@ -19,7 +19,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017FRSD-
+license udi pid CISCO2811/K9 sn FTX10171KRI-
 !
 !
 !
@@ -57,32 +57,9 @@ interface FastEthernet1/0.1
  encapsulation dot1Q 240
  ip address 172.16.200.4 255.255.255.128
 !
-interface FastEthernet1/0.2
- encapsulation dot1Q 258
- ip address 172.16.206.1 255.255.255.128
-!
-interface FastEthernet1/0.3
- encapsulation dot1Q 257
- ip address 172.16.206.129 255.255.255.192
-!
-interface FastEthernet1/0.4
- encapsulation dot1Q 256
- ip address 172.16.206.193 255.255.255.224
-!
-interface FastEthernet1/0.5
- encapsulation dot1Q 259
- ip address 172.16.206.225 255.255.255.240
-!
 interface Vlan1
  no ip address
  shutdown
-!
-router ospf 4
- log-adjacency-changes
- network 172.16.200.0 0.0.0.127 area 0
- network 172.16.206.0 0.0.0.255 area 4
-!
-router rip
 !
 ip classless
 ip route 0.0.0.0 0.0.0.0 172.16.200.6 

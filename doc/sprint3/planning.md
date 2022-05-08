@@ -5,7 +5,7 @@ RCOMP 2021-2022 Project - Sprint 3 planning
 
 # 1. Sprint's backlog #
 Considering the previous sprint, the team is now required continue working on the regarding building in order to
-adapt the static routing into a dynamic routing. For this proccess, the OSPF will be the protocol used.
+adapt the static routing into a dynamic routing. For this process, the OSPF will be the protocol used.
 
 | Task | Task Description                                                                                                                                                                                                 |
 |------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
