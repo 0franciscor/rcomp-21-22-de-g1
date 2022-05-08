@@ -94,7 +94,7 @@ Static routes between buildings were eliminated, except for the default route co
   - dial-peer voice 3 voip
   - destination-pattern 3…
   - session target ipv4:172.16.200.3
-
+  
   - dial-peer voice 4 voip
   - destination-pattern 4…
   - session target ipv4:172.16.200.4
@@ -105,3 +105,29 @@ Static routes between buildings were eliminated, except for the default route co
 ![VoIPS](resources/VoIP.png)
 
 -------------------------------------------------------------------
+
+#### DNS
+
+The DNS table is shown below.
+
+![dnsTable](resources/dns.png)
+
+-------------------------------------------------------------------
+
+#### NAT
+
+- These are the commands used for the Static NAT to work:
+
+  - **Router(config)#** ip nat inside source static tcp 172.16.204.227 80 172.16.200.2 80
+  - **Router(config)#** ip nat inside source static tcp 172.16.204.227 443 172.16.200.2 443
+  - **Router(config)#** ip nat inside source static tcp 172.16.204.226 53 172.16.200.2 53
+  - **Router(config)#** ip nat inside source static udp 172.16.204.226 53 172.16.200.2 53
+
+
+- Each VLAN was placed inside the NAT created, except the backbone, through the commands:
+  - ip nat inside
+  - ip nat outside
+
+-------------------------------------------------------------------
+
+#### ACL's

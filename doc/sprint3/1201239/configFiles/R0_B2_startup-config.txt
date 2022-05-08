@@ -17,23 +17,23 @@ ip dhcp excluded-address 172.16.204.241
 ip dhcp pool b2groundfloor
  network 172.16.204.192 255.255.255.224
  default-router 172.16.204.193
- dns-server 172.16.204.227
+ dns-server 172.16.204.226
  domain-name rcomp-21-22-de-g1
 ip dhcp pool b2floorone
  network 172.16.204.128 255.255.255.192
  default-router 172.16.204.129
- dns-server 172.16.204.227
+ dns-server 172.16.204.226
  domain-name rcomp-21-22-de-g1
 ip dhcp pool b2wifi
  network 172.16.204.0 255.255.255.128
  default-router 172.16.204.1
- dns-server 172.16.204.227
+ dns-server 172.16.204.226
  domain-name rcomp-21-22-de-g1
 ip dhcp pool b2voip
  network 172.16.204.240 255.255.255.240
  default-router 172.16.204.241
  option 150 ip 172.16.204.241
- dns-server 172.16.204.227
+ dns-server 172.16.204.226
  domain-name rcomp-21-22-de-g1
 !
 !
@@ -81,26 +81,32 @@ interface FastEthernet1/0
 interface FastEthernet1/0.1
  encapsulation dot1Q 240
  ip address 172.16.200.2 255.255.255.128
+ ip nat outside
 !
 interface FastEthernet1/0.2
  encapsulation dot1Q 248
  ip address 172.16.204.1 255.255.255.128
+ ip nat inside
 !
 interface FastEthernet1/0.3
  encapsulation dot1Q 247
  ip address 172.16.204.129 255.255.255.192
+ ip nat inside
 !
 interface FastEthernet1/0.4
  encapsulation dot1Q 246
  ip address 172.16.204.193 255.255.255.224
+ ip nat inside
 !
 interface FastEthernet1/0.5
  encapsulation dot1Q 249
  ip address 172.16.204.225 255.255.255.240
+ ip nat inside
 !
 interface FastEthernet1/0.6
  encapsulation dot1Q 250
  ip address 172.16.204.241 255.255.255.240
+ ip nat inside
 !
 interface Vlan1
  no ip address
@@ -113,6 +119,10 @@ router ospf 2
 !
 router rip
 !
+ip nat inside source static tcp 172.16.204.227 80 172.16.200.2 80
+ip nat inside source static tcp 172.16.204.227 443 172.16.200.2 443
+ip nat inside source static tcp 172.16.204.226 53 172.16.200.2 53
+ip nat inside source static udp 172.16.204.226 53 172.16.200.2 53
 ip classless
 !
 ip flow-export version 9
