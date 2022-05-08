@@ -107,11 +107,15 @@ Building 4 prefix: 4...
 
 - The image below shows mobile 1000 communicating with telephone 1001.
 
-![VoIPServiceB4.jpg](./resources/telefones_comunicacao.png)
+![VoIPServiceB4.png](./resources/telefones_comunicacao.png)
 
 -------------------------------------------------------------------
 
 #### DNS
+
+The DNS table is shown below.
+
+![dns´_b4.png](./resources/dns_b4.png)
 
 
 -------------------------------------------------------------------
