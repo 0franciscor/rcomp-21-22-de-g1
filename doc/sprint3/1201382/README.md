@@ -124,10 +124,10 @@ The DNS table is shown below.
 
 - Static NAT was used to redirect traffic, and the commands below were used for this purpose:
 
-  - **Router(config)#** ip nat inside source static tcp 172.16.206.??? 80 172.16.200.1 80
-  - **Router(config)#** ip nat inside source static tcp 172.16.206.??? 443 172.16.200.1 443
-  - **Router(config)#** ip nat inside source static tcp 172.16.206.??? 53 172.16.200.1 53
-  - **Router(config)#** ip nat inside source static udp 172.16.206.??? 53 172.16.200.1 53
+  - **Router(config)#** ip nat inside source static tcp 172.16.206.227 80 172.16.200.1 80
+  - **Router(config)#** ip nat inside source static tcp 172.16.206.227 443 172.16.200.1 443
+  - **Router(config)#** ip nat inside source static tcp 172.16.206.226 53 172.16.200.1 53
+  - **Router(config)#** ip nat inside source static udp 172.16.206.226 53 172.16.200.1 53
 
 
 - Finally, each VLAN was placed inside the NAT created, except the backbone, through the commands:
